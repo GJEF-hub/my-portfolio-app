@@ -1,0 +1,193 @@
+.profile-container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 100vh;
+  min-height: fit-content;
+  
+ 
+}
+
+.profile-parent {
+  display: flex;
+  align-items: center;
+  color: white;
+  
+}
+
+.profile-details-name {
+  font-size: 24px;
+  font-family: Poppins Semibold;
+}
+
+.profile-details-role {
+  display: flex;
+  flex-direction: column;
+  margin: 14px 0 24px 0;
+}
+
+.profile-details-role h1 {
+  font-size: 40px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  position: relative;
+}
+
+.primary-text {
+  color: white;
+}
+.highlighted-text {
+  color: hsl(46, 97%, 39%);
+}
+
+.profile-role-tagline {
+  font-size: 19px;
+  margin: 5px 0 0 0;
+  font-family: "Poppins Light";
+  position: relative;
+}
+
+.profile-options {
+  position: relative;
+}
+.profile-options .highlighted-btn {
+  margin: 0 0 0 28px;
+  
+}
+
+.profile-options .highlighted-btn:hover {
+  margin: 0 0 0 28px;
+}
+
+.profile-picture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 3px 0 0 #fff;
+  border-radius: 50%;
+  height: 350px;
+  width: 350px;
+  margin: 0 0 0 100px;
+}
+
+.profile-picture-background {
+  height: 92%;
+  width: 92%;
+  background-image: url("../../../assets/Home/images/godfreyBJ.jpg");
+  background-size: cover;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.profile-picture-background:hover {
+  transform: scale(1.07);
+  transition: 1s ease-out;
+}
+
+.colz .colz-icon i {
+  color: #4da7f1;
+  padding: 8px;
+  padding-left: 0;
+}
+
+.colz .colz-icon i:hover {
+  transform: scale(1.5);
+  transition: 0.5s ease-out;
+  color: white;
+}
+
+.awards-honors-container {
+  position: relative; 
+  z-index: 1000; 
+}
+
+.awards-honors {
+  margin: 0;
+  padding: 0;
+  z-index: 1000; 
+}
+
+.awards-honors img {
+  z-index: 999;
+  position: absolute;
+  width: 100px;
+  top: 0;
+  left: 0;
+}
+
+
+/* Mobile Responsiveness settings */
+
+@media screen and (max-width: 1110px) {
+  .profile-picture {
+    margin: 0 0 0 80px;
+  }
+
+  .profile-details-name {
+    font-size: 20px;
+  }
+
+  .profile-details-role .primary-text {
+    font-size: 12px;
+  }
+  
+  .profile-options btn {
+    width: 120px;
+    padding: 11px 0;
+    z-index: 700;
+  }
+}
+
+@media screen and (max-width: 910px) {
+    .profile-picture {
+        height: 320px;
+        width: 320px;
+        margin: 0 0 0 4px;
+      }
+}
+
+@media screen and (max-width: 810px) {
+    .profile-picture {
+       
+        margin: 0 !important;
+      }
+    
+    .profile-parent {
+        flex-direction: column-reverse;
+        margin: 40px 0 0 0;
+    }
+
+    .profile-options {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .profile-details {
+        margin: 25px 0 0 0;
+    }
+
+    .profile-options .highlighted-btn {
+        margin: 0 !important;
+    }
+
+    .profile-options, .profile-details-role {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .profile-picture {
+        height: 275px;
+        width: 275px;
+        margin-top: -90px;
+    }
+
+    .profile-details {
+        width: 90%;
+    }
+
+    .details-parent {
+      display: none;
+    }
+}

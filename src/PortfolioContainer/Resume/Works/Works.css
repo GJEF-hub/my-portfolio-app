@@ -1,0 +1,346 @@
+.works-container {
+  margin: 0;
+}
+
+.works-parent {
+  color: white;
+  margin-top: 0;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 100vh;
+  min-height: fit-content;
+  background-image: url("../../../assets/images/outdoorbygjef.jpg");
+  background-blend-mode: overlay;
+  background-color: hsla(0, 0%, 0%, 0.774);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 1;
+}
+
+.works-title h1 {
+  color: #fff;
+  font-size: 60px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.works-subheading {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.card-img {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.more-works {
+  margin-top: 10px;
+}
+.load-more {
+  background: rgb(105, 79, 104);
+  border-radius: 10px;
+  padding: 15px 25px;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+  font-family: "Poppins SemiBold";
+  font-size: 14px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  transition: ease-in 0.5s;
+}
+
+.load-more:hover {
+  background-color: rgb(189, 119, 177);
+}
+
+.load-more a {
+  text-decoration: none;
+  color: #000;
+}
+
+* {
+  transition: all 0.3s ease;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.grid {
+  position: relative;
+  margin: 0 auto;
+  padding: 1em 0 4em;
+  max-width: 80%;
+  list-style: none;
+  text-align: center;
+}
+
+/* Common style */
+.grid figure {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  /* min-width: 320px;
+  max-width: 480px;
+  max-height: 360px; */
+  width: 100%;
+  background: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+.grid figure img {
+  position: relative;
+  display: block;
+  min-height: 100%;
+  max-width: 100%;
+}
+.grid figure img:hover {
+  opacity: 60%;
+}
+
+.grid figure figcaption {
+  padding: 2em;
+  color: #fff;
+  /* text-transform: uppercase; */
+  font-size: 1.25em;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.grid figure figcaption::before,
+.grid figure figcaption::after {
+  pointer-events: none;
+}
+
+.grid figure figcaption,
+.grid figure figcaption > a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.grid figure figcaption > a {
+  z-index: 1000;
+  text-indent: 200%;
+  white-space: nowrap;
+  font-size: 0;
+  opacity: 0;
+}
+
+.grid figure h2 {
+  word-spacing: -0.15em;
+  font-weight: 300;
+}
+
+.grid figure h2 span {
+  font-weight: 800;
+}
+
+.grid figure h2,
+.grid figure p {
+  margin: 0;
+}
+
+.grid figure p {
+  letter-spacing: 1px;
+  font-size: 50.5%;
+}
+
+/*---------------*/
+/***** Website Blog *****/
+/*---------------*/
+
+figure.effect-blog figcaption {
+  top: auto;
+  bottom: 0;
+  padding: 1em;
+  height: 14em;
+  background: #fff;
+  color: #3c4a50;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100%, 0);
+  opacity: 85%;
+}
+
+figure.effect-blog h2 {
+  float: left;
+  margin-left: 35px;
+}
+
+figure.effect-blog p.icon-links {
+  float: right;
+  color: #3c4a50;
+  font-size: 0.9em;
+}
+
+figure.effect-blog:hover p.icon-links:hover,
+figure.effect-blog:hover p.icon-links:focus {
+  color: #252d31;
+}
+
+figure.effect-blog p.description {
+  position: absolute;
+  bottom: 0;
+  top: 30px;
+  padding: 2em;
+  color: rgb(43, 42, 42);
+  text-transform: none;
+  font-size: 18px;
+  text-align: left;
+  opacity: 0;
+  -webkit-transition: opacity 0.85s;
+  transition: opacity 0.85s;
+  -webkit-backface-visibility: hidden; /* Fix for Chrome 37.0.2062.120 (Mac) */
+}
+
+figure.effect-blog h2,
+figure.effect-blog p.icon-links {
+  -webkit-transition: -webkit-transform 0.85s;
+  transition: transform 0.85s;
+  -webkit-transform: translate3d(0, 200%, 0);
+  transform: translate3d(0, 200%, 0);
+}
+
+figure.effect-blog p.icon-links span::before {
+  display: inline-block;
+  padding: 8px 10px;
+  font-family: "feathericons";
+  speak-as: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-eye::before {
+  content: "\e000";
+}
+
+.icon-paper-clip::before {
+  content: "\e001";
+}
+
+.icon-heart::before {
+  content: "\e024";
+}
+
+figure.effect-blog h2 {
+  display: inline-block;
+}
+
+figure.effect-blog:hover p.description {
+  opacity: 1;
+}
+
+figure.effect-blog:hover figcaption,
+figure.effect-blog:hover h2,
+figure.effect-blog:hover p.icon-links {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+figure.effect-blog:hover h2 {
+  -webkit-transition-delay: 0.09s;
+  transition-delay: 0.09s;
+}
+
+figure.effect-blog:hover p.icon-links:nth-child(3) {
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+}
+
+figure.effect-blog:hover p.icon-links:nth-child(2) {
+  -webkit-transition-delay: 0.15s;
+  transition-delay: 0.15s;
+}
+
+figure.effect-blog:hover p.icon-links:first-child {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+
+@media screen and (max-width: 980px) {
+  .works-title {
+    padding-bottom: 10px;
+  }
+
+  .works-subheading {
+    margin-top: 0;
+    padding-bottom: 10px;
+  }
+
+  .card-img {
+    width: 100%;
+  }
+
+  figcaption h2 {
+    font-size: 30px;
+  }
+
+  figure.effect-blog h2 {
+    float: left;
+    margin-left: 25px;
+  }
+
+  .icon-links span {
+    font-size: 16px;
+  }
+
+  figure.effect-blog p.description {
+    font-size: 16px;
+    padding-left: 25px;
+  }
+
+  .load-more {
+    margin-top: 18px;
+  }
+}
+
+@media screen and (max-width: 569px) {
+  .works-title {
+    padding-bottom: 80px;
+  }
+
+  .works-subheading {
+    margin-top: 0;
+    padding-bottom: 80px;
+  }
+
+  .card-img {
+    width: 100%;
+  }
+
+  figcaption h2 {
+    font-size: 25px;
+  }
+
+  figure.effect-blog h2 {
+    float: left;
+    margin-left: 10px;
+  }
+
+  .icon-links span {
+    font-size: 16px;
+  }
+
+  figure.effect-blog p.description {
+    font-size: 14px;
+    padding-left: 10px;
+  }
+}

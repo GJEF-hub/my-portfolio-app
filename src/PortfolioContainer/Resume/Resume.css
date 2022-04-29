@@ -1,0 +1,226 @@
+.skillset-container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 100vh;
+  min-height: fit-content;
+  background-color: rgba(255, 255, 255, 0.651);
+}
+
+.skillset-parent {
+  display: block;
+  align-items: center;
+  /* background-color: #fff; */
+}
+
+.skillset-parent h1 {
+  padding-bottom: 40px;
+  padding-top: 0;
+  margin-top: 0;
+}
+.skillset-content {
+  display: flex;
+  align-items: center;
+  color: #000;
+  /* margin: 0 auto;
+    width: 80%; */
+  gap: 30%;
+  justify-content: space-between;
+  margin-left: -150px;
+}
+
+.primary-list {
+  line-height: 30px;
+  list-style: none;
+  margin: 0 auto;
+}
+
+.primary-list li,
+.secondary-list li {
+  margin: 20px 0;
+}
+
+.secondary-list {
+  line-height: 30px;
+  list-style: none;
+  margin: 0 auto;
+}
+
+.list-bar {
+  width: 300px;
+  height: 25px;
+  position: relative;
+  background-color: white;
+  box-shadow: 2px 2px 4px 2px hsl(30, 1%, 30%);
+  border-radius: 10px;
+}
+
+.list-bar h6 {
+  background-color: white;
+}
+
+.skills {
+  text-align: right;
+  /* padding: 0 10%; */
+  color: white;
+  border-radius: 10px;
+  font-size: 14px;
+  width: 300px;
+  height: 25px;
+}
+
+.html {
+  width: 90%;
+  background-color: rgb(148, 115, 7);
+}
+.figma {
+  width: 70%;
+  background-color: rgb(148, 115, 7);
+}
+.photoshop {
+  width: 90%;
+  background-color: rgb(148, 115, 7);
+}
+.wordpress {
+  width: 95%;
+  background-color: rgb(148, 115, 7);
+}
+.react {
+  width: 75%;
+  background-color: rgb(148, 115, 7);
+}
+.bootstrap {
+  width: 65%;
+  background-color: rgb(148, 115, 7);
+}
+.redux {
+  width: 60%;
+  background-color: rgb(148, 115, 7);
+}
+.tech {
+  width: 90%;
+  background-color: rgb(148, 115, 7);
+}
+.win {
+  width: 95%;
+  background-color: rgb(148, 115, 7);
+}
+.vmwc {
+  width: 70%;
+  background-color: rgb(148, 115, 7);
+}
+.trbsr {
+  width: 95%;
+  background-color: rgb(148, 115, 7);
+}
+.net {
+  width: 75%;
+  background-color: rgb(148, 115, 7);
+}
+.ms {
+  width: 80%;
+  background-color: rgb(148, 115, 7);
+}
+.csad {
+  width: 95%;
+  background-color: rgb(148, 115, 7);
+}
+
+@media screen and (max-width: 1110px) {
+  .skillset-container {
+    /* background: #fff;
+    background-color: #fff; */
+  }
+
+  .skillset-content {
+    width: 80%;
+    gap: 40%;
+  }
+}
+
+@media screen and (max-width: 910px) {
+  .primary-list h5,
+  .secondary-list h5 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .skillset-container,
+  .skillset-parent {
+    height: 10%;
+    /* width: 810px; */
+  }
+
+  .skillset-parent h1 {
+    margin-top: 40px;
+  }
+  .skillset-content {
+    /* flex-direction: column-reverse; */
+    width: 40%;
+    margin-left: -40px;
+    margin-bottom: 20px;
+    gap: 20%;
+  }
+
+  .primary-list li,
+  .secondary-list li {
+  }
+
+  .list-bar {
+    width: 320px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .skillset-content {
+    flex-direction: column;
+    width: 40%;
+    margin-left: -40px;
+    margin-bottom: 20px;
+    gap: 20%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .skillset-content {
+    width: 90%;
+  }
+
+  .skillset-parent h1 {
+    padding-bottom: 0px;
+    padding-top: 10px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .skillset-content {
+    width: 80%;
+    margin-left: -10px;
+  }
+
+  .skillset-content h6 {
+    font-size: 14px;
+  }
+
+  .list-bar {
+    width: 250px;
+    height: 20px;
+    position: relative;
+    background-color: white;
+    box-shadow: 2px 2px 4px 2px hsl(30, 1%, 30%);
+    border-radius: 5px;
+  }
+
+  .skills {
+    text-align: right;
+    /* padding: 0 10%; */
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 220px;
+    height: 20px;
+  }
+}

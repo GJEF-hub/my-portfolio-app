@@ -1,0 +1,85 @@
+/* ---------------------------------------------- */
+/* VERIFY BUTTON */
+/* ---------------------------------------------- */
+
+.verify-btn {
+  background: none;
+  border: 2px solid rgb(39, 113, 252);
+  border-radius: 20px;
+  padding: 5px 15px;
+  position: relative;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.verify-btn a {
+  text-decoration: none;
+  color: rgb(148, 115, 7);
+  font-weight: 600;
+}
+
+.verify-btn:hover {
+  border: 2px solid rgb(148, 115, 7);
+  color: rgb(148, 115, 7);
+}
+
+/* ---------------------------------------------- */
+/* HEADING BUTTON */
+/* ---------------------------------------------- */
+.summary-heading button {
+  border-radius: 0 10px;
+  border: none;
+  background-color: rgb(39, 113, 252);
+  color: white;
+  width: 100%;
+  padding: 3px 20px;
+  z-index: 999;
+  /* margin-left: 60px; */
+}
+
+.summary-heading button:hover {
+  background-color: rgb(148, 115, 7);
+}
+
+/* ---------------------------------------------- */
+/* MAIN BUTTON */
+/* ---------------------------------------------- */
+
+.primary-btn:hover {
+  color: white;
+  border: 2px solid hsl(46, 97%, 39%);
+  background: none;
+}
+
+.highlighted-btn {
+  color: var(--white);
+
+  font-size: 12px;
+  background-color: rgb(39, 113, 252);
+}
+
+.highlighted-btn:hover {
+  background: none;
+  border: 2px solid rgb(39, 113, 252);
+  color: white;
+}
+
+.btn {
+  border-radius: 10px;
+  padding: 14px 0;
+  width: 120px;
+  cursor: pointer;
+  transition: 0.2s;
+  font-family: "Poppins SemiBold";
+}
+
+.primary-btn {
+  color: var(--white);
+  /* border: 2px solid linen; */
+  font-size: 12px;
+  background-color: rgb(148, 115, 7);
+}
+
+/* ---------------------------------------------- */
+/* LIST BUTTON */
+/* ---------------------------------------------- */

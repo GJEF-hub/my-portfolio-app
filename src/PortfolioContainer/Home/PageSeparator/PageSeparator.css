@@ -1,0 +1,20 @@
+.separator-container {
+    height: 17.8%;
+    max-width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    z-index: 999;
+}
+
+
+
+@media screen and (max-width: 1110px) {
+    .separator-parent {
+        display: flex;
+        align-items: flex-end;
+        
+    }
+}
