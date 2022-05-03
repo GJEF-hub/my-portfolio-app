@@ -1,9 +1,17 @@
 .contact-container {
   height: 100vh;
+  background-image: url("../../assets/Home/images/bg.jpg");
+  background-attachment:fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #141724;
 }
 
 .contact-parent {
-  margin-top: 50px;
+  margin-top: 0;
+}
+.contact-parent h1 {
+  padding-top: 80px;
 }
 
 #contact {
@@ -13,19 +21,20 @@
 
 .section-header {
   text-align: center;
-  margin: 0 auto;
-  padding: 30px 0;
+  
+  /* margin: 0 auto; */
+  padding: 50px 0;
   font: 300 60px "Oswald", sans-serif;
   color: #fff;
   text-transform: uppercase;
-  letter-spacing: 6px;
+  letter-spacing: 12px;
 }
 
 .contact-wrapper {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 0 auto;
+  margin: 20px auto;
   padding: 25px;
   position: relative;
   max-width: 840px;

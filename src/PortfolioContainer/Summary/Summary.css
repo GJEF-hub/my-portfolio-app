@@ -35,7 +35,7 @@
 .details-picture-background {
   height: 100%;
   width: 300px;
-  background-image: url("../../../assets/Home/images/man-on-suit.jpg");
+  background-image: url("../../assets/Home/images/man-on-suit.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

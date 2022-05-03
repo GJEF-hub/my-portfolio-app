@@ -1,6 +1,7 @@
 import React from "react";
 import "./Summary.css";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 export default function Details() {
   return (
@@ -31,16 +32,14 @@ export default function Details() {
                 configuration, and troubleshooting across a wide array of
                 Microsoft products.{" "}
               </p>
-              <motion.button className="verify-btn"
+              <motion.button
+                className="verify-btn"
                 whileHover={{
                   scale: 1.05,
-                  boxShadow: "0px 0px 15px rgb(148, 115, 7)"
-                }}>
-                <a
-                  href="#career"
-                >
-                  View Career History
-                </a>
+                  boxShadow: "0px 0px 15px rgb(148, 115, 7)",
+                }}
+              >
+                <Link to="/career">View Career History</Link>
               </motion.button>
             </div>
           </div>

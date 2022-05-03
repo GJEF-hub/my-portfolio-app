@@ -27,12 +27,16 @@
   font-size: 60px;
   margin: 0 auto;
   text-align: center;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .works-subheading {
   margin-top: 20px;
   margin-bottom: 40px;
+}
+
+.sample-card h2 {
+  margin-top: 40px;
 }
 
 .card-img {

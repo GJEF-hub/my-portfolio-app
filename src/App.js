@@ -1,17 +1,16 @@
 import './App.css';
-import Home from './PortfolioContainer/Home/Home';
-import Career from "./PortfolioContainer/Career/Career";
-// import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
+import Error from "./PortfolioContainer/Error/index";
 
 function App() {
   return (
     <div className="App">
-      <Home />
-      <Career />
-    
+      <Error />
+      
     </div>
   );
 }
 
+
 export default App;
+

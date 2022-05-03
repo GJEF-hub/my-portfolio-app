@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navigation.css";
+import { Link } from "react-router-dom";
 
 export default function Navigation() {
   return (
@@ -12,40 +13,40 @@ export default function Navigation() {
         >
           Menu
           <img
-            src={require("../../../assets/images/menu.png")}
+            src={require("../../assets/images/menu.png")}
             alt="Menu toggle"
           />
         </span>
 
         <ul className="toggle-navigation">
-          <a href="#profile">
+          <Link to="/">
             
             <li className="toggle-lists">Profile</li>
-          </a>
+          </Link>
 
-          <a href="#details">
+          <Link to="/summary">
             <li className="toggle-lists">Summary</li>
-          </a>
+          </Link>
 
-          <a href="#resume">
+          <Link to="/resume">
             <li className="toggle-lists">SkillSet</li>
-          </a>
+          </Link>
 
-          <a href="#works">
+          <Link to="/works">
             
             <li className="toggle-lists">Works</li>
-          </a>
+          </Link>
 
-          <a href="#contact">
+          <Link to="/contact">
             
             <li className="toggle-lists">Contact</li>
-          </a>
+          </Link>
 
           <span href="#">
             
             <li className="toggle-lists">
               <img
-                src={require("../../../assets/images/close.png")}
+                src={require("../../assets/images/close.png")}
                 alt="Menu toggle"
                 className="close-menu"
               />
@@ -61,28 +62,33 @@ export default function Navigation() {
           <li>
             <span className="side-indicator"> Click Me &#8594; </span>
           </li>
-          <a href="#profile">
+          <Link to="/">
             {" "}
             <li className="navigation-lists" title="profile"></li>{" "}
-          </a>
+          </Link>
 
-          <a href="#details">
+          <Link to="/summary">
             <li className="navigation-lists" title="summary"></li>
-          </a>
+          </Link>
 
-          <a href="#resume">
+          <Link to="/resume">
             <li className="navigation-lists" title="skillset"></li>
-          </a>
+          </Link>
 
-          <a href="#works">
+          <Link to="/works">
             {" "}
             <li className="navigation-lists" title="works"></li>
-          </a>
+          </Link>
 
-          <a href="#contact">
+          <Link to="/career">
+            {" "}
+            <li className="navigation-lists" title="career"></li>
+          </Link>
+
+          <Link to="/contact">
             {" "}
             <li className="navigation-lists" title="contact"></li>
-          </a>
+          </Link>
         </ul>
       </section>
     </div>
