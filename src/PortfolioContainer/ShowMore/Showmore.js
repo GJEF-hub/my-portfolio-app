@@ -1,6 +1,7 @@
 import React from "react";
-import "./ShowMore.css";
+import "./Showmore.css";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const showMoreVariants = {
   hidden: { opacity: 0 },
@@ -11,9 +12,9 @@ const showMoreVariants = {
       mass: 0.4,
       damping: 3,
       when: "beforeChildren",
-    }
-  }
-}
+    },
+  },
+};
 
 const entryAnimation = {
   hidden: { x: -250 },
@@ -25,9 +26,9 @@ const entryAnimation = {
       damping: 3,
       when: "beforeChildren",
       stiffness: 300,
-    }
-  }
-}
+    },
+  },
+};
 
 export default function ShowMore() {
   return (
@@ -101,18 +102,17 @@ export default function ShowMore() {
           <div className="show-more-items proj-11">Project 12</div>
           <div className="show-more-items proj-12">Project 13</div> */}
         </motion.div>
-        <motion.button
-          className="load-more"
-          whileHover={{
-            scale: 1.05,
-            boxShadow: "0px 0px 15px rgb(189, 119, 177)",
-            
-          }}
-        >
-          <div className="go-back-btn" onClick="loadMore()">
+        <Link to="/works">
+          <motion.button
+            className="load-more"
+            whileHover={{
+              scale: 1.05,
+              boxShadow: "0px 0px 15px rgb(189, 119, 177)",
+            }}
+          >
             GO BACK
-          </div>
-        </motion.button>
+          </motion.button>
+        </Link>
       </motion.div>
     </section>
   );

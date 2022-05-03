@@ -1,33 +1,18 @@
 import React from "react";
-import Navigation from "./Navigation/Navigation";
+
 import Profile from "./Profile/Profile";
-import PageSeparator from "./PageSeparator/PageSeparator";
-import Footer from "./Footer/Footer";
+
+import Divider from "../Divider/Divider";
 import "./Home.css";
 import "../../assets/buttons/buttons.css";
-import Summary from "../AboutMe/Summary/Summary";
-import Resume from "../Resume/Resume";
-import Works from "../Resume/Works/Works";
-import ShowMore from "../Resume/ShowMore/ShowMore";
-import Contact from '../ContactMe/Contact';
-
 
 export default function Home() {
   return (
-    <div className="home-container">
-      
-      <Navigation />
+    <div className="home-container">      
       <Profile />
-      <Footer />
-      <Summary />
-      <Resume />
-      {/* <PageSeparator /> */}
-      <Works />
-      <ShowMore />
-      
-      <Contact />
+      <Divider />
+     
       
     </div>
   );
-}
-
+};

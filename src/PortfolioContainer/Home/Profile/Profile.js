@@ -1,7 +1,8 @@
 import React from "react";
 import Typical from "react-typical";
 import "./Profile.css";
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const btnVariants = {
   hover: {
@@ -9,16 +10,15 @@ const btnVariants = {
     boxShadow: "0px 0px 15px rgb(39, 113, 252)",
     transition: {
       duration: 0.3,
-      yoyo: Infinity
-    }
-  }
-}
+      yoyo: Infinity,
+    },
+  },
+};
 
 export default function Profile() {
   return (
-
     <>
-    {/* <div className="awards-honors-container">
+      {/* <div className="awards-honors-container">
       <div className="awards-honors">
         <img
           src={require("../../../assets/images/awwwards.png")}
@@ -26,30 +26,32 @@ export default function Profile() {
       </div>
     </div> */}
 
-    <section className="profile-container" id="profile">
+      <section className="profile-container" id="profile">
         <div className="profile-parent">
-          <motion.div className="profile-details"
+          <motion.div
+            className="profile-details"
             initial={{ x: -650 }}
             animate={{ x: 0 }}
-            transition={{ delay: 1, type: 'spring', stiffness: 150 }}>
+            transition={{ delay: 1, type: "spring", stiffness: 150 }}
+          >
             <div className="colz">
               <div className="colz-icon">
-                <a href="#">
+                <a href="https://www.linkedin.com/in/godfrey-jeremiah-2020/">
                   <i className="fa fa-linkedin-square"></i>
                 </a>
-                <a href="#">
+                <a href="https://www.facebook.com/gjefspecials.co.uk">
                   <i className="fa fa-facebook-square"></i>
                 </a>
 
-                <a href="#">
+                <a href="https://twitter.com/gjefspecials">
                   <i className="fa fa-twitter"></i>
                 </a>
 
-                <a href="#">
+                <a href="https://www.youtube.com/channel/UCJxHtKCJtAShTRjlgsB5hUQ">
                   <i className="fa fa-youtube-square"></i>
                 </a>
 
-                <a href="#">
+                <a href="https://www.instagram.com/gjefspecials.co.uk/?hl=en">
                   <i className="fa fa-instagram"></i>
                 </a>
               </div>
@@ -76,39 +78,48 @@ export default function Profile() {
                       "React.js Developer",
                       2000,
                       "IT Sys Engineer",
-                      2000
-                    ]} />
+                      2000,
+                    ]}
+                  />
                 </h1>
                 <span className="profile-role-tagline">
-                  Keen on building applications (front & back end)
+                  Keen on building front-end applications
                 </span>
               </span>
             </div>
             <div className="profile-options">
-              <a href="#details"><motion.button className="btn primary-btn"
-              whileHover={{
-                scale: 1.05,
-                boxShadow: "0px 0px 15px hsl(46, 97%, 39%)"
-              }}>
-                {""} Career History{""}
-              </motion.button></a>
-              <a href="#contact">
-                <motion.button className="btn highlighted-btn"
+              <Link to="/summary">
+                <motion.button
+                  className="btn primary-btn"
+                  whileHover={{
+                    scale: 1.05,
+                    boxShadow: "0px 0px 15px hsl(46, 97%, 39%)",
+                  }}
+                >
+                  {""} Career Summary{""}
+                </motion.button>
+              </Link>
+              <Link to="/contact">
+                <motion.button
+                  className="btn highlighted-btn"
                   variants={btnVariants}
-                  whileHover= "hover"
-          >Let's Chat</motion.button>
-              </a>
+                  whileHover="hover"
+                >
+                  Let's Chat
+                </motion.button>
+              </Link>
             </div>
           </motion.div>
-          <motion.div className="profile-picture" 
-          initial={{ x: -250 }}
+          <motion.div
+            className="profile-picture"
+            initial={{ x: -250 }}
             animate={{ x: 0 }}
-            transition={{ type: 'spring', stiffness: 120 }}>
+            transition={{ type: "spring", stiffness: 120 }}
+          >
             <div className="profile-picture-background"></div>
-
           </motion.div>
-
         </div>
-      </section></>
+      </section>
+    </>
   );
 }

@@ -111,6 +111,8 @@ goBack.onclick =loadMore;
 window.onload = function() { window.location.hash = '' };
 
 
+// ------------ React Router Setup -----------------
+
 
 
 

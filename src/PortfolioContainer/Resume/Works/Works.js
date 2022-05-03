@@ -1,22 +1,19 @@
 import React from "react";
 import "./Works.css";
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 export default function Works() {
   return (
     <section className="works-container">
       <div className="works-parent" id="works">
         <div className="works-content">
-
           <div className="works-title">
             <h1>Works</h1>
           </div>
 
           <div className="works-subheading">
-            <span>
-              
-              Explore some of my works...
-            </span>
+            <span>Explore some of my works...</span>
           </div>
 
           <div className="samples">
@@ -24,8 +21,11 @@ export default function Works() {
               <h2>Websites & Designs </h2>
               <div className="grid">
                 <figure className="effect-blog">
-                  <a href="https://blog.gjefspecials.co.uk/" target="_blank" rel="noreferrer">
-                    
+                  <a
+                    href="https://blog.gjefspecials.co.uk/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <img
                       src={require("../../../assets/images/mockup.png")}
                       alt="GJEF Blog Site by Godfrey J."
@@ -54,15 +54,17 @@ export default function Works() {
               </div>
 
               <div className="more-works">
-                <motion.button className="load-more"
-                whileHover={{
-                scale: 1.05,
-                boxShadow: "0px 0px 15px rgb(189, 119, 177)"
-              }}>
-                  <div className="show-more" href="#" onClick="loadMore()">
+                <Link to="/showmore">
+                  <motion.button
+                    className="load-more"
+                    whileHover={{
+                      scale: 1.05,
+                      boxShadow: "0px 0px 15px rgb(189, 119, 177)",
+                    }}
+                  >
                     LOAD MORE
-                  </div>
-                </motion.button>
+                  </motion.button>
+                </Link>
               </div>
             </div>
           </div>
