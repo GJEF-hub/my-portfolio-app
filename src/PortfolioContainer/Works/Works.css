@@ -1,25 +1,26 @@
 .works-container {
-  margin: 0;
+  
+  height: 100%;
 }
 
 .works-parent {
   color: white;
-  margin-top: 0;
-  margin-bottom: 20px;
+  
+  margin-bottom: 0;
   display: flex;
   align-items: center;
   text-align: center;
   justify-content: center;
   height: 100vh;
   min-height: fit-content;
-  background-image: url("../../../assets/images/outdoorbygjef.jpg");
+  background-image: url("../../assets/images/outdoorbygjef.jpg");
   background-blend-mode: overlay;
   background-color: hsla(0, 0%, 0%, 0.774);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   position: relative;
-  z-index: 1;
+ 
 }
 
 .works-title h1 {
@@ -27,12 +28,13 @@
   font-size: 60px;
   margin: 0 auto;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 50px;
+  padding-top: 100px;
 }
 
 .works-subheading {
   margin-top: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .sample-card h2 {
@@ -280,6 +282,10 @@ figure.effect-blog:hover p.icon-links:first-child {
 }
 
 @media screen and (max-width: 980px) {
+  .works-parent {
+    height: 100vh;
+  }
+  
   .works-title {
     padding-bottom: 10px;
   }
@@ -317,6 +323,9 @@ figure.effect-blog:hover p.icon-links:first-child {
 }
 
 @media screen and (max-width: 569px) {
+  .works-parent {
+    height: 100vh;
+  }
   .works-title {
     padding-bottom: 80px;
   }

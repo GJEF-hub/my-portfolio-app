@@ -65,10 +65,8 @@ export default function Profile() {
             </div>
             <div className="profile-details-role">
               <span className="primary-text">
-                {" "}
                 <h1>
-                  {" "}
-                  <Typical
+                <Typical
                     loop={Infinity}
                     steps={[
                       "Process-oriented Pro",

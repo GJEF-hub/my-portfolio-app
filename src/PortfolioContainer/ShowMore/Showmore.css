@@ -6,12 +6,12 @@
 .show-more-parent {
   color: white;
   
-  margin-bottom: 20px;
+  margin-bottom: 0;
   display: block;
   align-items: center;
   text-align: center;
   justify-content: center;
-  height: 100vh;
+  /* height: 100vh; */
   min-height: fit-content;
   background-image: url("../../assets/images/outdoorbygjef.jpg");
   background-blend-mode: overlay;

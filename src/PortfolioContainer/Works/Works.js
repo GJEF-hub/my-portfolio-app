@@ -27,7 +27,7 @@ export default function Works() {
                     rel="noreferrer"
                   >
                     <img
-                      src={require("../../../assets/images/mockup.png")}
+                      src={require("../../assets/images/mockup.png")}
                       alt="GJEF Blog Site by Godfrey J."
                       className="card-img"
                     />

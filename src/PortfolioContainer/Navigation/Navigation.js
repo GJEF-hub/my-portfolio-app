@@ -8,8 +8,8 @@ export default function Navigation() {
       <section className="navigation-menu">
         <span
           className="toggle-menu-btn"
-          href="#"
-          onClick="remove_hash_from_url()"
+          // href="#"
+          // onClick="remove_hash_from_url()"
         >
           Menu
           <img
@@ -42,7 +42,7 @@ export default function Navigation() {
             <li className="toggle-lists">Contact</li>
           </Link>
 
-          <span href="#">
+          <span>
             
             <li className="toggle-lists">
               <img
@@ -82,7 +82,7 @@ export default function Navigation() {
 
           <Link to="/career">
             {" "}
-            <li className="navigation-lists" title="career"></li>
+            <li className="navigation-lists" title="career history"></li>
           </Link>
 
           <Link to="/contact">

@@ -6,7 +6,7 @@ export default function PageSeparator() {
     <div className="separator-container">
       <div className="separator-parent">
         <img
-          src={require("../../../assets/images/shape-bg2.png")}
+          src={require("../../assets/images/shape-bg2.png")}
           alt="error with image bg"
         />
       </div>

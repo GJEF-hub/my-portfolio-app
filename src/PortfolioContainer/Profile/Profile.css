@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@100;700&display=swap');
+
+#profile {
+  width: 100%;
+  
+}
+
 .profile-container {
   display: flex;
   align-items: center;
@@ -5,15 +12,13 @@
   justify-content: center;
   height: 100vh;
   min-height: fit-content;
-  
- 
 }
 
 .profile-parent {
   display: flex;
   align-items: center;
-  color: white;
-  
+  color: white; 
+  margin-top: 0;
 }
 
 .profile-details-name {
@@ -29,7 +34,7 @@
 
 .profile-details-role h1 {
   font-size: 40px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: 'Poppins', sans-serif;
   position: relative;
 }
 
@@ -73,7 +78,7 @@
 .profile-picture-background {
   height: 92%;
   width: 92%;
-  background-image: url("../../../assets/Home/images/godfreyBJ.jpg");
+  background-image: url("../../assets/Home/images/godfreyBJ.jpg");
   background-size: cover;
   border-radius: 50%;
   background-repeat: no-repeat;
