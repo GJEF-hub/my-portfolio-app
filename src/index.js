@@ -102,20 +102,13 @@ pageItems.style.display ='none';
          displayStatus = false;
      }
  }
-showMore.onclick = loadMore;
-goBack.onclick =loadMore;
+showMore.onClick = loadMore;
+goBack.onClick =loadMore;
 
 
 // ------------ Remove hash from url when clicked on Menu -----------------
 
-window.onload = function() { window.location.hash = '' };
-
-
-// ------------ React Router Setup -----------------
-
-
-
-
+// window.onload = function() { window.location.hash = '' };
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals

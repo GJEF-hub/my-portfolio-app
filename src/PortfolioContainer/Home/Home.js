@@ -1,6 +1,6 @@
 import React from "react";
 
-import Profile from "./Profile/Profile";
+import Profile from "../Profile/Profile";
 
 import Divider from "../Divider/Divider";
 import "./Home.css";
@@ -11,8 +11,6 @@ export default function Home() {
     <div className="home-container">      
       <Profile />
       <Divider />
-     
-      
     </div>
   );
 };

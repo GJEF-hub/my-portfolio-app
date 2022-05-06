@@ -1,14 +1,15 @@
 .career-container {
   /* display: none; */
+  height: 100%;
   align-items: center;
   text-align: center;
   justify-content: center;
-  min-height: fit-content;
+  /* min-height: fit-content; */
   position: relative;
   z-index: 10;
   color: white;
   background-image: url("../../assets/Home/images/bg.jpg");
-  background-attachment:fixed;
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #292d44;
@@ -17,6 +18,11 @@
 
 .career-parent {
   margin: 0;
+}
+
+#career {
+  height: 1100px;
+  width: 100%;
 }
 
 .title {
@@ -48,6 +54,7 @@ button {
   color: white;
   font-size: 13px;
 }
+
 
 @media screen and (max-width: 910px) {
   .career-details .description {

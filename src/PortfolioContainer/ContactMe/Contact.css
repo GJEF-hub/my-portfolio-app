@@ -233,7 +233,8 @@ textarea {
 
 @media screen and (max-width: 569px) {
   .contact-container {
-    height: fit-content;
+    height: 100vh;
+    margin: 0;
   }
 
   .contact-parent {

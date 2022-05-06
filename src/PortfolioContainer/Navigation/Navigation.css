@@ -13,9 +13,10 @@
   z-index: 1000;
   height: 100%;
   width: 100%;
-  background: rgba(61, 62, 63, 0.774);
+  background: rgba(61, 62, 63, 0.904);
   text-align: center;
   margin-top: 5px;
+  display: none; /*Turn off the top toggle menu*/
 }
 
 .toggle-menu-btn:hover {
@@ -36,7 +37,7 @@
   width: 100%;
   background: rgba(38, 39, 39, 0.884);
   text-align: center;
-  padding-top: 20px;
+  padding-top: 30px;
   transition: all ease-in-out 0.6s;
 }
 

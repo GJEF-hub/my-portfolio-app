@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/no-redundant-roles */
 import React from "react";
 import "./Contact.css";
+import { Link } from "react-router-dom";
 
 export default function Contact() {
   return (
@@ -109,22 +110,16 @@ export default function Contact() {
               </a>
             </li>
             <li>
-              <a href="https://www.instagram.com/gjefspecials.co.uk/" target="_blank" className="contact-icon" rel="noreferrer">
+              <Link to="https://www.instagram.com/gjefspecials.co.uk/" target="_blank" className="contact-icon" rel="noreferrer">
                 <i className="fa fa-instagram" aria-hidden="true"></i>
-              </a>
+              </Link>
             </li>
           </ul>
 
-          {/* <div className="copyright">&copy; ALL RIGHTS RESERVED</div> */}
+          <div className="copyright">&copy; ALL RIGHTS RESERVED</div>
         </div>
       </div>
       </div>
     </section>
   );
 }
-
-
-
-
-
-
