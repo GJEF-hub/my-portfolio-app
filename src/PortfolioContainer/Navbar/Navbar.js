@@ -19,10 +19,9 @@ class Navbar extends Component {
                 </div>
                 <ul className={this.state.active ? 'nav-menu active' : 'nav-menu'}>
                     <li className='nav-link'><Link to="/"><i className="fa-solid fa-house"></i> Home</Link></li>
-                    <li className='nav-link'><Link to="/summary"><i className="fa-regular fa-circle-check"></i> Summary</Link></li>
-                    <li className='nav-link'><Link to="/resume"><i className="fa-solid fa-user-gear"></i> Skillset</Link></li>
+                    <li className='nav-link'><Link to="/career"><i className="fa-solid fa-user-gear"></i> Career</Link></li>
                     <li className='nav-link'><Link to="/works"><i className="fa-solid fa-person-digging"></i> Works</Link></li>
-                    <li className='nav-link'><Link to="/career"><i className="fa-solid fa-graduation-cap"></i> Career</Link></li>
+                    <li className='nav-link'><Link to="/resume"><i className="fa-solid fa-graduation-cap"></i> Education</Link></li>
                     <li className='nav-link'><Link to="/contact"><i className="fa-solid fa-address-book"></i> Contact</Link></li>
 
                 </ul>

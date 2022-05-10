@@ -21,8 +21,7 @@
 
 .section-header {
   text-align: center;
-  
-  /* margin: 0 auto; */
+  margin: 0 auto;
   padding: 50px 0;
   font: 300 60px "Oswald", sans-serif;
   color: #fff;
@@ -321,7 +320,7 @@ textarea {
   }
 
   .contact-parent {
-    margin-top: 50px;
+    margin: 0;
   }
 
   #contact {

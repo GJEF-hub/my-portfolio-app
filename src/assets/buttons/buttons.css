@@ -10,36 +10,22 @@
   position: relative;
   align-items: center;
   margin-bottom: 30px;
+  color: rgb(39, 113, 252);
 }
 
-.verify-btn a {
+/* .verify-btn a {
   text-decoration: none;
   color: rgb(148, 115, 7);
   font-weight: 600;
-}
+} */
 
 .verify-btn:hover {
   border: 2px solid rgb(148, 115, 7);
   color: rgb(148, 115, 7);
+  transform: scale(1.07);
+  transition: all 0.8s ease-out;
 }
 
-/* ---------------------------------------------- */
-/* HEADING BUTTON */
-/* ---------------------------------------------- */
-.summary-heading button {
-  border-radius: 0 10px;
-  border: none;
-  background-color: rgb(39, 113, 252);
-  color: white;
-  width: 100%;
-  padding: 3px 20px;
-  z-index: 999;
-  /* margin-left: 60px; */
-}
-
-.summary-heading button:hover {
-  background-color: rgb(148, 115, 7);
-}
 
 /* ---------------------------------------------- */
 /* MAIN BUTTON */
@@ -66,7 +52,7 @@
 
 .btn {
   border-radius: 10px;
-  padding: 14px 0;
+  padding: 10px 0;
   width: 120px;
   cursor: pointer;
   transition: 0.2s;
@@ -78,6 +64,17 @@
   /* border: 2px solid linen; */
   font-size: 12px;
   background-color: rgb(148, 115, 7);
+  position: absolute;
+  
+}
+
+.loadmore-btn {
+  background-color: rgb(189, 119, 177);
+  font-family: "Poppins SemiBold";
+  font-size: 14px;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-bottom: 10px;
 }
 
 /* ---------------------------------------------- */

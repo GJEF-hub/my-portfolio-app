@@ -9,18 +9,14 @@ export default function Works() {
       <div className="works-parent" id="works">
         <div className="works-content">
           <div className="works-title">
-            <h1>Works</h1>
-          </div>
-
-          <div className="works-subheading">
-            <span>Explore some of my works...</span>
+            <h1>My Works</h1>
           </div>
 
           <div className="samples">
             <div className="samples-card">
-              <h2>Websites & Designs </h2>
+              {/* <h2>Websites & Designs </h2> */}
               <div className="grid">
-                <figure className="effect-blog">
+                <div className="effect-blog">
                   <a
                     href="https://blog.gjefspecials.co.uk/"
                     target="_blank"
@@ -32,39 +28,35 @@ export default function Works() {
                       className="card-img"
                     />
                   </a>
-                  <figcaption>
-                    <h2>
-                      My <span> Blog</span>
-                    </h2>
+
+                  <div className="works-description">
+                    <h2>GJEF Specials Blog</h2>
+
                     <p className="icon-links">
-                      <span> Engaging Posts </span>
-                      <span>|| Since 2018 </span>
+                      <span> Engaging & Enlightening Posts </span>
+                      <span>| Since 2018 </span>
                     </p>
+                    <p className="icon-links">Developed on WordPress</p>
+                    <p className="icon-links"><a
+                    href="https://blog.gjefspecials.co.uk/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >-WEBSITE LIVE VIEW-</a></p>
+                    <hr />
+
                     <p className="description">
-                      Developed on <em>WordPress</em>. <br /> <br />I research,
-                      write, review, edit, proofread, design, and publish
-                      content... <br />
-                      <br /> <strong>Skills Involved: </strong>{" "}
+                      I research, write, review, edit, proofread, design, and
+                      publish content... <br />
+                      <strong>Skills Involved:</strong> <br />
                       WordPress/Plugins Installation & Configuration, HTML, CSS,
                       JS, PHP/MySQL, CMS Mgt, Photoshop, Video/Audio Editing,
-                      SEO, and Publishing.
+                      SEO, Creative Design, and Publishing.
                     </p>
-                  </figcaption>
-                </figure>
-              </div>
-
-              <div className="more-works">
-                <Link to="/showmore">
-                  <motion.button
-                    className="load-more"
-                    whileHover={{
-                      scale: 1.05,
-                      boxShadow: "0px 0px 15px rgb(189, 119, 177)",
-                    }}
-                  >
-                    LOAD MORE
-                  </motion.button>
-                </Link>
+                    <Link to="/showmore">
+                      <button className="loadmore-btn">SHOW MORE</button>
+                    </Link>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
