@@ -15,7 +15,7 @@ export default function Details() {
 
           <div className="details-title">
             <div className="details-content">
-              <h1>Summary</h1> <hr />
+              <h1>Profile</h1> <hr />
               <p>
                 Godfrey is a process-oriented and solution-driven professional
                 with over 6 years of working experience in creating interactive
@@ -32,15 +32,15 @@ export default function Details() {
                 configuration, and troubleshooting across a wide array of
                 Microsoft products.{" "}
               </p>
-              <motion.button
+              <Link to="/career"><motion.button
                 className="verify-btn"
                 whileHover={{
                   scale: 1.05,
                   boxShadow: "0px 0px 15px rgb(148, 115, 7)",
                 }}
               >
-                <Link to="/career">View Career History</Link>
-              </motion.button>
+                View Career History
+              </motion.button></Link>
             </div>
           </div>
         </div>

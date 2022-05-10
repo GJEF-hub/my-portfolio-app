@@ -24,8 +24,8 @@ const ReactRouterSetup = () => {
       <Switch>
         <Route exact path="/">
           <Home />
-          <Summary />
-          <Resume />
+          {/* <Summary />
+          <Resume /> */}
         </Route>
         <Route path="/summary">
           <Summary />

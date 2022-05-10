@@ -65,7 +65,7 @@ export default function Profile() {
             </div>
             <div className="profile-details-role">
               <span className="primary-text">
-                <h1>
+                <h2>
                 <Typical
                     loop={Infinity}
                     steps={[
@@ -79,9 +79,9 @@ export default function Profile() {
                       2000,
                       
                     ]}
-                    wrapper="h1"
+                    wrapper="h2"
                   />
-                </h1>
+                </h2>
                 <span className="profile-role-tagline">
                   Keen on building front-end applications
                 </span>
@@ -96,7 +96,7 @@ export default function Profile() {
                     boxShadow: "0px 0px 15px hsl(46, 97%, 39%)",
                   }}
                 >
-                  {""} Career Summary{""}
+                   Profile Summary
                 </motion.button>
               </Link>
               <Link to="/contact">

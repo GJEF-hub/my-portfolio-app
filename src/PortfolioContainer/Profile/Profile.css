@@ -12,6 +12,7 @@
   justify-content: center;
   height: 100vh;
   min-height: fit-content;
+  position: relative;
 }
 
 .profile-parent {
@@ -19,6 +20,7 @@
   align-items: center;
   color: white; 
   margin-top: 0;
+  position: relative;
 }
 
 .profile-details-name {
@@ -32,9 +34,8 @@
   margin: 14px 0 24px 0;
 }
 
-.profile-details-role h1 {
-  /* font-size: 40px; */
-  font-family: 'Poppins', sans-serif;
+.profile-details-role h2 {
+  font-family: 'Poppins';
   position: relative;
 }
 
@@ -56,13 +57,13 @@
   position: relative;
 }
 .profile-options .highlighted-btn {
-  margin: 0 0 0 28px;
+  margin: 0 0 0 170px;
   
 }
 
-.profile-options .highlighted-btn:hover {
+/* .profile-options .highlighted-btn:hover {
   margin: 0 0 0 28px;
-}
+} */
 
 .profile-picture {
   display: flex;
@@ -183,8 +184,8 @@
 
 @media screen and (max-width: 375px) {
     .profile-picture {
-        height: 275px;
-        width: 275px;
+        height: 250px;
+        width: 250px;
         margin-top: -90px;
     }
 
