@@ -24,8 +24,9 @@ a:hover {
     justify-self: start;
     cursor: pointer;
     font-family: 'Poppins', sans-serif;
-    transform: translate(20%, 5%);
+    transform: translate(20%, 12%);
 }
+
 
 .navbar-logo span {
     color: hsl(46, 97%, 39%);
@@ -49,12 +50,13 @@ a:hover {
 .nav-link {
     padding: 0.5rem 1rem;
     margin-top: 10px;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 .nav-link:hover {
-    background-color: hsl(46, 97%, 39%);
-    border-radius: 5px;
+    box-shadow: 1px 3px 1px 1px hsl(46, 97%, 39%);
+    /* font-size: 14px; */
+    animation: mymove 3s infinite;
     transition: all 0.3s ease-out;
 }
 
@@ -95,15 +97,17 @@ a:hover {
         padding: 30px;
         width: 100%;
         display: table;
-        font-size: 20px;
+        font-size: 18px;
         align-items: center;
         align-content: center;
+        padding: 0.4rem 1rem;
+        margin-top: 25px;
     }
-
+    
+  
     .nav-link:hover {
-        background-color: hsl(46, 97%, 39%);
-        border-radius: 0;
-        transition: all 0.3s ease-out;
+        font-size: 20px;
+        transition: all 0.2s ease-out;
     }
     .menu-icon {
         display: block;

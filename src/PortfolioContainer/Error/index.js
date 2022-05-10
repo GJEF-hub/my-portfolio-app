@@ -8,6 +8,7 @@ import Navigation from "../Navigation/Navigation";
 import Summary from "../Summary/Summary";
 import Resume from "../Resume/Resume";
 import Career from "../Career/Career";
+import Careers from "../Careers/Careers";
 import Works from "../Works/Works";
 import ShowMore from "../ShowMore/Showmore";
 import Contact from "../ContactMe/Contact";
@@ -26,22 +27,23 @@ const ReactRouterSetup = () => {
           <Summary />
           <Resume />
         </Route>
-        <Route exact path="/summary">
+        <Route path="/summary">
           <Summary />
         </Route>
-        <Route exact path="/career">
+        <Route path="/career">
+          <Careers />
           <Career />
         </Route>
-        <Route exact path="/resume">
+        <Route path="/resume">
           <Resume />
         </Route>
-        <Route exact path="/works">
+        <Route path="/works">
           <Works />
         </Route>
-        <Route exact path="/showmore">
+        <Route path="/showmore">
           <ShowMore />
         </Route>
-        <Route exact path="/contact">
+        <Route path="/contact">
           <Contact />
         </Route>
         <Route path="*">

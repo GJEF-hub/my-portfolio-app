@@ -13,7 +13,7 @@ class Navbar extends Component {
     render () {
         return(
             <nav className="NavbarItems">
-                <h1 className='navbar-logo'><Link to="/"><span>GJ</span>EF</Link></h1>
+                <h2 className='navbar-logo'><Link to="/"><span>GJ</span>EF</Link></h2>
                 <div className='menu-icon' onClick={this.handleClick}>
                     <i className={this.state.active ? "fa-solid fa-xmark" : "fa-solid fa-bars"}></i>
                 </div>
