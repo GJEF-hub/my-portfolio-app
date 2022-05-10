@@ -58,9 +58,9 @@ export default function Profile() {
             </div>
             <div className="profile-details-name">
               <span>
-                {" "}
-                Hello, my name is{" "}
-                <span className="highlighted-text">Godfrey</span>
+                
+                Hello, my name is
+                <span className="highlighted-text"> Godfrey</span>
               </span>
             </div>
             <div className="profile-details-role">
@@ -69,7 +69,7 @@ export default function Profile() {
                 <Typical
                     loop={Infinity}
                     steps={[
-                      "Process-oriented Pro",
+                      "Process-oriented",
                       2000,
                       "UX/UI Designer",
                       2000,
@@ -77,7 +77,9 @@ export default function Profile() {
                       2000,
                       "IT Sys Engineer",
                       2000,
+                      
                     ]}
+                    wrapper="h1"
                   />
                 </h1>
                 <span className="profile-role-tagline">

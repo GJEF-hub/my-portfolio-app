@@ -110,9 +110,9 @@ export default function Contact() {
               </a>
             </li>
             <li>
-              <Link to="https://www.instagram.com/gjefspecials.co.uk/" target="_blank" className="contact-icon" rel="noreferrer">
+              <a href="https://www.instagram.com/gjefspecials.co.uk/" target="_blank" className="contact-icon" rel="noreferrer">
                 <i className="fa fa-instagram" aria-hidden="true"></i>
-              </Link>
+              </a>
             </li>
           </ul>
 
