@@ -32,7 +32,7 @@ const ReactRouterSetup = () => {
         </Route>
         <Route path="/career">
           <Careers />
-          <Career />
+          
         </Route>
         <Route path="/resume">
           <Resume />

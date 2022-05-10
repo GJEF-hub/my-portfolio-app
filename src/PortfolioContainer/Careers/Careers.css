@@ -1,7 +1,7 @@
 .parent-container {
     background-color: rgb(12, 12, 15);
     color: white;
-    height: 100vh;
+    height: 100%;
     
     position: relative;
 }
@@ -42,6 +42,11 @@
     box-shadow: 2px 4px 2px 2px hsl(60, 10%, 50%);
     animation: mymove 3s infinite;
 }
+
+.but:hover{
+    background-color: rgb(148, 115, 7);
+    font-size: large;
+}
 .blogger-link {
     font-size: 25px;
     position: absolute;
@@ -67,7 +72,15 @@
     transform: translate(180px, -300px);
 }
 
+.careers-detail {
+    margin-top: 230px;
+}
+
 @media screen and (max-width: 690px) {
+
+    .title {
+        margin-bottom: 80px;
+    }
 
     .blogger-link, .engineer-link, .designer-link,.tutor-link {
         font-size: 16px;
@@ -87,5 +100,9 @@
     
     .tutor-link {
         transform: translate(150px, -300px);
+    }
+
+    .careers-detail {
+        margin-top: 280px;
     }
 }

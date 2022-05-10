@@ -67,6 +67,7 @@ a:hover {
     display: none;
 }
 
+
 @media screen and ( max-width: 860px) {
     .NavbarItems {
         position: relative;

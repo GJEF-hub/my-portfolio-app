@@ -6,7 +6,7 @@ const CareerHistory = ({ experience, manageDelete }) => {
     return ( 
         <div className="career-history">
             <div className="career-parent">
-        <h1 className="title">Career History</h1>
+        {/* <h1 className="title">Career History</h1> */}
         {experience.map((experience) => (
           <div className="career-details" key={experience.id}>
             <h4> {experience.Position} </h4>
