@@ -5,7 +5,7 @@
   justify-content: center;
   height: 100vh;
   min-height: fit-content;
-  background-color: rgba(255, 255, 255, 0.651);
+  /* background-color: rgba(255, 255, 255, 0.651); */
 }
 
 .skillset-parent {
@@ -19,10 +19,11 @@
   padding-top: 0;
   margin-top: 0;
 }
+
 .skillset-content {
   display: flex;
   align-items: center;
-  color: #000;
+  color: #fff;
   /* margin: 0 auto;
     width: 80%; */
   gap: 30%;
@@ -74,57 +75,83 @@
   width: 90%;
   background-color: rgb(148, 115, 7);
 }
+
 .figma {
   width: 70%;
   background-color: rgb(148, 115, 7);
 }
+
 .photoshop {
   width: 90%;
   background-color: rgb(148, 115, 7);
 }
+
 .wordpress {
   width: 95%;
   background-color: rgb(148, 115, 7);
 }
+
 .react {
   width: 75%;
   background-color: rgb(148, 115, 7);
 }
+
 .bootstrap {
   width: 65%;
   background-color: rgb(148, 115, 7);
 }
+
 .redux {
   width: 60%;
   background-color: rgb(148, 115, 7);
 }
+
 .tech {
   width: 90%;
   background-color: rgb(148, 115, 7);
 }
+
 .win {
   width: 95%;
   background-color: rgb(148, 115, 7);
 }
+
 .vmwc {
   width: 70%;
   background-color: rgb(148, 115, 7);
 }
+
 .trbsr {
   width: 95%;
   background-color: rgb(148, 115, 7);
 }
+
 .net {
   width: 75%;
   background-color: rgb(148, 115, 7);
 }
+
 .ms {
   width: 80%;
   background-color: rgb(148, 115, 7);
 }
+
 .csad {
   width: 95%;
   background-color: rgb(148, 115, 7);
+}
+
+.next-link {
+  margin: 10px auto;
+  align-items: center;
+  align-content: center;
+  font-size: 2rem;
+}
+
+.next-link hr {
+  border: 1px solid rgb(148, 115, 7);
+  width: 100%;
+  
 }
 
 @media screen and (max-width: 1110px) {
@@ -140,6 +167,7 @@
 }
 
 @media screen and (max-width: 910px) {
+
   .primary-list h5,
   .secondary-list h5 {
     font-size: 18px;
@@ -147,6 +175,7 @@
 }
 
 @media screen and (max-width: 810px) {
+
   .skillset-container,
   .skillset-parent {
     height: 10%;
@@ -156,6 +185,7 @@
   .skillset-parent h1 {
     margin-top: 40px;
   }
+
   .skillset-content {
     /* flex-direction: column-reverse; */
     width: 40%;
@@ -165,8 +195,7 @@
   }
 
   .primary-list li,
-  .secondary-list li {
-  }
+  .secondary-list li {}
 
   .list-bar {
     width: 320px;

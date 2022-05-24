@@ -49,7 +49,7 @@ export default function Contact() {
           ></textarea>
 
           <button
-            className="btn btn-primary send-button"
+            className="btn-primary send-button"
             id="submit"
             type="submit"
             value="SEND"

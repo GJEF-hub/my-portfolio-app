@@ -18,14 +18,6 @@ const btnVariants = {
 export default function Profile() {
   return (
     <>
-      {/* <div className="awards-honors-container">
-      <div className="awards-honors">
-        <img
-          src={require("../../../assets/images/awwwards.png")}
-          alt="Awards and Honors tag" />
-      </div>
-    </div> */}
-
       <section className="profile-container" id="profile">
         <div className="profile-parent">
           <motion.div
@@ -58,7 +50,6 @@ export default function Profile() {
             </div>
             <div className="profile-details-name">
               <span>
-                
                 Hello, my name is
                 <span className="highlighted-text"> Godfrey</span>
               </span>
@@ -66,7 +57,7 @@ export default function Profile() {
             <div className="profile-details-role">
               <span className="primary-text">
                 <h2>
-                <Typical
+                  <Typical
                     loop={Infinity}
                     steps={[
                       "Process-oriented",
@@ -77,7 +68,6 @@ export default function Profile() {
                       2000,
                       "IT Sys Engineer",
                       2000,
-                      
                     ]}
                     wrapper="h2"
                   />
@@ -96,7 +86,7 @@ export default function Profile() {
                     boxShadow: "0px 0px 15px hsl(46, 97%, 39%)",
                   }}
                 >
-                   Profile Summary
+                  Profile Summary
                 </motion.button>
               </Link>
               <Link to="/contact">
