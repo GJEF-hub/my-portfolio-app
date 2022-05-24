@@ -5,7 +5,7 @@
   justify-content: center;
   height: 100vh;
   min-height: fit-content;
-  background-color: #fff;    
+  /* background-color: #fff;     */
 }
 
 .details-parent {
@@ -14,10 +14,11 @@
   color: #000;
   /* margin: 20px; */
   padding-top: 0;
-  
+  background-color: rgba(236, 235, 231, 0.795);
   width: 70%;
   box-shadow: 2px 2px 4px 2px hsl(30, 1%, 30%);
   animation: mymove 5s infinite;
+  border-radius: 5px;
   
 }
 

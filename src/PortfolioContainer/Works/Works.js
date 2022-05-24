@@ -8,9 +8,9 @@ export default function Works() {
     <section className="works-container">
       <div className="works-parent" id="works">
         <div className="works-content">
-          <div className="works-title">
-            <h1>My Works</h1>
-          </div>
+          <header>
+            <h1 className="section-header">All Works</h1>
+          </header>
 
           <div className="samples">
             <div className="samples-card">

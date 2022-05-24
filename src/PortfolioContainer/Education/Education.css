@@ -1,0 +1,97 @@
+
+.edu-parent {
+    margin: 0 auto;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    /* align-items: center;
+    align-content: center; */
+    background-image: url("../../assets/images/grad2.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #292d44;
+    background-blend-mode: multiply;
+    transition: ease-in-out 8s;
+    /* filter: blur(3px); */
+}
+
+header {
+    text-align: center;
+    align-items: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 62%;
+    position: sticky;
+}
+
+.edu-menu {
+    background-color: rgba(37, 39, 49, 0.61);
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3;
+    z-index: 1000;
+    overflow: hidden;
+}
+
+.edu-menu h2 {
+    color: rgb(228, 184, 41);
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.edu-menu hr {
+    border: 1px solid rgb(228, 184, 41);
+}
+
+.edu-menu h4 span {
+    font-size: 12px;
+    font-family: Loto;
+}
+
+.edu-list {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 50px;
+    color: white;
+    list-style: none;
+    align-items: center;
+    text-align: center;
+    justify-content: end;
+    width: 60vw;
+    margin-right: 2rem;
+    margin-top: 0;
+}
+
+.edu-list img {
+    width: 100px;
+    height: 100px;
+}
+
+.edu-list li h5, p {
+    text-align: left;
+}
+.edu-list h5 {
+    color: rgb(149, 191, 245);
+    margin-top: 20px;
+}
+
+.edu-list a {
+    color: rgb(228, 184, 41);
+}
+
+@media screen and (max-width: 375px) {
+    header {
+           width: 80%;
+        }
+    
+    .edu-parent .section-header {
+        font-size: 40px;
+    }
+
+    .edu-list {
+        grid-template-rows: repeat(auto);
+        gap: 10px;
+    }
+}
