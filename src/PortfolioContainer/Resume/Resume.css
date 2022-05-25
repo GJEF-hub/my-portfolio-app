@@ -3,21 +3,22 @@
   align-items: center;
   text-align: center;
   justify-content: center;
+  align-content: center;
   height: 100vh;
-  min-height: fit-content;
-  /* background-color: rgba(255, 255, 255, 0.651); */
+  margin: 0 auto;
+  background-image: url("../../assets/Home/images/bg.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #292d44;
+  position: relative;
 }
 
 .skillset-parent {
   display: block;
   align-items: center;
-  /* background-color: #fff; */
-}
-
-.skillset-parent h1 {
-  padding-bottom: 40px;
-  padding-top: 0;
-  margin-top: 0;
+  height: 95%;
+  margin: auto;
 }
 
 .skillset-content {
@@ -151,13 +152,16 @@
 .next-link hr {
   border: 1px solid rgb(148, 115, 7);
   width: 100%;
-  
 }
 
 @media screen and (max-width: 1110px) {
   .skillset-container {
-    /* background: #fff;
-    background-color: #fff; */
+    height: 100vh;
+    min-height: 1300px;
+  }
+
+  .skillset-parent {
+    height: 70%;
   }
 
   .skillset-content {
@@ -167,7 +171,20 @@
 }
 
 @media screen and (max-width: 910px) {
-
+  .skillset-container {
+      height: 100vh;
+      min-height: 1100px;
+    }
+  
+    .skillset-parent {
+      height: 70%;
+      
+    }
+  .skillset-content {
+    width: 70%;
+    gap: 30%;
+    
+  }
   .primary-list h5,
   .secondary-list h5 {
     font-size: 18px;
@@ -175,15 +192,13 @@
 }
 
 @media screen and (max-width: 810px) {
-
-  .skillset-container,
-  .skillset-parent {
-    height: 10%;
-    /* width: 810px; */
+  .skillset-container {
+    height: 100vh;
+    min-height: 1030px;
   }
 
-  .skillset-parent h1 {
-    margin-top: 40px;
+  .skillset-parent {
+    height: 80%;
   }
 
   .skillset-content {
@@ -194,37 +209,56 @@
     gap: 20%;
   }
 
-  .primary-list li,
-  .secondary-list li {}
-
   .list-bar {
     width: 320px;
   }
 }
 
 @media screen and (max-width: 720px) {
+  .skillset-container {
+      height: 100vh;
+      min-height: 1350px;
+    }
+  
+  .skillset-parent {
+    height: 90%;
+  }
+
   .skillset-content {
     flex-direction: column;
     width: 40%;
     margin-left: -40px;
     margin-bottom: 20px;
-    gap: 20%;
   }
 }
 
 @media screen and (max-width: 500px) {
-  .skillset-content {
-    width: 90%;
+  .skillset-container {
+    height: 100vh;
+    min-height: 1400px;
   }
 
-  .skillset-parent h1 {
-    padding-bottom: 0px;
-    padding-top: 10px;
-    margin-top: 10px;
+  .skillset-parent {
+    height: 95%;
+
+  }
+
+  .skillset-content {
+    width: 60%;
+    margin-left: 10px;
   }
 }
 
 @media screen and (max-width: 375px) {
+  .skillset-container {
+    height: 100vh;
+    min-height: 1300px;
+  }
+
+  .skillset-parent {
+    height: 90%;
+  }
+
   .skillset-content {
     width: 80%;
     margin-left: -10px;
@@ -232,6 +266,11 @@
 
   .skillset-content h6 {
     font-size: 14px;
+  }
+
+  .skillset-parent .section-header {
+    font-size: 250%;
+    margin-bottom: 25px;
   }
 
   .list-bar {

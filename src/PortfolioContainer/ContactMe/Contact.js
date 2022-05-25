@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 export default function Contact() {
   return (
     <section className="contact-container">
+      <div className="contact-box">
       <div className="contact-parent">
       <h1 className="section-header" id="contact">Contact</h1>
       
@@ -118,6 +119,7 @@ export default function Contact() {
 
           <div className="copyright">&copy; ALL RIGHTS RESERVED</div>
         </div>
+      </div>
       </div>
       </div>
     </section>

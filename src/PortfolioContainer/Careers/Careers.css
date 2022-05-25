@@ -5,16 +5,20 @@
     background-size: cover;
     background-color: #292d44;
     color: white;
-    height: 100%;
+    height: 100vh;
+    min-height: 900px;
     position: relative;
     margin: 0 auto;
 }
 
-.wrapper {
+.careers-wrapper {
     align-items: center;
     text-align: center;
     justify-self: center;
-    height: 100%;
+    height: 60%;
+}
+.careers-wrapper header {
+    margin-top: 30px;
 }
 
 .career-picture {
@@ -39,6 +43,10 @@
 }
 
 .but {
+    background-color: rgb(39, 113, 252);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
     border: 2px solid white;
     box-shadow: 2px 4px 2px 2px hsl(60, 10%, 50%);
     animation: mymove 3s infinite;
@@ -46,8 +54,9 @@
 
 .but:hover{
     background-color: rgb(148, 115, 7);
-    font-size: large;
+    
 }
+
 .blogger-link {
     font-size: 25px;
     position: absolute;
@@ -73,44 +82,237 @@
     transform: translate(180px, -300px);
 }
 
-p.description {
-    margin: 40px auto;
-    width: 60%;
-    }
+ p.description {
+     width: 60%;
+     margin: 50px auto;
+     text-align: center;
+ }
 
 .careers-detail {
     margin-top: 100px;
 }
+.blogger-link,
+.engineer-link,
+.designer-link,
+.tutor-link {
+    white-space: nowrap;
+}
 
-@media screen and (max-width: 690px) {
 
-    .title {
-        margin-bottom: 80px;
+/* Adding the styles for each button link information */
+.blogger-wrapper {
+    display: block;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    height: 100vh;
+    /* min-height: 900px; */
+    position: relative;
+    margin: 0 auto;
+}
+
+.blogger-container {
+    background-color: #000000;
+    color: white;
+    height: 100%;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.blogger-container .page-title {
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .parent-container {
+        height: 100vh;
+        min-height: 1000px;
+
     }
 
-    .blogger-link, .engineer-link, .designer-link,.tutor-link {
-        font-size: 16px;
+    .careers-wrapper {
+        height: 100%;
+    }
+
+    p.description {
+        width: 100%;
+    }
+    
+}
+
+@media  screen and (max-width: 620px) {
+    .parent-container {
+            height: 100vh;
+            min-height: 800px;
+        }
+    
+    .careers-wrapper {
+        height: 60%;
+        margin: 0 auto;
+    }
+
+    header,
+    h1 {
+        margin-bottom: 30px;
+    }
+
+    .career-picture {
+        height: 320px;
+        width: 320px;
+
+    }
+
+    .career-bg-picture {
+        height: 92%;
+        width: 92%;
+
+    }
+
+    .blogger-link,
+    .engineer-link,
+    .designer-link,
+    .tutor-link {
+        font-size: 14px;
+
     }
 
     .blogger-link {
-        transform: translate(-220px, -300px);
-    }
-    
-    .engineer-link {
-        transform: translate(-230px, -100px);
-    }
-    
-    .designer-link {
-        transform: translate(100px, -100px);
-    }
-    
-    .tutor-link {
-        transform: translate(150px, -300px);
+        transform: translate(-170px, -180px);
     }
 
-    .careers-detail {
-        margin-top: 280px;
+    .engineer-link {
+        transform: translate(-150px, -50px);
     }
+
+    .designer-link {
+        transform: translate(40px, -90px);
+    }
+
+    .tutor-link {
+        transform: translate(100px, -200px);
+    }
+    
+    p.description {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .parent-container {
+        height: 100vh;
+        min-height: 915px;
+        
+    }
+
+    .careers-wrapper {
+        height: 70%;
+        margin: 0 auto;
+    }
+
+    header,
+    h1 {
+        margin-bottom: 30px;
+    }
+
+    .career-picture {
+        height: 290px;
+        width: 290px;
+
+    }
+
+    .career-bg-picture {
+        height: 92%;
+        width: 92%;
+
+    }
+
+    .blogger-link,
+    .engineer-link,
+    .designer-link,
+    .tutor-link {
+        font-size: 14px;
+
+    }
+
+    .blogger-link {
+        transform: translate(-170px, -180px);
+    }
+
+    .engineer-link {
+        transform: translate(-150px, -50px);
+    }
+
+    .designer-link {
+        transform: translate(40px, -90px);
+    }
+
+    .tutor-link {
+        transform: translate(100px, -200px);
+    }
+
+    p.description {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 412px) {
+    .parent-container {
+            height: 100vh;
+            min-height: 915px;
+        }
+    .careers-wrapper {
+        height: 90%;
+    }
+    
+        header,
+        h1 {
+            margin-bottom: 30px;
+        }
+    
+        .career-picture {
+            height: 280px;
+            width: 280px;
+            
+        }
+    
+        .career-bg-picture {
+            height: 92%;
+            width: 92%;
+        
+        }
+    
+        .blogger-link,
+        .engineer-link,
+        .designer-link,
+        .tutor-link {
+            font-size: 14px;
+            
+        }
+    
+        .blogger-link {
+            transform: translate(-130px, -180px);
+        }
+    
+        .engineer-link {
+            transform: translate(-120px, -50px);
+        }
+    
+        .designer-link {
+            transform: translate(40px, -90px);
+        }
+    
+        .tutor-link {
+            transform: translate(100px, -200px);
+        }
+    
+        p.description {
+            width: 90%;
+        }
 }
 
 @media screen and (max-width: 375px) {
@@ -161,8 +363,7 @@ p.description {
     }
 
     p.description {
-        width: 70%;
-        margin-top: 50px;
+        width: 90%;
     }
 
 }

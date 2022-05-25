@@ -5,6 +5,7 @@ import Profile from "../Profile/Profile";
 import Resume from "../Resume/Resume";
 import Contact from "../ContactMe/Contact";
 import Careers from "../Careers/Careers";
+import Testimonials from "../Testimonial/Testimonials";
 
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       {/* <Divider /> */}
       <Resume />
       <Careers />
+      <Testimonials />
       <Contact />
     </div>
   );
