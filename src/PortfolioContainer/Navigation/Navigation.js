@@ -27,11 +27,11 @@ export default function Navigation() {
             <li className="navigation-lists" title="Career history"></li>
           </Link>
 
-          {/* <Link to="/#works">
+           <Link to="/#testimonials">
             {" "}
-            <li className="navigation-lists" title="works"></li>
+            <li className="navigation-lists" title="Testimonials"></li>
           </Link>
-
+            {/*
           <Link to="/education">
             {" "}
             <li className="navigation-lists" title="education"></li>

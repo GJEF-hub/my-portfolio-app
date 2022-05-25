@@ -13,6 +13,8 @@ import Contact from "../ContactMe/Contact";
 import Error from "../Error/Error";
 import Education from "../Education/Education";
 import Footer from "../Footer/Footer";
+import Testimonials from "../Testimonial/Testimonials";
+import Blogger from "../Careers/Blogger";
  
 
 const ReactRouterSetup = () => {
@@ -46,8 +48,14 @@ const ReactRouterSetup = () => {
         <Route path="/showmore">
           <ShowMore />
         </Route>
+        <Route path="/testimonials">
+          <Testimonials />
+        </Route>
         <Route path="/contact">
           <Contact />
+        </Route>
+        <Route path="/blogger">
+          <Blogger />
         </Route>
         <Route path="*">
           <Error />

@@ -11,6 +11,7 @@ class Navbar extends Component {
 
   render() {
     return (
+      <section className="navbar-wrapper">
       <nav className="NavbarItems">
         <h2 className="navbar-logo">
           <Link to="/">
@@ -52,6 +53,7 @@ class Navbar extends Component {
           </li>
         </ul>
       </nav>
+      </section>
     );
   }
 }

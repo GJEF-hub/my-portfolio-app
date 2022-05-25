@@ -6,7 +6,7 @@ export default function Resume() {
   return (
     <section className="skillset-container" id="resume">
       <div className="skillset-parent">
-        <h1>Skill Set</h1>
+        <h1 className="section-header">Skill Set</h1>
         <div className="skillset-content">
           <ul className="primary-list">
             <li>

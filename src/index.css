@@ -72,20 +72,14 @@ code {
 }
 
 ::-webkit-scrollbar {
-  width: 6px !important;
-  height: 6px !important;
-}
-
-body ::-webkit-scrollbar-thumb {
-  background-color: hsla(0, 0%, 100%, 0.16);
+  background: transparent;
+  /* border-left: 1px solid rgb(39, 113, 252); */
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: rgba(0, 0, 0, 0.2);
-}
-
-::-webkit-scrollbar-track {
-  background: hsla(0, 0%, 100%, 0.1);
+  background: rgb(39, 113, 252);
+  border-radius: 1em;
+  border: 1px solid rgb(148, 115, 7);
 }
 
 /* @media only screen and (max-width: 414px) {
