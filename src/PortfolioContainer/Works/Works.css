@@ -1,100 +1,93 @@
-.works-container {
+.works-wrapper {
+  margin: 0 auto;
+  overflow: hidden;
   height: 100vh;
-  position: relative;
-}
-.works-parent {
-  color: white;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  min-height: fit-content;
-  background-image: url("../../assets/images/outdoorbygjef.jpg");
-  background-blend-mode: overlay;
-  background-color: hsla(0, 0%, 0%, 0.774);
+  min-height: 1800px;
+  background-image: url("../../assets/Home/images/bg.jpg");
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed; 
+  background-color: #292d44;
+  position: relative;
 }
 
-.works-title h1 {
-  color: #fff;
-  font-size: 40px;
-  margin: 20px auto;
-  text-align: center;
-}
-
-.works-subheading {
-  margin-top: 20px;
-  margin-bottom: 30px;
-}
-
-.sample-card h2 {
-  margin-top: 40px;
-}
-
-.works-description hr {
+.works-container {
+  margin: 30px auto;
+  font-family: Roboto;
+  color: white;
+  position: relative;
   display: block;
-  border-style: inset;
-  border: 1px solid white;
 }
 
-.card-img {
+.work-intro-dsp img {
+  margin: 20px auto;
+  position: relative;
+  width: 70%;
+  display: block;
+  object-fit: cover;
+  z-index: 5;
+}
+.exp-label-box {
+  background-color: hsla(0, 1%, 17%, 0.473);
+  width: 70%;
+  height: fit-content;
+  transition: all ease-in-out 0.7s;
+  padding: 20px 0;
+  z-index: 1000;
+  position: relative;
+  margin: -380px auto 0 auto;
+  border-radius: 40px 0 40px 0;
+}
+.exp-label-box:hover {
+  background-color: hsla(0, 1%, 17%, 0.904);
+  box-shadow: 0 0 20px #7d8bdf;
+}
+
+.exp-label-box h3 {
+  margin-left: 110px;
+  margin-bottom: 40px;
+  padding-top: 20px;
+  width: 50%;
+  font-weight: 700;
+}
+.exp-label-box span {
+  position: absolute;
+  right: 100px;
+  top: 50px;
+}
+.exp-label-box span i {
+  font-size: 10px;
+}
+
+.exp-label-box span:hover {
+  font-variant: small-caps;
+  cursor: pointer;
+}
+.exp-label-items {
+  display: flex;
+  gap: 18%;
+  margin: 20px auto;
   width: 80%;
-  margin: 0 auto;
+  list-style: none;
+  white-space: nowrap;
+}
+.oda-prjs .oda-exp-container h1 {
+  width: 60%;
+  margin: 30px auto;
+  font-weight: 700;
 }
 
-.more-works {
-  margin-top: 10px;
+.hover-ef ul img {
+  position: absolute;
+  width: 200px;
+  height: 80px;
+  transition: all ease-in-out 1.8s;
+  opacity: 0;
+  object-fit: cover;
 }
+.hover-ef ul:hover img {
+  transform: scale(1.6);
+  opacity: 1;
+  cursor:-webkit-zoom-in;
 
-.icon-links a {
-  color: rgb(72, 136, 255);
-  font-weight: bolder;
-}
-
-
-
-* {
-  transition: all 0.3s ease;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-
-@media screen and (max-width: 980px) {
-  .works-title {
-    padding-bottom: 10px;
-  }
-
-}
-
-@media screen and (max-width: 569px) {
-  
-  .works-title {
-    padding-bottom: 80px;
-  }
-
-  .works-subheading {
-    margin-top: 0;
-    padding-bottom: 80px;
-  }
-
-  .card-img {
-    width: 100%;
-  }
-
-  .icon-links span {
-    font-size: 16px;
-  }
-  
-
-  figure.effect-blog p.description {
-    font-size: 14px;
-    padding-left: 10px;
-  }
 }

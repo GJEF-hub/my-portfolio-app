@@ -21,6 +21,10 @@
     margin-top: 30px;
 }
 
+.careers-wrapper i {
+    font-size: 14px;
+}
+
 .career-picture {
     display: flex;
     align-items: center;
@@ -96,34 +100,6 @@
 .designer-link,
 .tutor-link {
     white-space: nowrap;
-}
-
-
-/* Adding the styles for each button link information */
-.blogger-wrapper {
-    display: block;
-    align-items: center;
-    align-content: center;
-    text-align: center;
-    height: 100vh;
-    /* min-height: 900px; */
-    position: relative;
-    margin: 0 auto;
-}
-
-.blogger-container {
-    background-color: #000000;
-    color: white;
-    height: 100%;
-    align-items: center;
-    align-content: center;
-    text-align: center;
-}
-.blogger-container .page-title {
-    text-align: center;
-    align-items: center;
-    align-self: center;
-    align-content: center;
 }
 
 @media screen and (max-width: 1024px) {

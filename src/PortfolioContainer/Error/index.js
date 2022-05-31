@@ -31,6 +31,7 @@ const ReactRouterSetup = () => {
         <Route path="/summary">
           <Summary />
           <Resume />
+          <Contact />
         </Route>
         <Route path="/careers">
           <Careers />
@@ -56,6 +57,7 @@ const ReactRouterSetup = () => {
         </Route>
         <Route path="/blogger">
           <Blogger />
+          {/* <Careers /> */}
         </Route>
         <Route path="*">
           <Error />
