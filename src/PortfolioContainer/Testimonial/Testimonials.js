@@ -12,7 +12,7 @@ const Testimonials = () => {
           <ul className="testimonials">
             <li>
               <img
-                src={require("../../assets/images/gjefavatar.jpg")}
+                src="https://i.imgur.com/j5dUNWX.jpeg"
                 alt="Testimonials images"
               />
               <blockquote>
@@ -34,7 +34,7 @@ const Testimonials = () => {
             </li>
             <li>
               <img
-                src={require("../../assets/images/gjefavatar.jpg")}
+                src="https://i.imgur.com/GdQ6UvZ.jpeg"
                 alt="Testimonials images"
               />
               <blockquote>
@@ -60,7 +60,7 @@ const Testimonials = () => {
             </li>
             <li>
               <img
-                src={require("../../assets/images/gjefavatar.jpg")}
+                src="https://i.imgur.com/nScERzM.png"
                 alt="Testimonials images"
               />
               <blockquote>

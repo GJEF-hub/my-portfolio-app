@@ -25,7 +25,7 @@ const entryAnimation = {
       mass: 0.4,
       damping: 3,
       when: "beforeChildren",
-      stiffness: 300,
+      stiffness: 200,
     },
   },
 };
