@@ -33,6 +33,10 @@ const entryAnimation = {
 export default function Works() {
   return (
     <section className="works-wrapper">
+      {/* <video loop autoPlay>
+        <source src="https://i.imgur.com/S5HDWaT.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video> */}
       <div className="works-container">
         <section className="work-intro-dsp">
           <img
