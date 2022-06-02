@@ -12,47 +12,44 @@ class Navbar extends Component {
   render() {
     return (
       <section className="navbar-wrapper">
-      <nav className="NavbarItems">
-        <h2 className="navbar-logo">
-          <Link to="/">
-            <span>GJ</span>EF
-          </Link>
-        </h2>
-        <div className="menu-icon" onClick={this.handleClick}>
-          <i
-            className={
-              this.state.active ? "fa-solid fa-xmark" : "fa-solid fa-bars"
-            }
-          ></i>
-        </div>
-        <ul className={this.state.active ? "nav-menu active" : "nav-menu"}>
-          <li className="nav-link" onClick={this.handleClick}>
+        <nav className="NavbarItems">
+          <h2 className="navbar-logo">
             <Link to="/">
-              <i className="fa-solid fa-house"></i> Home
+              <span>GJ</span>EF
             </Link>
-          </li>
-          <li className="nav-link" onClick={this.handleClick}>
-            <Link to="/careers">
-              <i className="fa-solid fa-user-gear"></i> Career
-            </Link>
-          </li>
-          <li className="nav-link" onClick={this.handleClick}>
+          </h2>
+          <div className="menu-icon" onClick={this.handleClick}>
+            <i
+              className={
+                this.state.active ? "fa-solid fa-xmark" : "fa-solid fa-bars"
+              }
+            ></i>
+          </div>
+          <ul className={this.state.active ? "nav-menu active" : "nav-menu"}>
             <Link to="/works">
-              <i className="fa-solid fa-person-digging"></i> Works
+              <li className="nav-link" onClick={this.handleClick}>
+                <i className="fa-solid fa-person-digging"></i> Works
+              </li>
             </Link>
-          </li>
-          <li className="nav-link" onClick={this.handleClick}>
-            <Link to="/education">
-              <i className="fa-solid fa-graduation-cap"></i> Education
+
+            <Link to="/about-me">
+              <li className="nav-link" onClick={this.handleClick}>
+                <i class="fa fa-user-o" aria-hidden="true"></i> About Me
+              </li>
             </Link>
-          </li>
-          <li className="nav-link" onClick={this.handleClick}>
+
+            <Link to="/blogger">
+              <li className="nav-link" onClick={this.handleClick}>
+                <i class="fa fa-pencil-square-o" aria-hidden="true"></i> Blog
+              </li>
+            </Link>
             <Link to="/contact">
-              <i className="fa-solid fa-address-book"></i> Contact
+              <li className="nav-link" onClick={this.handleClick}>
+                <i className="fa-solid fa-address-book"></i> Contact
+              </li>
             </Link>
-          </li>
-        </ul>
-      </nav>
+          </ul>
+        </nav>
       </section>
     );
   }

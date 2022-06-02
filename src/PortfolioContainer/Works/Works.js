@@ -40,6 +40,10 @@ export default function Works() {
             alt="GJEF Blog Site by Godfrey"
           />
           <div className="exp-label-box">
+            <h1>
+              GJEF <br />
+              Specials
+            </h1>
             <span>
               {" "}
               <a
@@ -50,12 +54,13 @@ export default function Works() {
                 <i className="fa fa-paper-plane"></i> View Blog
               </a>
             </span>
-            <h3>
+            <h4>
               GJEF Specials is an inspiring blog space with engaging content -
               {
                 " investigating how humans have evolved with religion, science, and technology."
               }{" "}
-            </h3>
+            </h4>
+            <hr />
             <ul className="exp-label-items">
               <li>
                 <strong>Client</strong> <br /> Personal Blog
@@ -129,7 +134,7 @@ export default function Works() {
                 </li>
                 <img
                   src={require("../../assets/images/portfolio-app.PNG")}
-                  alt=""
+                  alt="Godfrey Jeremiah Portfolio App"
                 />
               </ul>
             </div>
@@ -148,7 +153,7 @@ export default function Works() {
                 </li>
                 <img
                   src={require("../../assets/images/Shakaramedia.PNG")}
-                  alt=""
+                  alt="Shakaramedia website project"
                 />
               </ul>
             </div>
@@ -167,7 +172,7 @@ export default function Works() {
                 </li>
                 <img
                   src={require("../../assets/images/freelance website.PNG")}
-                  alt=""
+                  alt="GJEF freelance website project"
                 />
               </ul>
             </div>

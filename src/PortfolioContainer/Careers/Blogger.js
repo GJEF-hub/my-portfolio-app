@@ -19,12 +19,7 @@ const Blogger = () => {
         </div>
 
         <section className="media-text">
-          <iframe
-            src="https://www.youtube.com/embed/G680njUplL0"
-            title="YouTube video player"
-            allow="picture-in-picture"
-            allowfullscreen
-          ></iframe>
+          <img src={require("../../assets/images/gjSp2.gif")} alt="gjef" />
         </section>
 
         <section className="content-description">
@@ -107,10 +102,34 @@ const Blogger = () => {
               anyone who wishes to start or run a blog....
             </p>
           </div>
+          <div className="featured-portfolio">
+            <img
+              src="https://blog.gjefspecials.co.uk/wp-content/uploads/2021/07/security_cover-600x430.jpg"
+              alt="blog post display"
+            />
+            <h5>Talk on Cybersecurity</h5>
+            <p>
+              Starting a blog is one thing and managing the blog is another
+              crucial aspect. This is going to be interesting and insightful for
+              anyone who wishes to start or run a blog....
+            </p>
+          </div>
+          <div className="featured-portfolio">
+            <img
+              src="https://blog.gjefspecials.co.uk/wp-content/uploads/2021/07/security_cover-600x430.jpg"
+              alt="blog post display"
+            />
+            <h5>Talk on Cybersecurity</h5>
+            <p>
+              Starting a blog is one thing and managing the blog is another
+              crucial aspect. This is going to be interesting and insightful for
+              anyone who wishes to start or run a blog....
+            </p>
+          </div>
         </section>
         <section className="oda-exp-container">
           <h1>Other Experience</h1>
-          <div className="oda-exp">
+          <div className="oda-exp hover-ef">
             <ul className="oda-exp-items">
               <li>
                 <h3>IT Sys Engineer</h3>
@@ -121,11 +140,14 @@ const Blogger = () => {
               <li>
                 <i className="fa fa-paper-plane"></i> <strong>View</strong>
               </li>
-              <img src="" alt="" />
+              <img
+                src={require("../../assets/images/it engineer.jpg")}
+                alt="It System Engineer"
+              />
             </ul>
           </div>
 
-          <div className="oda-exp">
+          <div className="oda-exp hover-ef">
             <ul className="oda-exp-items">
               <li>
                 <h3>IT Tutor</h3>
@@ -136,11 +158,14 @@ const Blogger = () => {
               <li>
                 <i className="fa fa-paper-plane"></i> <strong>View</strong>
               </li>
-              <img src="" alt="" />
+              <img
+                src={require("../../assets/images/it tutor.jpg")}
+                alt="IT Tutor instructing"
+              />
             </ul>
           </div>
 
-          <div className="oda-exp">
+          <div className="oda-exp hover-ef">
             <ul className="oda-exp-items">
               <li>
                 <h3>Creative Designer</h3>
@@ -151,7 +176,10 @@ const Blogger = () => {
               <li>
                 <i className="fa fa-paper-plane"></i> <strong>View</strong>
               </li>
-              <img src="" alt="" />
+              <img
+                src={require("../../assets/images/blogger.jpg")}
+                alt="Blogger at work"
+              />
             </ul>
           </div>
         </section>

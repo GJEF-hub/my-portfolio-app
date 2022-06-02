@@ -82,7 +82,6 @@ function Education() {
       <section>
         <Certss />
       </section>
-      {/* <section> <Resume /> </section> */}
     </section>
   );
 }
