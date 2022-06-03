@@ -11,7 +11,7 @@ video {
 .overlay {
   height: 100%;
   width: 100%;
-  background-color: #07080c91;
+  background-color: #020f42e1;
   top: 0;
   left: 0;
   position: absolute;
@@ -61,7 +61,6 @@ video {
   position: relative;
   margin: 50px auto;
   border-radius: 40px 0 40px 0;
-  color: rgb(218, 238, 238);
 }
 
 .exp-label-box h4 {
