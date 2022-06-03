@@ -66,11 +66,6 @@ export const Certss = () => {
           </ul>
         </div>
       </div>
-
-      <div className="interesting-facts">
-        {" "}
-        <button>Interesting Facts About Godfrey</button>{" "}
-      </div>
     </section>
   );
 };

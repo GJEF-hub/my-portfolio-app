@@ -33,6 +33,11 @@ const entryAnimation = {
 export default function Works() {
   return (
     <section className="works-wrapper">
+      <video loop autoPlay>
+        <source src="https://i.imgur.com/S5HDWaT.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <div className="overlay"></div>
       <div className="works-container">
         <section className="work-intro-dsp">
           <img
@@ -40,6 +45,10 @@ export default function Works() {
             alt="GJEF Blog Site by Godfrey"
           />
           <div className="exp-label-box">
+            <h1>
+              GJEF <br />
+              Specials
+            </h1>
             <span>
               {" "}
               <a
@@ -50,12 +59,13 @@ export default function Works() {
                 <i className="fa fa-paper-plane"></i> View Blog
               </a>
             </span>
-            <h3>
+            <h4>
               GJEF Specials is an inspiring blog space with engaging content -
               {
                 " investigating how humans have evolved with religion, science, and technology."
               }{" "}
-            </h3>
+            </h4>
+            <hr />
             <ul className="exp-label-items">
               <li>
                 <strong>Client</strong> <br /> Personal Blog
@@ -68,7 +78,7 @@ export default function Works() {
                 <strong>Industries</strong> <br /> Blogging
               </li>
               <li>
-                <strong>Date</strong> <br /> Feb 2018
+                <strong>Date</strong> <br /> February 2018
               </li>
             </ul>
           </div>
@@ -129,7 +139,7 @@ export default function Works() {
                 </li>
                 <img
                   src={require("../../assets/images/portfolio-app.PNG")}
-                  alt=""
+                  alt="Godfrey Jeremiah Portfolio App"
                 />
               </ul>
             </div>
@@ -148,7 +158,7 @@ export default function Works() {
                 </li>
                 <img
                   src={require("../../assets/images/Shakaramedia.PNG")}
-                  alt=""
+                  alt="Shakaramedia website project"
                 />
               </ul>
             </div>
@@ -167,7 +177,7 @@ export default function Works() {
                 </li>
                 <img
                   src={require("../../assets/images/freelance website.PNG")}
-                  alt=""
+                  alt="GJEF freelance website project"
                 />
               </ul>
             </div>
