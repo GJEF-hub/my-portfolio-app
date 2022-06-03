@@ -78,7 +78,7 @@ export default function Works() {
                 <strong>Industries</strong> <br /> Blogging
               </li>
               <li>
-                <strong>Date</strong> <br /> Feb 2018
+                <strong>Date</strong> <br /> February 2018
               </li>
             </ul>
           </div>
