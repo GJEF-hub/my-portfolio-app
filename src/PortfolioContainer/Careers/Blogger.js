@@ -18,7 +18,11 @@ const Blogger = () => {
         </div>
 
         <section className="media-text">
-          <img src={require("../../assets/images/gjSp2.gif")} alt="gjef" />
+          {/* <img src={require("../../assets/images/gjSp2.gif")} alt="gjef" /> */}
+          <video loop autoPlay>
+            <source src="https://i.imgur.com/S5HDWaT.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
         </section>
 
         <section className="content-description">
