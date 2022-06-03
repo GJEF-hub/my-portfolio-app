@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@100;700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@100;700&display=swap");
 
 #profile {
   width: 100%;
@@ -13,12 +12,17 @@
   height: 100vh;
   min-height: fit-content;
   position: relative;
+  z-index: 5;
+  background-image: url("../../assets/Home/images/bg.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .profile-parent {
   display: flex;
   align-items: center;
-  color: white; 
+  color: white;
   margin-top: 0;
   position: relative;
 }
@@ -35,7 +39,7 @@
 }
 
 .profile-details-role h2 {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   position: relative;
 }
 
@@ -58,7 +62,6 @@
 }
 .profile-options .highlighted-btn {
   margin: 0 0 0 170px;
-  
 }
 
 /* .profile-options .highlighted-btn:hover {
@@ -105,14 +108,14 @@
 }
 
 .awards-honors-container {
-  position: relative; 
-  z-index: 1000; 
+  position: relative;
+  z-index: 1000;
 }
 
 .awards-honors {
   margin: 0;
   padding: 0;
-  z-index: 1000; 
+  z-index: 1000;
 }
 
 .awards-honors img {
@@ -122,7 +125,6 @@
   top: 0;
   left: 0;
 }
-
 
 /* Mobile Responsiveness settings */
 
@@ -138,7 +140,7 @@
   .profile-details-role .primary-text {
     font-size: 12px;
   }
-  
+
   .profile-options btn {
     width: 120px;
     padding: 11px 0;
@@ -147,54 +149,54 @@
 }
 
 @media screen and (max-width: 910px) {
-    .profile-picture {
-        height: 320px;
-        width: 320px;
-        margin: 0 0 0 4px;
-      }
+  .profile-picture {
+    height: 320px;
+    width: 320px;
+    margin: 0 0 0 4px;
+  }
 }
 
 @media screen and (max-width: 810px) {
-    .profile-picture {
-       
-        margin: 0 !important;
-      }
-    
-    .profile-parent {
-        flex-direction: column-reverse;
-        margin: 40px 0 0 0;
-    }
+  .profile-picture {
+    margin: 0 !important;
+  }
 
-    .profile-options {
-        display: flex;
-        justify-content: space-between;
-    }
+  .profile-parent {
+    flex-direction: column-reverse;
+    margin: 40px 0 0 0;
+  }
 
-    .profile-details {
-        margin: 25px 0 0 0;
-    }
+  .profile-options {
+    display: flex;
+    justify-content: space-between;
+  }
 
-    .profile-options .highlighted-btn {
-        margin: 0 !important;
-    }
+  .profile-details {
+    margin: 25px 0 0 0;
+  }
 
-    .profile-options, .profile-details-role {
-        text-align: center;
-    }
+  .profile-options .highlighted-btn {
+    margin: 0 !important;
+  }
+
+  .profile-options,
+  .profile-details-role {
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 375px) {
-    .profile-picture {
-        height: 250px;
-        width: 250px;
-        margin-top: -90px;
-    }
+  .profile-picture {
+    height: 250px;
+    width: 250px;
+    margin-top: -90px;
+  }
 
-    .profile-details {
-        width: 90%;
-    }
+  .profile-details {
+    width: 90%;
+  }
 
-    .details-parent {
-      display: none;
-    }
+  .details-parent {
+    display: none;
+  }
 }

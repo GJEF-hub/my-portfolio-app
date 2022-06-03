@@ -1,10 +1,11 @@
 .contact-container {
   height: 100vh;
   background-image: url("../../assets/Home/images/bg.jpg");
-  background-attachment:fixed;
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #141724;
+  z-index: 5;
 }
 
 .contact-box {
@@ -321,42 +322,36 @@ textarea {
 
 @media screen and (max-width: 1024px) {
   .contact-container {
-      min-height: 700px;
-      height: 100vh;
-    }
+    min-height: 700px;
+    height: 100vh;
+  }
 
-    .contact-box {
-      height: 100%;
-      
-    }
-
+  .contact-box {
+    height: 100%;
+  }
 }
 @media screen and (max-width: 912px) {
   .contact-container {
-      height: 100vh;
-    }
+    height: 100vh;
+  }
 
-    .contact-box {
-      height: 100%;
-      
-    }
+  .contact-box {
+    height: 100%;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .contact-container {
-      min-height: 900px;
-      height: 1024px;
-    }
+    min-height: 900px;
+    height: 1024px;
+  }
 
-    .contact-box {
-      height: 100%;
-      
-    }
-
+  .contact-box {
+    height: 100%;
+  }
 }
 
 @media screen and (max-width: 415px) {
-  
   .contact-container {
     height: 950px;
   }
@@ -367,7 +362,7 @@ textarea {
   .contact-parent {
     margin: 0;
   }
-  
+
   .section-header {
     text-align: center;
     margin: 0 auto;
@@ -403,7 +398,7 @@ textarea {
     color: #fff;
     letter-spacing: 1px;
   }
-  
+
   .send-button {
     margin-top: 15px;
     height: 34px;
@@ -412,13 +407,13 @@ textarea {
     transition: all 0.2s ease-in-out;
     width: 99%;
   }
-  
+
   .alt-send-button {
     width: 300px;
     height: 34px;
     transition: all 0.2s ease-in-out;
   }
-  
+
   .send-text {
     display: block;
     margin-top: 10px;
@@ -430,30 +425,29 @@ textarea {
   .direct-contact-container {
     max-width: 99%;
   }
-  
+
   /* Location, Phone, Email Section */
   .contact-list {
     list-style-type: none;
     margin-left: 10px;
     padding-right: 20px;
   }
-  
+
   .contact-text {
     font: 300 14px "Lato", sans-serif;
     letter-spacing: 1.9px;
     color: #bbb;
   }
-  
+
   .place {
     margin-left: 30px;
   }
-  
+
   .phone {
     margin-left: 25px;
   }
-  
+
   .gmail {
     margin-left: 20px;
   }
-  
 }

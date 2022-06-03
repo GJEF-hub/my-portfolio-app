@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Careers from "./Careers";
 import "./History.css";
 
 const Blogger = () => {
@@ -19,7 +18,7 @@ const Blogger = () => {
         </div>
 
         <section className="media-text">
-          {/* <img src={require("../../assets/images/gjSp2.gif")} alt="gjef" /> */}
+          <img src={require("../../assets/images/gjSp2.gif")} alt="gjef" />
         </section>
 
         <section className="content-description">
