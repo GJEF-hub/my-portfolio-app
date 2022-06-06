@@ -22,24 +22,31 @@ const Certs = () => {
               </p>
               <p>
                 {" "}
-                <strong>Criteria:</strong> He has earned <a
+                <strong>Criteria:</strong> He has earned{" "}
+                <a
                   href="https://www.credly.com/badges/2fc6d18d-b09b-41e0-a4d4-c58ce9ab3e86"
                   target="_blank"
                   rel="noreferrer"
                 >
                   CompTIA A+
-                </a>, <a
+                </a>
+                ,{" "}
+                <a
                   href="https://www.credly.com/badges/bd36d293-1e88-4f37-852f-4229697d3453"
                   target="_blank"
                   rel="noreferrer"
                 >
                   CompTIA N+
-                </a>{" "},
-                and {" "}<a
+                </a>{" "}
+                , and{" "}
+                <a
                   href="https://www.credly.com/badges/12547424-bc35-40c4-8f0f-893cb9303886"
                   target="_blank"
                   rel="noreferrer"
-                >CompTIA S+</a>.
+                >
+                  CompTIA S+
+                </a>
+                .
               </p>
             </li>
 

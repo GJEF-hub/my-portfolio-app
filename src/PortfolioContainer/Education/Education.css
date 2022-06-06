@@ -1,97 +1,249 @@
-
 .edu-parent {
-    margin: 0 auto;
-    height: 100vh;
-    width: 100%;
-    position: relative;
-    /* align-items: center;
-    align-content: center; */
-    background-image: url("../../assets/images/grad2.jpg");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #292d44;
-    background-blend-mode: multiply;
-    transition: ease-in-out 8s;
-    /* filter: blur(3px); */
+  margin: 0 auto;
+  height: 100vh;
+  min-height: 1700px;
+  width: 100%;
+  position: relative;
+  align-items: center;
+  align-content: center;
+  /* background-image: url("../../assets/images/grad2.jpg"); */
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: color-burn;
+  transition: ease-in-out 3s;
+  background-color: #292d44;
+  /* filter: blur(3px); */
+  overflow: hidden;
 }
 
 header {
-    text-align: center;
-    align-items: center;
-    align-items: center;
-    margin: 0 auto;
-    width: 62%;
-    position: sticky;
+  text-align: center;
+  align-items: center;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 40px;
+  width: 66%;
+  position: sticky;
 }
 
 .edu-menu {
-    background-color: rgba(37, 39, 49, 0.61);
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 3;
-    z-index: 1000;
-    overflow: hidden;
+  /* background-color: rgba(37, 39, 49, 0.61); */
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 3; */
+  z-index: 1000;
+  width: 80%;
+  height: fit-content;
 }
 
 .edu-menu h2 {
-    color: rgb(228, 184, 41);
-    margin-bottom: 20px;
-    margin-top: 10px;
+  color: rgb(228, 184, 41);
+  margin-bottom: 20px;
+  margin-top: 10px;
 }
 .edu-menu hr {
-    border: 1px solid rgb(228, 184, 41);
+  border: 1px solid rgb(228, 184, 41);
 }
 
 .edu-menu h4 span {
-    font-size: 12px;
-    font-family: Loto;
+  font-size: 12px;
+  font-family: Loto;
 }
 
 .edu-list {
-    display: grid;
-    grid-template-columns: repeat(4, auto);
-    grid-gap: 50px;
-    color: white;
-    list-style: none;
-    align-items: center;
-    text-align: center;
-    justify-content: end;
-    width: 60vw;
-    margin-right: 2rem;
-    margin-top: 0;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 60px;
+  color: white;
+  list-style: none;
+  align-items: center;
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .edu-list img {
-    width: 100px;
-    height: 100px;
+  width: 100px;
+  height: 100px;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+  justify-items: center;
+  display: block;
 }
 
-.edu-list li h5, p {
-    text-align: left;
+.edu-list li h5,
+p {
+  text-align: left;
 }
 .edu-list h5 {
-    color: rgb(149, 191, 245);
-    margin-top: 20px;
+  color: rgb(149, 191, 245);
+  margin-top: 40px;
+}
+.edu-list h5 span {
+  font-size: 14px;
+}
+
+.certs-bio {
+  text-align: left;
+  display: block;
 }
 
 .edu-list a {
-    color: rgb(228, 184, 41);
+  color: rgb(228, 184, 41);
 }
 
-@media screen and (max-width: 375px) {
-    header {
-           width: 80%;
-        }
-    
-    .edu-parent .section-header {
-        font-size: 40px;
-    }
+.acad-qual {
+  margin-top: 60px;
+}
 
-    .edu-list {
-        grid-template-rows: repeat(auto);
-        gap: 10px;
-    }
+@media screen and (max-width: 1126px) {
+  .edu-parent {
+    min-height: 1999px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+}
+@media screen and (max-width: 950px) {
+  .edu-parent {
+    min-height: 2200px;
+  }
+
+  .edu-menu {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .edu-parent {
+    min-height: 2200px;
+  }
+
+  .edu-menu {
+    width: 95%;
+  }
+
+  .edu-menu h2,
+  h4 {
+    text-align: center;
+    margin: 20px auto;
+  }
+}
+@media screen and (max-width: 743px) {
+  .edu-parent {
+    min-height: 2500px;
+  }
+}
+@media screen and (max-width: 685px) {
+  .edu-parent {
+    min-height: 2800px;
+  }
+}
+@media screen and (max-width: 642px) {
+  .edu-parent {
+    min-height: 2900px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+  .edu-list {
+    grid-gap: 40px;
+  }
+}
+@media screen and (max-width: 590px) {
+  .edu-parent {
+    min-height: 3000px;
+  }
+  .edu-list {
+    grid-gap: 20px;
+  }
+  .edu-list h5 {
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 520px) {
+  .edu-parent {
+    min-height: 3200px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+}
+@media screen and (max-width: 480px) {
+  .edu-parent {
+    min-height: 3700px;
+  }
+  .edu-list {
+    grid-gap: 20px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .edu-parent {
+    min-height: 3500px;
+  }
+  .edu-parent .section-header {
+    width: 100%;
+    margin-left: -25px;
+  }
+  .edu-menu {
+    /* width: 100%; */
+    margin: 10px auto;
+    margin: 10px auto;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+  }
+
+  .edu-list {
+    gap: 10px;
+    display: inline-flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 10px auto;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    padding-left: 20px;
+  }
+  .edu-list li h5,
+  p {
+    text-align: center;
+  }
+  .certs-bio {
+    text-align: center;
+    display: block;
+    margin: 10px auto;
+    width: 90%;
+  }
+  .cert-verification {
+    margin: -10px 0 60px 0;
+  }
+
+  .edu-list img {
+    margin-bottom: 10px 0 -25px 0;
+  }
+}
+@media screen and (max-width: 375px) {
+  .edu-parent {
+    min-height: 3700px;
+  }
+  .edu-parent .section-header {
+    width: 100%;
+    margin-left: -25px;
+    font-size: 300%;
+  }
+}
+
+@media screen and (max-width: 345px) {
+  .edu-parent {
+    min-height: 3900px;
+  }
+}
+@media screen and (max-width: 310px) {
+  .edu-parent {
+    min-height: 4500px;
+  }
+  .edu-parent .section-header {
+    width: 100%;
+    margin-left: -30px;
+    font-size: 250%;
+  }
 }

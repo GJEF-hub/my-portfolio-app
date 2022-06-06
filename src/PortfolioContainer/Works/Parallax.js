@@ -9,7 +9,7 @@ var ease = 0.05;
 window.addEventListener("resize", init);
 
 images.forEach((img, idx) => {
-  img.style.backgroundImage = `url(./image/${idx + 1}.jpg)`;
+  img.style.backgroundImage = `url(./images/${idx + 1}.jpg)`;
 });
 
 function lerp(start, end, t) {
@@ -27,6 +27,7 @@ function init() {
     sliderWidth - (window.innerWidth - window.innerHeight)
   }px`;
 }
+
 function animate() {
   current = parseFloat(lerp(current, target, ease)).toFixed(2);
   target = window.scrollY;
@@ -47,3 +48,5 @@ function animateImages() {
 
 init();
 animate();
+
+// export default images;
