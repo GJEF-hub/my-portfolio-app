@@ -60,7 +60,7 @@ const Showcasing = () => {
             </span>
           </div>
         </section>
-        <section></section>
+
         <section></section>
       </div>
     </section>
