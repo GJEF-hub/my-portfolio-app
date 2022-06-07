@@ -1,16 +1,14 @@
 /* eslint-disable jsx-a11y/no-redundant-roles */
 import React from "react";
 import "./Contact.css";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 export default function Contact() {
   return (
-    <section className="contact-container">
+    <section className="contact-container" id="contact">
       <div className="contact-box">
         <div className="contact-parent">
-          <h1 className="section-header" id="contact">
-            Contact
-          </h1>
+          <h1 className="section-header">Contact</h1>
 
           <div className="contact-wrapper">
             <form

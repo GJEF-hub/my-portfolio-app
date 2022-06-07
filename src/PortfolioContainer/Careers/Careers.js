@@ -1,9 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
+
 import "./Careers.css";
 import { Link } from "react-router-dom";
-// import Blogger from "./Blogger";
+import Blogger from "./Blogger";
 
 function Careers() {
+  const [isShown, setIsShown] = useState(false);
+
+  const handleClick = (event) => {
+    setIsShown((current) => !current);
+  };
+
   return (
     <section className="parent-container" id="careers">
       <div className="careers-wrapper">
@@ -14,11 +21,15 @@ function Careers() {
           </div>
         </header>
 
-        <Link to="/blogger">
-          <button className="blogger-link but">
+        {/* <Link to="/blogger"> */}
+        <a href="#blogdsplay">
+          {" "}
+          <button onClick={handleClick} className="blogger-link but">
             <i className="fa fa-paper-plane"></i> Blogger
           </button>
-        </Link>
+        </a>
+
+        {/* </Link> */}
         <button className="engineer-link but">
           <i className="fa fa-paper-plane"></i> IT Sys Engineer
         </button>
@@ -29,13 +40,18 @@ function Careers() {
           <i className="fa fa-paper-plane"></i> IT Tutor
         </button>
         <p className="description">
-          Godfrey is a process-oriented and solution-driven professional with
-          over 6 years of working experience in creating interactive and
-          user-centered designs; with a creative eye for design and details.
+          I am a process-oriented and solution-driven professional with over 6
+          years of working experience in creating interactive and user-centered
+          designs; with a creative eye for design and details.
         </p>
         <Link to="/summary">
           <button className="verify-btn">Read More</button>
         </Link>
+        <section>
+          <div className="blogds" id="blogdsplay">
+            {isShown && <Blogger />}
+          </div>
+        </section>
       </div>
     </section>
   );
