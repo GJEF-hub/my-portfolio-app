@@ -8,7 +8,7 @@ import Summary from "../Summary/Summary";
 import Resume from "../Resume/Resume";
 import Careers from "../Careers/Careers";
 import Works from "../Works/Works";
-import ShowMore from "../ShowMore/Showmore";
+
 import Contact from "../ContactMe/Contact";
 import Error from "../Error/Error";
 import Education from "../Education/Education";
@@ -49,9 +49,6 @@ const ReactRouterSetup = () => {
 
           <Route path="/works">
             <Works />
-          </Route>
-          <Route path="/showmore">
-            <ShowMore />
           </Route>
           <Route path="/testimonials">
             <Testimonials />

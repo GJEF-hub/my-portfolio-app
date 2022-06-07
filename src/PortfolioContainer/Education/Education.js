@@ -40,7 +40,7 @@ function Education() {
               <a
                 href="https://www.credly.com/badges/5a956735-0bb0-4f3e-8858-3f2831bf11c7"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 Verification link
               </a>
@@ -66,7 +66,7 @@ function Education() {
               <a
                 href="https://www.credly.com/badges/8c3bacda-9842-4295-80ab-446b7c181719"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 Verification link
               </a>
@@ -93,7 +93,7 @@ function Education() {
                 <a
                   href="https://www.credly.com/badges/2fc6d18d-b09b-41e0-a4d4-c58ce9ab3e86"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   CompTIA A+
                 </a>
@@ -101,7 +101,7 @@ function Education() {
                 <a
                   href="https://www.credly.com/badges/bd36d293-1e88-4f37-852f-4229697d3453"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   CompTIA N+
                 </a>{" "}
@@ -109,7 +109,7 @@ function Education() {
                 <a
                   href="https://www.credly.com/badges/12547424-bc35-40c4-8f0f-893cb9303886"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   CompTIA S+
                 </a>
@@ -121,7 +121,7 @@ function Education() {
               <a
                 href="https://www.credly.com/badges/a861f436-39ea-4052-822c-0f2bec8ffa6d"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 Verification link
               </a>
@@ -147,7 +147,7 @@ function Education() {
                 <a
                   href="https://www.credly.com/badges/2fc6d18d-b09b-41e0-a4d4-c58ce9ab3e86"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   CompTIA A+
                 </a>{" "}
@@ -155,7 +155,7 @@ function Education() {
                 <a
                   href="https://www.credly.com/badges/bd36d293-1e88-4f37-852f-4229697d3453"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   CompTIA N+.
                 </a>{" "}
@@ -166,7 +166,7 @@ function Education() {
               <a
                 href="https://www.credly.com/badges/82a201d8-7018-42b1-aa16-1aabc57e399c"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 Verification link
               </a>
@@ -195,7 +195,7 @@ function Education() {
               <a
                 href="https://www.credly.com/badges/e3f3a691-b18e-43fa-ada2-aac7b14f36d8"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 Verification link
               </a>
@@ -218,7 +218,7 @@ function Education() {
                 <a
                   href="https://oauife.edu.ng/"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   <span> Obafemi Awolowo University, Nigeria</span>
                 </a>

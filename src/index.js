@@ -23,9 +23,9 @@ function reset() {
   }
 }
 
-window.addEventListener("onClick", function () {
+window.addEventListener("onClick", function() {
   const onClick = window.scrollY;
-  ids.forEach(function (id, i) {
+  ids.forEach(function(id, i) {
     if (
       id.offsetTop < onClick + windowHeight / 2 &&
       onClick < id.offsetTop + windowHeight / 2
@@ -38,8 +38,8 @@ window.addEventListener("onClick", function () {
 
 // --------For smooth scroll of the page ----------
 
-document.querySelectorAll(".navigation-lists").forEach(function (item, i) {
-  item.addEventListener("click", function () {
+document.querySelectorAll(".navigation-lists").forEach(function(item, i) {
+  item.addEventListener("click", function() {
     window.scrollTo({
       top: i * windowHeight,
       behavior: "smooth",
@@ -56,53 +56,9 @@ document.querySelector("#contact-form").addEventListener("submit", (e) => {
   e.target.elements.message.value = "";
 });
 
-// ------------ For Navigation Menu Top -----------------
-
-let menuBtn = document.querySelector(".toggle-menu-btn");
-let menu = document.querySelector(".toggle-navigation");
-let menuStatus = false;
-
-let closeMenuBtn = document.querySelector(".close-menu");
-
-menu.style.marginTop = "-100vh";
-
-function menuToggle() {
-  if (menuStatus === false) {
-    menu.style.marginTop = "0";
-    menuStatus = true;
-  } else if (menuStatus === true) {
-    menu.style.marginTop = "-100vh";
-    menuStatus = false;
-  }
-}
-
-menuBtn.onclick = menuToggle;
-closeMenuBtn.onclick = menuToggle;
-
-// ------------ Load more button action -----------------
-
-let showMore = document.querySelector(".load-more");
-let pageItems = document.querySelector(".show-more-parent");
-let displayStatus = false;
-let goBack = document.querySelector(".go-back-btn");
-
-pageItems.style.display = "none";
-
-function loadMore() {
-  if (displayStatus === false) {
-    pageItems.style.display = "block";
-    displayStatus = true;
-  } else if (displayStatus === true) {
-    pageItems.style.display = "none";
-    displayStatus = false;
-  }
-}
-showMore.onClick = loadMore;
-goBack.onClick = loadMore;
-
 // ------------ Remove hash from url when clicked on Menu -----------------
 
-window.onload = function () {
+window.onload = function() {
   window.location.hash = "";
 };
 
