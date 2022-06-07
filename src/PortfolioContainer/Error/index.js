@@ -16,6 +16,7 @@ import Footer from "../Footer/Footer";
 import Testimonials from "../Testimonial/Testimonials";
 import Blogger from "../Careers/Blogger";
 import Showcasing from "../Works/Showcasing";
+import BlogFeatures from "../Works/BlogFeatures";
 
 const ReactRouterSetup = () => {
   return (
@@ -49,6 +50,9 @@ const ReactRouterSetup = () => {
 
           <Route path="/works">
             <Works />
+          </Route>
+          <Route path="/features">
+            <BlogFeatures />
           </Route>
           <Route path="/testimonials">
             <Testimonials />

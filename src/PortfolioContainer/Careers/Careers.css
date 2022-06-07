@@ -5,8 +5,8 @@
   background-size: cover;
   background-color: #292d44;
   color: white;
-  min-height: 100vh;
-  /* min-height: 900px; */
+  height: 100vh;
+  min-height: 1500px;
   position: relative;
   margin: 0 auto;
 }
@@ -15,7 +15,7 @@
   align-items: center;
   text-align: center;
   justify-self: center;
-  height: 60%;
+  /* height: 100%; */
 }
 .careers-wrapper header {
   margin-top: 30px;
@@ -44,6 +44,16 @@
   border-radius: 50%;
   background-repeat: no-repeat;
   background-position: center;
+}
+.career-bg-picture:hover {
+  height: 92%;
+  width: 92%;
+  background-image: url("../../assets/images/blogger.jpg");
+  background-size: cover;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: right;
+  transition: 2s ease-in-out all;
 }
 
 .but {
@@ -89,6 +99,9 @@ p.description {
   width: 60%;
   margin: 50px auto;
   text-align: center;
+  font-family: Roboto;
+  font-size: 300%;
+  color: azure;
 }
 
 .careers-detail {
@@ -99,6 +112,19 @@ p.description {
 .designer-link,
 .tutor-link {
   white-space: nowrap;
+}
+
+.blogds .page-title h1 {
+  margin: 20px auto;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+}
+.blogds .page-title p {
+  margin: 10px auto;
+  align-items: center;
+  text-align: center;
+  width: 50%;
 }
 
 @media screen and (max-width: 1024px) {
@@ -115,11 +141,29 @@ p.description {
     width: 100%;
   }
 }
+@media screen and (max-width: 900px) {
+  .parent-container {
+    height: 100vh;
+    min-height: 1000px;
+  }
+
+  .careers-wrapper {
+    height: 100%;
+  }
+
+  p.description {
+    width: 90%;
+  }
+}
 
 @media screen and (max-width: 620px) {
   .parent-container {
     height: 100vh;
     min-height: 800px;
+  }
+  p.description {
+    width: 50%;
+    font-size: 250%;
   }
 
   .careers-wrapper {

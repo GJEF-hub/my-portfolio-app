@@ -34,13 +34,14 @@ class Navbar extends Component {
 
             <Link to="/about-me">
               <li className="nav-link" onClick={this.handleClick}>
-                <i class="fa fa-user-o" aria-hidden="true"></i> About Me
+                <i className="fa fa-user-o" aria-hidden="true"></i> About Me
               </li>
             </Link>
 
             <Link to="/blogger">
               <li className="nav-link" onClick={this.handleClick}>
-                <i class="fa fa-pencil-square-o" aria-hidden="true"></i> Blog
+                <i className="fa fa-pencil-square-o" aria-hidden="true"></i>{" "}
+                Blog
               </li>
             </Link>
             <Link to="/contact">

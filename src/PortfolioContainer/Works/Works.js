@@ -1,34 +1,34 @@
 import React from "react";
 import "./Works.css";
-import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
+// import { motion } from "framer-motion";
+// import { Link } from "react-router-dom";
 
-const showMoreVariants = {
-  hidden: { opacity: 0 },
-  visible: {
-    opacity: 1,
-    transition: {
-      type: "spring",
-      mass: 0.2,
-      damping: 15,
-      when: "beforeChildren",
-    },
-  },
-};
+// const showMoreVariants = {
+//   hidden: { opacity: 0 },
+//   visible: {
+//     opacity: 1,
+//     transition: {
+//       type: "spring",
+//       mass: 0.2,
+//       damping: 15,
+//       when: "beforeChildren",
+//     },
+//   },
+// };
 
-const entryAnimation = {
-  hidden: { y: 5000 },
-  visible: {
-    y: 0,
-    transition: {
-      type: "spring",
-      mass: 0.3,
-      damping: 12,
-      when: "beforeChildren",
-      stiffness: 100,
-    },
-  },
-};
+// const entryAnimation = {
+//   hidden: { y: 5000 },
+//   visible: {
+//     y: 0,
+//     transition: {
+//       type: "spring",
+//       mass: 0.3,
+//       damping: 12,
+//       when: "beforeChildren",
+//       stiffness: 100,
+//     },
+//   },
+// };
 
 export default function Works() {
   return (
@@ -54,7 +54,7 @@ export default function Works() {
               <a
                 href="https://blog.gjefspecials.co.uk"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 <i className="fa fa-paper-plane"></i> View Blog
               </a>

@@ -49,17 +49,23 @@ document.querySelectorAll(".navigation-lists").forEach(function(item, i) {
 
 // ------------ For contact page -----------------
 
-document.querySelector("#contact-form").addEventListener("submit", (e) => {
-  e.preventDefault();
-  e.target.elements.name.value = "";
-  e.target.elements.email.value = "";
-  e.target.elements.message.value = "";
-});
+// document.querySelector("#contact-form").addEventListener("submit", (e) => {
+//   e.preventDefault();
+//   e.target.elements.name.value = "";
+//   e.target.elements.email.value = "";
+//   e.target.elements.message.value = "";
+// });
 
 // ------------ Remove hash from url when clicked on Menu -----------------
 
 window.onload = function() {
   window.location.hash = "";
+  // document.querySelector("#contact-form").addEventListener("submit", (e) => {
+  //   e.preventDefault();
+  //   e.target.elements.name.value = "";
+  //   e.target.elements.email.value = "";
+  //   e.target.elements.message.value = "";
+  // });
 };
 
 // If you want to start measuring performance in your app, pass a function
