@@ -16,7 +16,6 @@ import Footer from "../Footer/Footer";
 import Testimonials from "../Testimonial/Testimonials";
 import Blogger from "../Careers/Blogger";
 import Showcasing from "../Works/Showcasing";
-import Blogworks from "../Works/Blogworks";
 
 const ReactRouterSetup = () => {
   return (
@@ -37,8 +36,6 @@ const ReactRouterSetup = () => {
             <Careers />
             <Resume />
             <Education />
-            {/* <Summary /> */}
-            {/* <Contact /> */}
           </Route>
           <Route path="/education">
             <Education />
@@ -46,13 +43,10 @@ const ReactRouterSetup = () => {
           <Route path="/careers">
             <Careers />
           </Route>
-
           <Route path="/resume">
             <Resume />
           </Route>
-          <Route path="/blogworks">
-            <Blogworks />
-          </Route>
+
           <Route path="/works">
             <Works />
           </Route>
