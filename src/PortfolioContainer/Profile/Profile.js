@@ -78,7 +78,7 @@ export default function Profile() {
               </span>
             </div>
             <div className="profile-options">
-              <Link to="/summary">
+              <Link to="/all-works">
                 <motion.button
                   className="btn primary-btn"
                   whileHover={{
@@ -86,7 +86,7 @@ export default function Profile() {
                     boxShadow: "0px 0px 15px hsl(46, 97%, 39%)",
                   }}
                 >
-                  Profile Summary
+                  View Works
                 </motion.button>
               </Link>
               <Link to="/contact">

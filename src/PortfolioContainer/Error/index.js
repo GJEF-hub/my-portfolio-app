@@ -17,6 +17,8 @@ import Testimonials from "../Testimonial/Testimonials";
 import Blogger from "../Careers/Blogger";
 import Showcasing from "../Works/Showcasing";
 import BlogFeatures from "../Works/BlogFeatures";
+import AllWorks from "../Works/AllWorks";
+import MyPortfolio from "../Works/MyPortfolio";
 
 const ReactRouterSetup = () => {
   return (
@@ -30,11 +32,16 @@ const ReactRouterSetup = () => {
           </Route>
           <Route path="/summary">
             <Summary />
-            <Resume />
-            <Contact />
+          </Route>
+          <Route path="/my-portfolio">
+            <MyPortfolio />
+          </Route>
+          <Route path="/all-works">
+            <AllWorks />
+            <MyPortfolio />
           </Route>
           <Route path="/about-me">
-            <Careers />
+            <Summary />
             <Resume />
             <Education />
           </Route>

@@ -44,7 +44,7 @@ function Careers() {
           years of working experience in creating interactive and user-centered
           designs; with a creative eye for design and details.
         </p>
-        <Link to="/summary">
+        <Link to="/about-me">
           <button className="verify-btn">Read More</button>
         </Link>
         <section>

@@ -1,7 +1,7 @@
 import React from "react";
 import "./Works.css";
 // import { motion } from "framer-motion";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 // const showMoreVariants = {
 //   hidden: { opacity: 0 },
@@ -49,16 +49,11 @@ export default function Works() {
               GJEF <br />
               Specials
             </h1>
-            <span>
-              {" "}
-              <a
-                href="https://blog.gjefspecials.co.uk"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="fa fa-paper-plane"></i> View Blog
-              </a>
-            </span>
+            <Link to="/blogger">
+              <span>
+                <i className="fa fa-paper-plane"></i> View Project
+              </span>
+            </Link>
             <h4>
               GJEF Specials is an inspiring blog space with engaging content -
               {
@@ -84,44 +79,6 @@ export default function Works() {
           </div>
         </section>
 
-        <section className="display-container ds-wrapper">
-          <div className="featured-portfolio">
-            <img
-              src="https://blog.gjefspecials.co.uk/wp-content/uploads/2021/04/starting-a-blog-600x430.jpg"
-              alt="blog post display"
-            />
-            <h5>Blogging: How to begin</h5>
-            <p>
-              Starting a blog is one thing and managing the blog is another
-              crucial aspect. This is going to be interesting and insightful for
-              anyone who wishes to start or run a blog....
-            </p>
-          </div>
-          <div className="featured-portfolio">
-            <img
-              src="https://blog.gjefspecials.co.uk/wp-content/uploads/2021/04/starting-a-blog-600x430.jpg"
-              alt="blog post display"
-            />
-            <h5>Blogging: How to begin</h5>
-            <p>
-              Starting a blog is one thing and managing the blog is another
-              crucial aspect. This is going to be interesting and insightful for
-              anyone who wishes to start or run a blog....
-            </p>
-          </div>
-          <div className="featured-portfolio">
-            <img
-              src="https://blog.gjefspecials.co.uk/wp-content/uploads/2021/07/security_cover-600x430.jpg"
-              alt="blog post display"
-            />
-            <h5>Talk on Cybersecurity</h5>
-            <p>
-              Starting a blog is one thing and managing the blog is another
-              crucial aspect. This is going to be interesting and insightful for
-              anyone who wishes to start or run a blog....
-            </p>
-          </div>
-        </section>
         <section className="oda-prjs">
           <div className="oda-exp-container">
             <h1>Other Projects</h1>
