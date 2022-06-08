@@ -114,6 +114,11 @@ p.description {
   white-space: nowrap;
 }
 
+.blogds {
+  height: fit-content;
+  min-height: 100%;
+  bottom: 0;
+}
 .blogds .page-title h1 {
   margin: 20px auto;
   align-items: center;
@@ -217,11 +222,10 @@ p.description {
 @media screen and (max-width: 500px) {
   .parent-container {
     height: 100vh;
-    min-height: 915px;
+    min-height: 1000px;
   }
 
   .careers-wrapper {
-    height: 70%;
     margin: 0 auto;
   }
 
@@ -230,6 +234,14 @@ p.description {
     margin-bottom: 30px;
   }
 
+  p.description {
+    width: 60%;
+    margin: 50px auto;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 200%;
+    color: azure;
+  }
   .career-picture {
     height: 290px;
     width: 290px;

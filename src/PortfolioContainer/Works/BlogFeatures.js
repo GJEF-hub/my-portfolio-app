@@ -10,19 +10,20 @@ import fiftPic from "./images/5.jpg";
 import sixtPic from "./images/6.jpg";
 import seventhPic from "./images/7.jpg";
 import eightPic from "./images/8.jpg";
+import ninthPic from "./images/gj-portfolio-app.PNG";
 
 function BlogFeatures() {
-  const child = { width: `92em`, height: `100%` };
+  const child = { width: `100em`, height: `100%` };
 
   return (
     <main>
       <HorizontalScroll
         pageLock={true}
         reverseScroll={true}
-        config={{ stiffness: 100, damping: 5 }}
-        animValues={5}
+        config={{ stiffness: 100, damping: 11 }}
+        animValues={2}
       >
-        <div style={child} className="slider-item">
+        <div style={child} className="slider-item hor-img-bg1">
           <img src={firstPic} alt="" className="img" />
           {/* <h3>Place Title here...</h3> */}
         </div>
@@ -52,6 +53,10 @@ function BlogFeatures() {
         </div>
         <div style={child} className="slider-item">
           <img src={eightPic} alt="" className="img" />
+          {/* <h3>Place Title here...</h3> */}
+        </div>
+        <div style={child} className="slider-item">
+          <img src={ninthPic} alt="" className="img" />
           {/* <h3>Place Title here...</h3> */}
         </div>
       </HorizontalScroll>
