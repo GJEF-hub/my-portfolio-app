@@ -14,6 +14,7 @@
   top: 50%;
   list-style: none;
   transform: translateY(-50%);
+  mix-blend-mode: screen;
 }
 
 .navigation li span {
@@ -31,6 +32,7 @@
   /* position: -webkit-sticky; */
   margin-left: 15px;
   transition: all 0.8s;
+  mix-blend-mode: screen;
 }
 
 .navigation-lists:hover,

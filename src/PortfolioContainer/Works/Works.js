@@ -49,16 +49,15 @@ export default function Works() {
               GJEF <br />
               Specials
             </h1>
-            <Link to="/blogger">
+            <Link to="/blog-project">
               <span>
                 <i className="fa fa-paper-plane"></i> View Project
               </span>
             </Link>
             <h4>
               GJEF Specials is an inspiring blog space with engaging content -
-              {
-                " investigating how humans have evolved with religion, science, and technology."
-              }{" "}
+              investigating how humans have evolved with religion, science, and
+              technology.
             </h4>
             <hr />
             <ul className="exp-label-items">
@@ -92,7 +91,9 @@ export default function Works() {
                 </li>
                 <li>
                   <i className="fa fa-paper-plane"></i>{" "}
-                  <strong>View Project</strong>
+                  <strong>
+                    <Link to="/my-portfolio">View Project </Link>
+                  </strong>
                 </li>
                 <img
                   src={require("../../assets/images/portfolio-app.PNG")}

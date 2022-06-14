@@ -1,0 +1,218 @@
+/* Start of horizontalScroll style */
+.blog-prj-wrapper {
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+main {
+  width: 100vw;
+  height: 100%;
+  position: relative;
+  font-family: Roboto;
+  margin: 0 auto;
+  scroll-snap-type: x mandatory;
+}
+.slider {
+  height: 100vh;
+  width: 100vw;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  scroll-snap-align: start;
+}
+
+.bg1 {
+  background-color: rgb(31, 30, 29);
+}
+.bg2 {
+  background-color: rgb(170, 112, 5);
+  /* background-image: url("../Works/images/outdoorbygjef.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; */
+}
+.bg3 {
+  background-color: rgba(24, 20, 12, 0.788);
+  background-image: url("../images/mockup.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.slider-flex {
+  display: flex;
+  gap: 10%;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  padding: 40px 0;
+}
+.slider-item-left i {
+  font-size: 14px;
+}
+.slider-item-left .exp-label-items i {
+  font-size: 12px;
+}
+.slider-item-left h2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.slider-item-left {
+  width: 35%;
+}
+.slider-item-left .exp-label-items {
+  margin-left: 0;
+}
+.slider-item-left h1 {
+  font-size: 500%;
+}
+
+.slider-item-right img {
+  height: 620px;
+  object-fit: cover;
+  width: 100%;
+  mix-blend-mode: lighten;
+}
+
+/* Content on the right page*/
+.blog-descr-container {
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  position: relative;
+}
+.blog-descr-content {
+  width: 80%;
+  margin: 30px auto;
+}
+.blog-descr-content h1 {
+  width: 70%;
+}
+.blog-descr-content strong {
+  color: #000;
+}
+.blog-descr-content img {
+  height: 550px;
+  object-fit: cover;
+  border: 8px solid #000;
+  border-radius: 20px;
+  width: 100%;
+  display: block;
+}
+.blog-descr-image {
+  width: 80%;
+  height: 100%;
+  margin: 20px auto;
+}
+
+.down-nav i {
+  position: absolute;
+  bottom: 65px;
+  right: 20px;
+  font-size: 50px;
+  transition: 2s ease;
+}
+.down-nav i:hover {
+  /* color: rgb(245, 171, 33); */
+  transform: scale(1.09);
+  mix-blend-mode: difference;
+}
+.scroll-down {
+  writing-mode: vertical-rl;
+  position: absolute;
+  bottom: 130px;
+  right: 32px;
+  mix-blend-mode: difference;
+}
+/* End of horizontalScroll style */
+.more-content {
+  height: 100vh;
+  min-height: 1000px;
+  background-color: #fff;
+  color: rgb(107, 103, 103);
+  width: 100%;
+  align-items: center;
+  position: relative;
+  display: flex;
+}
+.prj-flex {
+  display: inline-flex;
+  gap: 5%;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+.slider-item-lft {
+  width: 40%;
+}
+.slider-item-lft h1,
+.slider-item-lft h2 {
+  font-weight: 700;
+  padding-bottom: 30px;
+  color: #000;
+}
+.slider-item-lft h2 {
+  font-size: 200%;
+}
+.slider-item-lft h1 {
+  font-size: 400%;
+}
+.slider-item-rit {
+  width: 30%;
+}
+.slider-item-rit img {
+  width: 100%;
+  margin-bottom: 40px;
+  object-fit: cover;
+  border: 4px solid rgb(22, 21, 21);
+  border-radius: 15px;
+  height: 300px;
+}
+
+.blogs-box {
+  background-color: #fff;
+  color: #000;
+}
+
+/* grid section  */
+.featured-blogs {
+  left: 80px;
+  bottom: 230px;
+  transform: rotate(-90deg);
+  position: absolute;
+  letter-spacing: 6px;
+  font-weight: 700;
+}
+.grid-laya {
+  padding: 5px;
+  display: grid;
+  grid-gap: 1em;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.grid-items-ds {
+  box-shadow: 5px 5px 10px rgb(180, 177, 177);
+  padding: 8px;
+}
+.grid-items-ds img {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+}
+.grid-items-ds span {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+/* @media screen and (max-with: 500px) {
+  .slider-flex {
+    flex-direction: column;
+  }
+} */

@@ -40,8 +40,8 @@ function Careers() {
           <i className="fa fa-paper-plane"></i> IT Tutor
         </button>
         <p className="description">
-          I am a process-oriented and solution-driven professional with over 6
-          years of working experience in creating interactive and user-centered
+          A process-oriented and solution-driven professional with over 6 years
+          of working experience in creating interactive and user-centered
           designs; with a creative eye for design and details.
         </p>
         <Link to="/about-me">

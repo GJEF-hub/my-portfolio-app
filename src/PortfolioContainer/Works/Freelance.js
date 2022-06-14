@@ -1,19 +1,17 @@
 import React from "react";
-import "./MyPortfolio.css";
 
-export default function MyPortfolio() {
+function Freelance() {
   return (
-    <section className="myportfolio-wrapper">
-      <div className="myportfolio-container">
+    <section className="myportfolio-wrapper-fr">
+      <div className="myportfolio-container-fr">
         <section className="myportfolio-content">
           <section className="myportfolio-item">
-            <div className="myport-theme">
+            <div className="myport-theme2">
               <h1>
-                My <br />
-                Portfolio App
+                GJEF <br /> Freelance <br /> Site
+                <p>IT Outsourcing Enterprise</p>
               </h1>
-              <span>Award Winning Creative Design</span>
-              <p>Unique | Rich UX</p>
+
               <img src={require("./images/port-item.gif")} alt="" />
             </div>
             <div className="myportfolio-desc">
@@ -57,3 +55,5 @@ export default function MyPortfolio() {
     </section>
   );
 }
+
+export default Freelance;

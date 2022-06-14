@@ -1,26 +1,27 @@
 import React from "react";
-import "./MyPortfolio.css";
 
-export default function MyPortfolio() {
+function Shakaramedia() {
   return (
-    <section className="myportfolio-wrapper">
+    <section className="myportfolio-wrapper-sh">
       <div className="myportfolio-container">
         <section className="myportfolio-content">
           <section className="myportfolio-item">
             <div className="myport-theme">
               <h1>
-                My <br />
-                Portfolio App
+                Shakara
+                <br />
+                ::media
               </h1>
-              <span>Award Winning Creative Design</span>
-              <p>Unique | Rich UX</p>
-              <img src={require("./images/port-item.gif")} alt="" />
+              <span>Award Winning Event Host</span>
+              <p>Navigating Autism | LOL | MC Shakara</p>
+              <img src={require("./images/Shakaramedia-ds.gif")} alt="" />
             </div>
             <div className="myportfolio-desc">
-              <img src={require("./images/my-app-sample.PNG")} alt="" />
+              <img src={require("./images/LOL-sh.gif")} alt="" />
               <h2>
-                gjef portfolio features responsive design layouts using flexbox
-                and grids with a functional user experience.
+                Shakaramedia is anchored by Gladys Otono Atsenokhai, best known
+                as MC SHAKARA. She is an award-winning events host and
+                comedienne extraordinaire.
               </h2>
               <p>
                 {" "}
@@ -34,10 +35,10 @@ export default function MyPortfolio() {
                 {" "}
                 <ul className="exp-label-items">
                   <li>
-                    <strong>Developed by:</strong> <br /> Godfrey Jeremiah
+                    <strong>Designed by:</strong> <br /> Godfrey Jeremiah
                   </li>
                   <li>
-                    <strong>Tech:</strong> <br /> React js
+                    <strong>Tech:</strong> <br /> WordPress
                   </li>
                   <li>
                     <i className="fa fa-paper-plane"></i>
@@ -57,3 +58,5 @@ export default function MyPortfolio() {
     </section>
   );
 }
+
+export default Shakaramedia;
