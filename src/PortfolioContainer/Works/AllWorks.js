@@ -1,9 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Works.css";
 // import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
 function AllWorks() {
+  const [cursorX, setCursorX] = useState();
+  const [cursorY, setCursorY] = useState();
+
+  window.addEventListener("mousemove", (e) => {
+    setCursorX(e.pageX);
+    setCursorY(e.pageY);
+  });
+
   return (
     <section className="works-wrapper">
       {/* <video loop autoPlay>
@@ -11,6 +19,13 @@ function AllWorks() {
         Your browser does not support the video tag.
       </video> */}
       <div className="overlay"></div>
+      <div
+        className="cursor"
+        style={{
+          left: cursorX + "px",
+          top: cursorY + "px",
+        }}
+      ></div>
       <div className="works-container">
         <section className="work-intro-dsp">
           <img
@@ -21,10 +36,11 @@ function AllWorks() {
             <h1>
               GJEF <br />
               Specials
+              <p>Beyond Imagination</p>
             </h1>
-            <Link to="/blogger">
+            <Link to="/blog-project">
               <span>
-                <i className="fa fa-paper-plane"></i> View Project
+                <i className="fa fa-paper-plane"></i> VIEW PROJECT
               </span>
             </Link>
             <h4>

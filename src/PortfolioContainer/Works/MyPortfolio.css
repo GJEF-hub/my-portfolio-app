@@ -15,33 +15,87 @@
   display: flex;
   margin-top: 0;
 }
+.myportfolio-wrapper-sh {
+  background-image: url("./images/Shakaramedia.PNG");
+  background-attachment: initial;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #7d0894;
+  background-blend-mode: overlay;
+  object-position: center;
+  overflow: hidden;
+  min-height: 100%;
+  width: 100%;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  position: relative;
+  display: flex;
+  margin-top: 0;
+}
+.myportfolio-wrapper-fr {
+  /* background-image: url("./images/freelance.PNG"); */
+  background-attachment: initial;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #3b3d35;
+  /* background-blend-mode: darken; */
+  object-position: center;
+  overflow: hidden;
+  min-height: 100%;
+  width: 100%;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  position: relative;
+  display: flex;
+  margin-top: 0;
+}
+.myport-theme2 img {
+  width: 100%;
+  object-fit: cover;
+  mix-blend-mode: lighten;
+}
+.myportfolio-container-fr {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  margin-top: 0;
+  position: relative;
+  width: 80%;
+}
+
 .myportfolio-container {
   display: flex;
   align-items: center;
   color: #ffffff;
   margin-top: 0;
   position: relative;
-  width: 100%;
+  width: 80%;
 }
+
 .myportfolio-content {
   width: 80%;
   margin: 40px auto;
   align-items: center;
   align-content: center;
 }
+
 .myportfolio-item {
   display: flex;
   gap: 180px;
   justify-content: space-between;
 }
+
 .myportfolio-content h1 {
   font-size: 500%;
 }
 
 .myport-theme img {
-  height: 65%;
+  /* height: 65%; */
   width: 100%;
   object-fit: cover;
+  mix-blend-mode: lighten;
 }
 
 .myportfolio-desc {
@@ -50,23 +104,31 @@
 .myportfolio-desc h2 {
   text-transform: lowercase;
   font-weight: 700;
-  letter-spacing: 8%;
-  width: 85%;
+  letter-spacing: 12%;
+  width: 95%;
   margin: 20px auto;
   align-items: center;
   align-content: center;
-  line-height: 38px;
+  line-height: 40px;
 }
 
 .myportfolio-desc p {
   margin: 30px auto;
   line-height: 25px;
-  width: 85%;
+  width: 90%;
 }
+
 .myportfolio-desc img {
   object-fit: cover;
   width: 100%;
-  height: 60%;
+  /* height: 60%; */
+}
+
+.bottom-desc .exp-label-items {
+  width: 90%;
+}
+.bottom-desc .exp-label-items li i {
+  font-size: 10px;
 }
 
 @media screen and (max-width: 500px) {
@@ -76,13 +138,11 @@
   .myportfolio-content h1 {
     margin-top: 100px;
   }
-
+  .myportfolio-desc h2 {
+    width: 95%;
+  }
   .myportfolio-item {
     flex-direction: column;
     gap: 20px;
-    justify-content: space-between;
-  }
-  .bottom-desc {
-    margin-left: 20px;
   }
 }

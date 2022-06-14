@@ -106,13 +106,12 @@ export default function Resume() {
         </div>
 
         <div className="next-link">
-            <hr />
-            <Link to="/works">
-              <button className="btn classy-btn">See Works</button>
-            </Link>
-            <hr />
-          </div>
-
+          <hr />
+          <Link to="/all-works">
+            <button className="btn classy-btn">See Works</button>
+          </Link>
+          <hr />
+        </div>
       </div>
     </section>
   );

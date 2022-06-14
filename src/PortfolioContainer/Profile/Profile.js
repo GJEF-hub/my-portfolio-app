@@ -22,7 +22,7 @@ export default function Profile() {
         <div className="profile-parent">
           <motion.div
             className="profile-details"
-            initial={{ x: -650 }}
+            initial={{ x: -930 }}
             animate={{ x: 0 }}
             transition={{ delay: 1, type: "spring", stiffness: 150 }}
           >
