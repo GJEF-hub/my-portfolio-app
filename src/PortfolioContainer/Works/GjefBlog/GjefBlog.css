@@ -4,7 +4,9 @@
   width: 100%;
   margin: 0;
   padding: 0;
+  scroll-snap-type: y mandatory;
 }
+
 main {
   width: 100vw;
   height: 100%;
@@ -99,7 +101,7 @@ main {
   color: #000;
 }
 .blog-descr-content img {
-  height: 550px;
+  height: 600px;
   object-fit: cover;
   border: 8px solid #000;
   border-radius: 20px;
@@ -125,10 +127,10 @@ main {
   mix-blend-mode: difference;
 }
 .scroll-down {
-  writing-mode: vertical-rl;
+  transform: rotate(-90deg);
   position: absolute;
-  bottom: 130px;
-  right: 32px;
+  bottom: 160px;
+  right: 5px;
   mix-blend-mode: difference;
 }
 /* End of horizontalScroll style */
@@ -141,6 +143,7 @@ main {
   align-items: center;
   position: relative;
   display: flex;
+  scroll-snap-align: start;
 }
 .prj-flex {
   display: inline-flex;
@@ -149,16 +152,29 @@ main {
   justify-content: center;
   align-content: center;
 }
+.slider-item-lft p i,
+.slider-item-rit p i {
+  margin: 0 10px 0 -30px;
+}
 .slider-item-lft {
   width: 40%;
 }
+.slider-item-lft img {
+  border: 5px solid #000;
+  border-radius: 20px;
+  margin: 30px 0;
+  width: 100%;
+  object-fit: cover;
+}
 .slider-item-lft h1,
-.slider-item-lft h2 {
+.slider-item-lft h2,
+.slider-item-rit h2 {
   font-weight: 700;
-  padding-bottom: 30px;
+  padding: 30px 0;
   color: #000;
 }
-.slider-item-lft h2 {
+.slider-item-lft h2,
+.slider-item-rit h2 {
   font-size: 200%;
 }
 .slider-item-lft h1 {
@@ -179,6 +195,13 @@ main {
 .blogs-box {
   background-color: #fff;
   color: #000;
+  scroll-snap-align: start;
+  width: 90%;
+  margin: 10% auto;
+  align-items: center;
+  min-height: 100vh;
+  justify-content: center;
+  align-content: center;
 }
 
 /* grid section  */
@@ -210,6 +233,24 @@ main {
   width: 100%;
   margin: 0 auto;
   display: block;
+}
+.blogs-grid {
+  color: rgb(107, 103, 103);
+  width: 70%;
+  margin: 10% auto;
+  align-items: center;
+  min-height: 100vh;
+  justify-content: center;
+  scroll-snap-align: start;
+  align-content: center;
+}
+.blogs-grid h2 {
+  color: #000;
+  font-weight: 700;
+}
+.title-label {
+  width: 60%;
+  margin: 40px 0;
 }
 /* @media screen and (max-with: 500px) {
   .slider-flex {

@@ -14,10 +14,16 @@ function Shakaramedia() {
               </h1>
               <span>Award Winning Event Host</span>
               <p>Navigating Autism | LOL | MC Shakara</p>
-              <img src={require("./images/Shakaramedia-ds.gif")} alt="" />
+              <img
+                src={require("./images/Shakaramedia-ds.gif")}
+                alt="shakaramedia "
+              />
             </div>
             <div className="myportfolio-desc">
-              <img src={require("./images/LOL-sh.gif")} alt="" />
+              <img
+                src={require("./images/lol.gif")}
+                alt="laugh out loud event"
+              />
               <h2>
                 Shakaramedia is anchored by Gladys Otono Atsenokhai, best known
                 as MC SHAKARA. She is an award-winning events host and

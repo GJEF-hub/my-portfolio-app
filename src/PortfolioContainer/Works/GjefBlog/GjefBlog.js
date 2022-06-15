@@ -1,6 +1,7 @@
 import React from "react";
 import "./GjefBlog.css";
 import HorizontalScroll from "react-scroll-horizontal";
+import { Link } from "react-router-dom";
 
 const GjefBlog = () => {
   //   const child = { width: `100em`, height: `100vh` };
@@ -92,19 +93,20 @@ const GjefBlog = () => {
             <div className="slider-item-lft">
               <h1>Highly captivating stories with a factitious tone.</h1>
               <p>
+                <i class="fa-solid fa-crosshairs"></i>
                 <strong>The Objective</strong>
               </p>
               <p>
-                As a writer, I have always wanted to share my content which were
-                traditonally on my journals and local drive. The main goal was
+                As a writer, I have always wanted to share the content that was
+                traditionally on my journals and local drive. The main goal was
                 to translate my content into a digital experience that would
                 express my thoughts and present my work in a memorable and
                 contemporary way.
               </p>
               <p>
-                Apart from sharing my thoughts and research content, I equally
-                wanted to use the same platform to transfer my skills and career
-                journey with others who need some guide.
+                Aside sharing my thoughts and research content, I equally wanted
+                to use the same platform to transfer my skills and career
+                journey to others who need some guidance.
               </p>
               <div className="featured-blogs">featured blogs</div>
 
@@ -143,17 +145,18 @@ const GjefBlog = () => {
             <div className="slider-item-rit">
               <img src={require("../images/blog-right.gif")} alt="" />
               <p>
+                <i class="fa-regular fa-lightbulb"></i>
                 <strong>The Solution</strong>
               </p>
               <p>
-                I came up with a blog inspired by a creative concept that'd give
+                I initiated a blog inspired by a creative concept that'd give
                 visitors a rich experience through my work. The content is
                 served on WordPress content management and laid on a
-                customisable parallax theme. A few plugins were installed and
-                constantly updated to enhance functionality.{" "}
+                customizable parallax theme. A few plugins were installed and
+                constantly updated to enhance functionality.
               </p>
               <p>
-                The overall website feels classy and well tailored to users
+                The overall website feels classy and well-tailored to users'
                 expectations.
               </p>
             </div>
@@ -163,14 +166,31 @@ const GjefBlog = () => {
           <div className="slider-flex">
             <div className="slider-item-lft">
               <h2>
-                The content delivery adapts to users preferences with a
-                responsive design across various browsers
+                The content delivery adapts to users' preferences with a
+                responsive design across browsers
               </h2>
-              Some of my top articles, stories, and posts are reproduced into
-              video and audio podcast to suits certain users preferences across
-              different devices and browsers. Luckily, I have the skillset to
-              meet these preferences which is excellently expressed in the blog
-              platform solution.
+              <p>
+                Some of my top articles, stories, and posts are reproduced into
+                video and audio podcasts to suit users' preferences across
+                different devices and browsers. Luckily, I have the skillset to
+                meet these preferences which are expressed in the blog platform
+                solution.
+                <Link
+                  to="./about-me"
+                  style={{ color: "#grey", backgroundColor: "orange" }}
+                >
+                  Read about me
+                </Link>
+              </p>
+
+              <br />
+              <p>
+                The blog is progressively inserting new techniques to meet the
+                big picture. So I'd consider it to be a work in progress as I
+                implore new ideas, better techniques as well as I examine
+                analytical data from users.
+              </p>
+              <img src={require("../images/blog-anim-ds.gif")} alt="" />
             </div>
             <div className="slider-item-rit">
               <div className="grid-laya">
@@ -197,6 +217,118 @@ const GjefBlog = () => {
                   ></iframe>
                 </div>
               </div>
+              <h2>Data analytics - tools integration</h2>
+              <p>
+                The blog site uses both <em>Semrush</em> and
+                <em> Google Analytics </em>
+                tools to investigate site performance, gain traffic insights,
+                and implement link building.
+              </p>
+              <p>
+                Also, each blog post is accompanied by buttons that allow users
+                to share thumbnail-induced links to several media networks
+                easily.
+              </p>
+              <p>
+                These techniques help greatly in conducting keyword research for
+                my blogs, to make informed decision on my content, and to
+                brainstorm for new ideas.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section className="blogs-grid">
+          <div className="title-label">
+            <h2>
+              A combination of creativity and polished writing wrapped in a
+              techy-nerd.
+            </h2>
+            <p>
+              GJEF Blog is an expression of my curiosity to dig deep for hidden
+              facts with a twist of creative approach. Alongside my passion for
+              technology mixed with the historical settings of how the human
+              society has evolved.
+            </p>
+            <br />
+            <p>
+              What facilitated me was the belief that{" "}
+              <strong>technology</strong> is the pioneer of{" "}
+              <strong>civilization</strong> in light of the construct of
+              history. To say the least, how my interest gravitates toward these
+              aspects of a human construct.
+            </p>
+          </div>
+          <h4>featured blogs</h4>
+          <div className="grid-laya">
+            <div className="grid-items-ds">
+              <img
+                src="https://blog.gjefspecials.co.uk/wp-content/uploads/2018/07/adam-600x430.jpg"
+                alt="blog post display"
+              />
+              <span>Easy ways to start a blog</span>
+            </div>
+            <div className="grid-items-ds">
+              <img
+                src="https://blog.gjefspecials.co.uk/wp-content/uploads/2021/04/music-mysteries-600x430.jpg"
+                alt="blog post display"
+              />
+              <span>7 secrets to finding meaning</span>
+            </div>
+            <div className="grid-items-ds">
+              <img
+                src="https://blog.gjefspecials.co.uk/wp-content/uploads/2021/03/beliefs-600x430.jpg"
+                alt="blog post display"
+              />
+              <span>How the human race evolved</span>
+            </div>
+            <div className="grid-items-ds">
+              <img
+                src="https://blog.gjefspecials.co.uk/wp-content/uploads/2020/12/sleep_the_dream_world-600x430.jpg"
+                alt="blog post display"
+              />
+              <span>Podcast - Cybersecurity awareness</span>
+            </div>
+            <div className="grid-items-ds">
+              <img
+                src="https://blog.gjefspecials.co.uk/wp-content/uploads/2020/12/retrieve-deleted-files-in-Windows-600x430.jpg"
+                alt="blog post display"
+              />
+              <span>Podcast - Cybersecurity awareness</span>
+            </div>
+            <div className="grid-items-ds">
+              <img
+                src="https://blog.gjefspecials.co.uk/wp-content/uploads/2020/08/CompTIA_Security_Plus-600x430.jpg"
+                alt="blog post display"
+              />
+              <span>Podcast - Cybersecurity awareness</span>
+            </div>
+            <div className="grid-items-ds">
+              <img
+                src="https://blog.gjefspecials.co.uk/wp-content/uploads/2021/09/indeex-600x430.jpeg"
+                alt="blog post display"
+              />
+              <span>Podcast - Cybersecurity awareness</span>
+            </div>
+            <div className="grid-items-ds">
+              <img
+                src="https://blog.gjefspecials.co.uk/wp-content/uploads/2020/08/love_changes_everything-600x430.jpg"
+                alt="blog post display"
+              />
+              <span>Podcast - Cybersecurity awareness</span>
+            </div>
+            <div className="grid-items-ds">
+              <img
+                src="https://blog.gjefspecials.co.uk/wp-content/uploads/2018/05/the-mind-768x384.jpg"
+                alt="blog post display"
+              />
+              <span>Podcast - Cybersecurity awareness</span>
+            </div>
+            <div className="grid-items-ds">
+              <img
+                src="https://blog.gjefspecials.co.uk/wp-content/uploads/2021/08/scarface-money.gif"
+                alt="blog post display"
+              />
+              <span>Podcast - Cybersecurity awareness</span>
             </div>
           </div>
         </section>
