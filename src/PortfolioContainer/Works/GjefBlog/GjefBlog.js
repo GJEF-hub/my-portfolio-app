@@ -59,12 +59,12 @@ const GjefBlog = () => {
           <section className="slider bg2">
             <div className="blog-descr-container">
               <div className="blog-descr-content">
-                <h1>
+                <h2>
                   Attempting to find <strong>answers</strong> to some of the
                   most
                   <strong> daring questions</strong> that we struggle with
                   daily.
-                </h1>
+                </h2>
                 <img
                   src={require("../images/blog-right.gif")}
                   alt="gjef blog portfolio"
@@ -76,15 +76,43 @@ const GjefBlog = () => {
           {/* Third page */}
 
           <section className="slider bg3">
-            <div className="slider-flex">
-              <div className="slider-item-right">
-                <span className="scroll-down"> scroll down</span>
-                <span className="down-nav">
-                  <a href="#blog-cnt">
-                    <i class="fa-solid fa-circle-arrow-down"></i>
-                  </a>
-                </span>
+            <div className="slida-flex">
+              <div className="slider-item-left">
+                <h1>
+                  In search <br /> for the <br />
+                  Truth?
+                </h1>
+
+                <h2>
+                  The blog takes you on a journey through time with insights on
+                  subjects that'd blow your mind.
+                </h2>
+                <p>
+                  I am committed to ensuring that every visitor to this blog
+                  gets that feeling by being consistent with the appearance of
+                  each post, the syncing of graphics with the background theme,
+                  and the pace of publishing.
+                </p>
+                <p>
+                  The titling, introduction, leading paragraphs, summaries, and
+                  excerpts are usually well mapped out before publishing.
+                </p>
               </div>
+              <div className="slider-item-right">
+                <img
+                  src={require("../images/mockup.png")}
+                  alt=""
+                  style={{ width: "100%", height: "60%" }}
+                />
+              </div>
+
+              <span className="scroll-down"> scroll down</span>
+
+              <a href="#blog-cnt">
+                <span className="down-nav">
+                  <i className="fa-solid fa-circle-arrow-down"></i>
+                </span>
+              </a>
             </div>
           </section>
         </HorizontalScroll>
@@ -93,7 +121,7 @@ const GjefBlog = () => {
             <div className="slider-item-lft">
               <h1>Highly captivating stories with a factitious tone.</h1>
               <p>
-                <i class="fa-solid fa-crosshairs"></i>
+                <i className="fa-solid fa-crosshairs"></i>
                 <strong>The Objective</strong>
               </p>
               <p>
@@ -143,9 +171,13 @@ const GjefBlog = () => {
             </div>
 
             <div className="slider-item-rit">
-              <img src={require("../images/blog-right.gif")} alt="" />
+              <img
+                src={require("../images/blog-right.gif")}
+                alt=""
+                className="animated-screen"
+              />
               <p>
-                <i class="fa-regular fa-lightbulb"></i>
+                <i className="fa-regular fa-lightbulb"></i>
                 <strong>The Solution</strong>
               </p>
               <p>
@@ -175,6 +207,7 @@ const GjefBlog = () => {
                 different devices and browsers. Luckily, I have the skillset to
                 meet these preferences which are expressed in the blog platform
                 solution.
+                <br />
                 <Link
                   to="./about-me"
                   style={{ color: "#grey", backgroundColor: "orange" }}
@@ -190,7 +223,11 @@ const GjefBlog = () => {
                 implore new ideas, better techniques as well as I examine
                 analytical data from users.
               </p>
-              <img src={require("../images/blog-anim-ds.gif")} alt="" />
+              <img
+                src={require("../images/blog-anim-ds.gif")}
+                alt=""
+                className="animated-screen"
+              />
             </div>
             <div className="slider-item-rit">
               <div className="grid-laya">
@@ -199,9 +236,9 @@ const GjefBlog = () => {
                     width="100%"
                     src="https://www.youtube.com/embed/uJ6M6o2TKoI"
                     title="YouTube video player"
-                    frameborder="0"
+                    frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen
+                    allowFullScreen
                   ></iframe>
                 </div>
               </div>
@@ -211,13 +248,16 @@ const GjefBlog = () => {
                     width="100%"
                     src="https://www.youtube.com/embed/LGqbs-LJRRs"
                     title="YouTube video player"
-                    frameborder="0"
+                    frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen
+                    allowFullScreen
                   ></iframe>
                 </div>
               </div>
-              <h2>Data analytics - tools integration</h2>
+              <h2>
+                Data analytics <p>Tools integration</p>
+              </h2>
+
               <p>
                 The blog site uses both <em>Semrush</em> and
                 <em> Google Analytics </em>
