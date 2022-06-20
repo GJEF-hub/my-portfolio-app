@@ -9,7 +9,7 @@
 
 main {
   width: 100vw;
-  height: 100%;
+  height: 100vh;
   position: relative;
   font-family: Roboto;
   margin: 0 auto;
@@ -28,19 +28,17 @@ main {
   background-color: rgb(31, 30, 29);
 }
 .bg2 {
-  background-color: rgb(170, 112, 5);
-}
-.bg3 {
-  background-color: rgba(24, 20, 12, 0.93);
+  background-color: rgb(12, 24, 49);
 }
 
 .slider-flex {
   display: flex;
-  gap: 10%;
+  gap: 8%;
   align-items: center;
   justify-content: center;
   align-content: center;
   padding: 40px 0;
+  width: fit-content;
 }
 
 .slider-item-left i {
@@ -54,7 +52,7 @@ main {
   padding-bottom: 20px;
 }
 .slider-item-left {
-  width: 35%;
+  width: 45%;
 }
 .slider-item-left .exp-label-items {
   margin-left: 0;
@@ -71,34 +69,7 @@ main {
 }
 
 /* Content on the right page*/
-.blog-descr-container {
-  width: 100%;
-  height: 100vh;
-  margin: 0 auto;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
-  position: relative;
-}
-.blog-descr-content {
-  width: 80%;
-  margin: 30px auto;
-}
-.blog-descr-content h2 {
-  width: 70%;
-}
-.blog-descr-content strong {
-  color: #000;
-}
-.blog-descr-content img {
-  height: 600px;
-  object-fit: cover;
-  border: 8px solid #000;
-  border-radius: 20px;
-  width: 100%;
-  display: block;
-  margin-top: 60px;
-}
+
 .blog-descr-image {
   width: 80%;
   height: 100%;
@@ -148,7 +119,7 @@ main {
   min-width: fit-content;
   object-fit: cover;
 }
-/* End of horizontalScroll style */
+
 .more-content {
   height: 100vh;
   min-height: 1000px;
@@ -276,7 +247,7 @@ main {
     background-color: rgba(24, 20, 12, 0.93);
     background-blend-mode: overlay;
   }
-  .bg3 {
+  .bg2 {
     background-image: url("../images/mockup.png");
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -311,12 +282,26 @@ main {
   }
 }
 
+.blog-sample-list {
+  width: 100vw;
+  height: fit-content;
+  display: flex;
+  background-color: #fff;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  justify-content: center;
+}
+.blog-lists-box {
+  border: 1px solid rgb(87, 85, 85);
+  border-radius: 20px;
+  width: 70%;
+  color: #000;
+}
 @media screen and (max-width: 768px) {
   .slider-item-left .exp-label-items {
     width: 100%;
-    outline-style: inset;
-    outline-color: rgb(140, 155, 168);
-    outline-offset: 2px;
+
     align-items: center;
     text-align: center;
     justify-content: center;
@@ -485,6 +470,14 @@ main {
   .featured-blogs {
     left: -19%;
     bottom: 45%;
+  }
+  .slider .slider-flex h1,
+  .slida-flex h1 {
+    font-size: 400%;
+  }
+  .slider .slider-flex h2 {
+    font-size: 150%;
+    line-height: 30px;
   }
 }
 @media screen and (max-width: 320px) {

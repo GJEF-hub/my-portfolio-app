@@ -74,7 +74,7 @@ img:hover {
   z-index: 1;
 }
 .exp-label-box {
-  width: 80%;
+  width: 90%;
   height: fit-content;
   transition: all ease-in-out 0.8s;
   padding: 10px 0;
@@ -127,7 +127,7 @@ img:hover {
   display: flex;
   gap: 18%;
   margin: 20px auto;
-  width: 80%;
+  width: 70%;
   list-style: none;
   white-space: nowrap;
   font-weight: 100;
@@ -359,9 +359,9 @@ img:hover {
     text-align: left;
   }
   .exp-label-items {
-    gap: 8%;
+    gap: 6%;
     margin: 20px auto;
-    width: 90%;
+    width: 100%;
     font-size: 12px;
   }
   .hover-ef ul img {
@@ -383,10 +383,10 @@ img:hover {
     margin-left: -10px;
   }
   .exp-label-items {
-    gap: 3%;
-    width: 100%;
+    gap: 6%;
+    width: 95%;
     font-size: 11px;
-    margin-left: -8px;
+    margin-left: 0;
   }
 
   .exp-label-box span {

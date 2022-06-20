@@ -28,7 +28,7 @@ class Navbar extends Component {
           <ul className={this.state.active ? "nav-menu active" : "nav-menu"}>
             <Link to="/all-works">
               <li className="nav-link" onClick={this.handleClick}>
-                <i className="fa-solid fa-person-digging"></i> Works
+                <i className="fa-solid fa-person-digging"></i> Work
               </li>
             </Link>
 
