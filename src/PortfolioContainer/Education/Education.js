@@ -86,9 +86,7 @@ function Education() {
                 Godfrey has the knowledge and skill required to support hardware
                 and software systems. He is able to protect an organization’s
                 assets from internal and external threats.
-              </p>
-              <p>
-                {" "}
+                <br />
                 <strong>Criteria:</strong> He has earned{" "}
                 <a
                   href="https://www.credly.com/badges/2fc6d18d-b09b-41e0-a4d4-c58ce9ab3e86"
@@ -113,7 +111,6 @@ function Education() {
                 >
                   CompTIA S+
                 </a>
-                .
               </p>
             </li>
 
@@ -140,9 +137,7 @@ function Education() {
                 Godfrey has the ability to manage the flow of a workplace and
                 optimize day-to-day activities. He has demonstrated the ability
                 to analyze business operations and identify customer needs.
-              </p>
-              <p>
-                {" "}
+                <br />
                 <strong>Criteria:</strong> He has earned{" "}
                 <a
                   href="https://www.credly.com/badges/2fc6d18d-b09b-41e0-a4d4-c58ce9ab3e86"

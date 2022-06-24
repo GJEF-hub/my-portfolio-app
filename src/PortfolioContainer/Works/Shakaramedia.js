@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Shakaramedia() {
   return (
@@ -41,16 +42,25 @@ function Shakaramedia() {
                 {" "}
                 <ul className="exp-label-items">
                   <li>
+                    <strong>Client:</strong> <br /> MC Shakara
+                  </li>
+                  <li>
                     <strong>Designed by:</strong> <br /> Godfrey Jeremiah
                   </li>
                   <li>
                     <strong>Tech:</strong> <br /> WordPress
                   </li>
-                  <li>
-                    <i className="fa fa-paper-plane"></i>
-                    <strong> VIEW PROJECT</strong>
-                  </li>
                 </ul>
+                <div className="prj-nav">
+                  <Link to="/blog-project">
+                    <button
+                      className="verify-btn"
+                      style={{ backgroundColor: "#fff" }}
+                    >
+                      <i className="fa fa-paper-plane"></i> FULL PROJECT
+                    </button>
+                  </Link>
+                </div>
               </div>
             </div>
           </section>

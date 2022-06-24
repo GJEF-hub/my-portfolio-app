@@ -38,11 +38,7 @@ function AllWorks() {
               Specials
               <p>Beyond Imagination</p>
             </h1>
-            <Link to="/blog-project">
-              <span>
-                <i className="fa fa-paper-plane"></i> VIEW PROJECT
-              </span>
-            </Link>
+
             <h4>
               GJEF Specials is an inspiring blog space with engaging content -
               {
@@ -67,6 +63,13 @@ function AllWorks() {
             </ul>
           </div>
         </section>
+        <div className="prj-nav">
+          <Link to="/blog-project">
+            <button className="verify-btn" style={{ backgroundColor: "#fff" }}>
+              <i className="fa fa-paper-plane"></i> FULL PROJECT
+            </button>
+          </Link>
+        </div>
         <section>
           <div className="fea-im">
             <img src={require("./images/gjSp0.gif")} alt="" />
@@ -75,11 +78,6 @@ function AllWorks() {
           </div>
         </section>
       </div>
-      <section>
-        {/* <div className="featured-image">
-          <img src={require("./images/blog-footer.jpg")} alt="" />
-        </div> */}
-      </section>
     </section>
   );
 }

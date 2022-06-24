@@ -49,11 +49,7 @@ export default function Works() {
               GJEF <br />
               Specials
             </h1>
-            <Link to="/blog-project">
-              <span>
-                <i className="fa fa-paper-plane"></i> View Project
-              </span>
-            </Link>
+
             <h4>
               GJEF Specials is an inspiring blog space with engaging content -
               investigating how humans have evolved with religion, science, and
@@ -62,17 +58,18 @@ export default function Works() {
             <hr />
             <ul className="exp-label-items">
               <li>
-                <strong>Client</strong> <br /> Personal Blog
-              </li>
-              <li>
                 <strong>Services</strong> <br /> Content Creation <br />
                 Web Showcase <br /> Visual Podcast
               </li>
-              <li>
-                <strong>Industries</strong> <br /> Blogging
-              </li>
+
               <li>
                 <strong>Date</strong> <br /> February 2018
+              </li>
+              <li>
+                <Link to="/blog-project">
+                  <i className="fa fa-paper-plane"></i>
+                  <strong> View Project</strong>
+                </Link>
               </li>
             </ul>
           </div>

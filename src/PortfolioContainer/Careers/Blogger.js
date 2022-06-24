@@ -9,12 +9,9 @@ const Blogger = () => {
         <div className="page-title">
           <h1>Creative Blogger</h1>
           <p>
-            PERSONAL BLOG <em>Since 2018</em>
+            <em>Since February 2018</em> | Award Winning Blogger
           </p>
-          <p>
-            {" "}
-            <strong>Category:</strong> Philosophy {"&"} Tech
-          </p>
+          <br />
         </div>
 
         <section className="media-text">
@@ -75,124 +72,7 @@ const Blogger = () => {
             </p>
           </div>
         </section>
-        <section className="display-container ds-wrapper">
-          <div className="featured-portfolio">
-            <img
-              src="https://blog.gjefspecials.co.uk/wp-content/uploads/2021/04/starting-a-blog-600x430.jpg"
-              alt="blog post display"
-            />
-            <h5>Blogging: How to begin</h5>
-            <p>
-              Starting a blog is one thing and managing the blog is another
-              crucial aspect. This is going to be interesting and insightful for
-              anyone who wishes to start or run a blog....
-            </p>
-          </div>
-          <div className="featured-portfolio">
-            <img
-              src="https://blog.gjefspecials.co.uk/wp-content/uploads/2021/04/starting-a-blog-600x430.jpg"
-              alt="blog post display"
-            />
-            <h5>Blogging: How to begin</h5>
-            <p>
-              Starting a blog is one thing and managing the blog is another
-              crucial aspect. This is going to be interesting and insightful for
-              anyone who wishes to start or run a blog....
-            </p>
-          </div>
-          <div className="featured-portfolio">
-            <img
-              src="https://blog.gjefspecials.co.uk/wp-content/uploads/2021/07/security_cover-600x430.jpg"
-              alt="blog post display"
-            />
-            <h5>Talk on Cybersecurity</h5>
-            <p>
-              Starting a blog is one thing and managing the blog is another
-              crucial aspect. This is going to be interesting and insightful for
-              anyone who wishes to start or run a blog....
-            </p>
-          </div>
-          <div className="featured-portfolio">
-            <img
-              src="https://blog.gjefspecials.co.uk/wp-content/uploads/2021/07/security_cover-600x430.jpg"
-              alt="blog post display"
-            />
-            <h5>Talk on Cybersecurity</h5>
-            <p>
-              Starting a blog is one thing and managing the blog is another
-              crucial aspect. This is going to be interesting and insightful for
-              anyone who wishes to start or run a blog....
-            </p>
-          </div>
-          <div className="featured-portfolio">
-            <img
-              src="https://blog.gjefspecials.co.uk/wp-content/uploads/2021/07/security_cover-600x430.jpg"
-              alt="blog post display"
-            />
-            <h5>Talk on Cybersecurity</h5>
-            <p>
-              Starting a blog is one thing and managing the blog is another
-              crucial aspect. This is going to be interesting and insightful for
-              anyone who wishes to start or run a blog....
-            </p>
-          </div>
-        </section>
-        <section className="oda-exp-container">
-          <h1>Other Experience</h1>
-          <div className="oda-exp hover-ef">
-            <ul className="oda-exp-items">
-              <li>
-                <h3>IT Sys Engineer</h3>
-              </li>
-              <li>
-                <p>Solutions for IT infrastructures</p>
-              </li>
-              <li>
-                <i className="fa fa-paper-plane"></i> <strong>View</strong>
-              </li>
-              <img
-                src={require("../../assets/images/it engineer.jpg")}
-                alt="It System Engineer"
-              />
-            </ul>
-          </div>
-
-          <div className="oda-exp hover-ef">
-            <ul className="oda-exp-items">
-              <li>
-                <h3>IT Tutor</h3>
-              </li>
-              <li>
-                <p>Solutions for IT infrastructures</p>
-              </li>
-              <li>
-                <i className="fa fa-paper-plane"></i> <strong>View</strong>
-              </li>
-              <img
-                src={require("../../assets/images/it tutor.jpg")}
-                alt="IT Tutor instructing"
-              />
-            </ul>
-          </div>
-
-          <div className="oda-exp hover-ef">
-            <ul className="oda-exp-items">
-              <li>
-                <h3>Creative Designer</h3>
-              </li>
-              <li>
-                <p>Solutions for IT infrastructures</p>
-              </li>
-              <li>
-                <i className="fa fa-paper-plane"></i> <strong>View</strong>
-              </li>
-              <img
-                src={require("../../assets/images/blogger.jpg")}
-                alt="Blogger at work"
-              />
-            </ul>
-          </div>
-        </section>
+        <hr />
       </div>
     </section>
   );

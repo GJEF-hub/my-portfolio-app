@@ -17,13 +17,15 @@
   display: flex;
   align-items: center;
   align-content: center;
+  overflow: hidden;
 }
 
 .features {
   margin: 0;
   top: 3000px;
+  overflow: hidden;
 }
-.features header .section-header {
+.features .testi-hd .section-header {
   margin-top: 40px;
   margin-bottom: 40px;
 }
@@ -131,7 +133,7 @@ cite span {
     list-style: none;
   }
 
-  .features header .section-header {
+  .features .testi-hd .section-header {
     margin-top: 10px;
     margin-bottom: 1px;
     font-size: 200%;
@@ -145,5 +147,26 @@ cite span {
 
   .testimonials-container {
     height: 100%;
+  }
+}
+@media screen and (max-width: 343px) {
+  .testimonials-wrapper {
+    height: 2500px;
+  }
+  .testimonials-container .features {
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+  }
+  .features .testi-hd .section-header {
+    margin-top: 30px;
+    margin-bottom: 1px;
+    font-size: 200%;
+  }
+  .features .testimonials {
+    margin-top: 50px;
+    align-items: center;
+    align-content: center;
   }
 }

@@ -6,9 +6,9 @@ const Testimonials = () => {
     <section className="testimonials-wrapper" id="testimonials">
       <div className="testimonials-container">
         <section className="features">
-            <header>
-              <h1 className="section-header">Testimonials</h1>
-          </header>
+          <div className="testi-hd">
+            <h1 className="section-header">Testimonials</h1>
+          </div>
           <ul className="testimonials">
             <li>
               <img

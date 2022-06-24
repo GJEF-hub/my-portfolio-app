@@ -1,10 +1,9 @@
-.myportfolio-wrapper {
-  background-image: url("./images/Godfrey-Jeremiah.jpg");
+.myportfolio-wrapper,
+.myportfolio-wrapper-sh,
+.myportfolio-wrapper-fr {
   background-attachment: initial;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #f2f3f7;
-  background-blend-mode: luminosity;
   overflow: hidden;
   min-height: 100%;
   width: 100%;
@@ -14,49 +13,23 @@
   position: relative;
   display: flex;
   margin-top: 0;
+}
+.myportfolio-wrapper {
+  background-image: url("./images/Godfrey-Jeremiah.jpg");
+  background-color: #f2f3f7;
+  background-blend-mode: luminosity;
 }
 .myportfolio-wrapper-sh {
   background-image: url("./images/Shakaramedia.PNG");
-  background-attachment: initial;
-  background-repeat: no-repeat;
-  background-size: cover;
   background-color: #7d0894;
   background-blend-mode: overlay;
-  object-position: center;
-  overflow: hidden;
-  min-height: 100%;
-  width: 100%;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
-  position: relative;
-  display: flex;
-  margin-top: 0;
 }
 .myportfolio-wrapper-fr {
-  /* background-image: url("./images/freelance.PNG"); */
-  background-attachment: initial;
-  background-repeat: no-repeat;
-  background-size: cover;
   background-color: #3b3d35;
-  /* background-blend-mode: darken; */
-  object-position: center;
-  overflow: hidden;
-  min-height: 100%;
-  width: 100%;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
-  position: relative;
-  display: flex;
-  margin-top: 0;
 }
-.myport-theme2 img {
-  width: 100%;
-  object-fit: cover;
-  mix-blend-mode: lighten;
-}
-.myportfolio-container-fr {
+
+.myportfolio-container-fr,
+.myportfolio-container {
   display: flex;
   align-items: center;
   color: #fff;
@@ -65,47 +38,43 @@
   width: 80%;
 }
 
-.myportfolio-container {
-  display: flex;
-  align-items: center;
-  color: #ffffff;
-  margin-top: 0;
-  position: relative;
-  width: 80%;
-}
-
 .myportfolio-content {
-  width: 80%;
+  width: 85%;
   margin: 40px auto;
   align-items: center;
   align-content: center;
 }
-
-.myportfolio-item {
-  display: flex;
-  gap: 180px;
-  justify-content: space-between;
-}
-
 .myportfolio-content h1 {
   font-size: 500%;
 }
 
-.myport-theme img {
+.myportfolio-item {
+  display: flex;
+  gap: 12%;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.myport-theme img,
+.myport-theme2 img {
   /* height: 65%; */
-  width: 100%;
+  width: 90%;
   object-fit: cover;
   mix-blend-mode: lighten;
 }
 
 .myportfolio-desc {
   margin-top: 80px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 .myportfolio-desc h2 {
   text-transform: lowercase;
   font-weight: 700;
   letter-spacing: 12%;
-  width: 95%;
+  width: 100%;
   margin: 20px auto;
   align-items: center;
   align-content: center;
@@ -115,7 +84,7 @@
 .myportfolio-desc p {
   margin: 30px auto;
   line-height: 25px;
-  width: 90%;
+  width: 100%;
 }
 
 .myportfolio-desc img {
@@ -125,15 +94,64 @@
 }
 
 .bottom-desc .exp-label-items {
-  width: 90%;
-}
-.bottom-desc .exp-label-items li i {
-  font-size: 10px;
-}
+  width: 100%;
+  /* margin-left: 5px; */
 
+  justify-content: center;
+}
+/* .bottom-desc .exp-label-items li i {
+  font-size: 10px;
+} */
+@media screen and (max-width: 1206px) {
+  .myportfolio-content {
+    width: 90%;
+    margin: 40px auto;
+    align-items: center;
+    align-content: center;
+  }
+  .myportfolio-item {
+    width: 100%;
+    gap: 20%;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .myportfolio-content {
+    width: 100%;
+    margin: 40px auto;
+    align-items: center;
+    align-content: center;
+  }
+  .myportfolio-item {
+    width: 65%;
+    gap: 20%;
+  }
+  .bottom-desc .exp-label-items {
+    gap: 10%;
+    font-size: 100%;
+  }
+}
+@media screen and (max-width: 820px) {
+  .myportfolio-content {
+    width: 100%;
+  }
+  .myportfolio-item {
+    flex-direction: column;
+    gap: 20px;
+    width: 90%;
+    height: 100%;
+  }
+}
 @media screen and (max-width: 500px) {
   .myportfolio-wrapper {
     min-height: 150%;
+  }
+  .myportfolio-item .myport-theme h1,
+  .myportfolio-item .myport-theme2 h1 {
+    font-size: 400%;
+    width: 100%;
+    margin: 20px auto;
+    align-items: center;
+    align-content: center;
   }
   .myportfolio-content h1 {
     margin-top: 100px;
@@ -145,10 +163,21 @@
     flex-direction: column;
     gap: 20px;
   }
+  .bottom-desc .exp-label-items {
+    gap: 8%;
+    font-size: 95%;
+    width: 80%;
+    margin: 20px auto;
+  }
 }
 @media screen and (max-width: 375px) {
   .myportfolio-item .myport-theme h1,
   .myportfolio-item .myport-theme2 h1 {
     font-size: 350%;
+  }
+  .bottom-desc .exp-label-items {
+    gap: 8%;
+    font-size: 80%;
+    margin: 20px auto;
   }
 }

@@ -5,15 +5,17 @@
   align-content: center;
   text-align: center;
   height: 100vh;
-  min-height: 1930px;
+  min-height: 1200px;
   position: relative;
   margin: 0 auto;
   overflow: hidden;
   padding-bottom: 0;
+  transition: all 2s;
+  scroll-behavior: smooth;
 }
 
 .blogger-container {
-  background-color: #000000;
+  background-color: rgb(12, 24, 49);
   color: white;
   height: 100%;
   align-items: center;
@@ -60,6 +62,7 @@
   align-content: center;
   align-self: center;
   display: block;
+  height: fit-content;
 }
 .content-description h3 {
   color: rgb(39, 113, 252);
@@ -92,11 +95,13 @@
 
 .action-text p {
   top: 20px;
-  right: 40px;
-  font-size: 13px;
+  right: 20px;
+  font-size: 18px;
   position: absolute;
-  color: rgba(182, 181, 180, 0.753);
-  line-height: 10px;
+  color: rgb(182, 181, 180);
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 3px;
 }
 
 .action-text i,
@@ -185,7 +190,10 @@
   text-transform: uppercase;
   color: rgb(184, 187, 187);
 }
-
+.blogger-container hr {
+  border: 1px solid rgba(17, 107, 242, 0.7);
+  margin-top: 40px;
+}
 @media screen and (max-width: 1024px) {
   .oda-exp-items {
     width: 79%;
@@ -234,7 +242,7 @@
 }
 @media screen and (max-width: 500px) {
   .blogger-wrapper {
-    min-height: 3500px;
+    min-height: 2200px;
   }
 
   .blogger-container {
@@ -257,5 +265,10 @@
     gap: 18%;
     flex-direction: column;
     margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .blogger-wrapper {
+    min-height: 2000px;
   }
 }

@@ -1,11 +1,8 @@
 import React from "react";
 import "./GjefBlog.css";
-
 import { Link } from "react-router-dom";
-import HorizontalScroll from "react-scroll-horizontal";
 
 const GjefBlog = () => {
-  //   const child = { width: `100em`, height: `100vh` };
   return (
     <section className="blog-prj-wrapper">
       <main>
@@ -17,8 +14,7 @@ const GjefBlog = () => {
               </h1>
               <p>
                 Beyond Imagination |{" "}
-                <i className="fa fa-user-o" aria-hidden="true"></i> Godfrey
-                Jeremiah{" "}
+                <i className="fa fa-user-o" aria-hidden="true"></i> Godfrey J.{" "}
               </p>
               <h2>
                 GJEF Specials is an inspiring blog space with engaging content -
@@ -77,28 +73,62 @@ const GjefBlog = () => {
                     src="https://blog.gjefspecials.co.uk/wp-content/uploads/2021/04/starting-a-blog-600x430.jpg"
                     alt="blog post display"
                   />
-                  <span>Easy ways to start a blog</span>
+                  <span>
+                    {" "}
+                    <a
+                      href="https://blog.gjefspecials.co.uk/2021/04/25/starting-a-blog-in-2021-easy-guide-for-beginners/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Easy ways to start a blog
+                    </a>
+                  </span>
                 </div>
                 <div className="grid-items-ds">
                   <img
                     src="https://blog.gjefspecials.co.uk/wp-content/uploads/2020/08/linkedin_cover.jpg"
                     alt="blog post display"
                   />
-                  <span>7 secrets to finding meaning</span>
+                  <span>
+                    {" "}
+                    <a
+                      href="https://blog.gjefspecials.co.uk/2020/08/25/know-yourself-the-key-to-meaning-and-fulfillment/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      7 secrets to finding meaning
+                    </a>
+                  </span>
                 </div>
                 <div className="grid-items-ds">
                   <img
                     src="https://blog.gjefspecials.co.uk/wp-content/uploads/2021/04/human-race-600x430.jpg"
                     alt="blog post display"
                   />
-                  <span>How the human race evolved</span>
+                  <span>
+                    <a
+                      href="https://blog.gjefspecials.co.uk/2021/04/13/the-human-race-diaries-of-godfrey-jeremiah/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      How the human race evolved
+                    </a>
+                  </span>
                 </div>
                 <div className="grid-items-ds">
                   <img
                     src="https://blog.gjefspecials.co.uk/wp-content/uploads/2021/07/security_cover-600x430.jpg"
                     alt="blog post display"
                   />
-                  <span>Podcast - Cybersecurity awareness</span>
+                  <span>
+                    <a
+                      href="https://blog.gjefspecials.co.uk/2021/07/03/lets-talk-cyber-security-back-to-normal-eps-3/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Podcast - Cybersecurity awareness
+                    </a>
+                  </span>
                 </div>
               </div>
             </div>
@@ -139,8 +169,7 @@ const GjefBlog = () => {
                 video and audio podcasts to suit users' preferences across
                 different devices and browsers. Luckily, I have the skillset to
                 meet these preferences which are expressed in the blog platform
-                solution.
-                <br />
+                solution{" ..."}
                 <Link
                   to="./about-me"
                   style={{ color: "#grey", backgroundColor: "orange" }}
@@ -192,8 +221,19 @@ const GjefBlog = () => {
               </h2>
 
               <p>
-                The blog site uses both <em>Semrush</em> and
-                <em> Google Analytics </em>
+                The blog site uses both{" "}
+                <em style={{ backgroundColor: "orange" }}>
+                  <a href="https://www.semrush.com/" target={"_blank"}>
+                    Semrush
+                  </a>
+                </em>{" "}
+                and
+                <em style={{ backgroundColor: "orange" }}>
+                  {" "}
+                  <a href="https://analytics.google.com/" target={"_blank"}>
+                    Google Analytics
+                  </a>{" "}
+                </em>
                 tools to investigate site performance, gain traffic insights,
                 and implement link building.
               </p>
@@ -234,11 +274,7 @@ const GjefBlog = () => {
               </p>
             </div>
             <div className="slider-item-right">
-              <img
-                src={require("../images/mockup.png")}
-                alt=""
-                style={{ width: "80%", height: "50%" }}
-              />
+              <img src={require("../images/blog-portfolio.gif")} alt="" />
             </div>
           </div>
         </section>
@@ -263,160 +299,210 @@ const GjefBlog = () => {
               history. To say the least, how my interest gravitates toward these
               aspects of a human construct.
             </p>
+            <p>
+              I consider it crucial that we know the true story behind our
+              evolution and how we have evolved as a people. The link to finding
+              the fact encapsulated in this story seems broken. I will find it
+              in every way that I can. This blog is a way for me to connect
+              others to this journey.
+            </p>
           </div>
-          <h4>featured blogs</h4>
-
-          <div className="grid-laya">
-            <div className="grid-items-ds">
-              <img
-                src="https://blog.gjefspecials.co.uk/wp-content/uploads/2018/07/adam-600x430.jpg"
-                alt="blog post display"
-              />
-              <span>Easy ways to start a blog</span>
-            </div>
-            <div className="grid-items-ds">
-              <img
-                src="https://blog.gjefspecials.co.uk/wp-content/uploads/2021/04/music-mysteries-600x430.jpg"
-                alt="blog post display"
-              />
-              <span>7 secrets to finding meaning</span>
-            </div>
-            <div className="grid-items-ds">
-              <img
-                src="https://blog.gjefspecials.co.uk/wp-content/uploads/2021/03/beliefs-600x430.jpg"
-                alt="blog post display"
-              />
-              <span>How the human race evolved</span>
-            </div>
-            <div className="grid-items-ds">
-              <img
-                src="https://blog.gjefspecials.co.uk/wp-content/uploads/2020/12/sleep_the_dream_world-600x430.jpg"
-                alt="blog post display"
-              />
-              <span>Podcast - Cybersecurity awareness</span>
-            </div>
-            <div className="grid-items-ds">
-              <img
-                src="https://blog.gjefspecials.co.uk/wp-content/uploads/2020/12/retrieve-deleted-files-in-Windows-600x430.jpg"
-                alt="blog post display"
-              />
-              <span>Podcast - Cybersecurity awareness</span>
-            </div>
-            <div className="grid-items-ds">
-              <img
-                src="https://blog.gjefspecials.co.uk/wp-content/uploads/2020/08/CompTIA_Security_Plus-600x430.jpg"
-                alt="blog post display"
-              />
-              <span>Podcast - Cybersecurity awareness</span>
-            </div>
-            <div className="grid-items-ds">
-              <img
-                src="https://blog.gjefspecials.co.uk/wp-content/uploads/2021/09/indeex-600x430.jpeg"
-                alt="blog post display"
-              />
-              <span>Podcast - Cybersecurity awareness</span>
-            </div>
-            <div className="grid-items-ds">
-              <img
-                src="https://blog.gjefspecials.co.uk/wp-content/uploads/2020/08/love_changes_everything-600x430.jpg"
-                alt="blog post display"
-              />
-              <span>Podcast - Cybersecurity awareness</span>
-            </div>
-            <div className="grid-items-ds">
-              <img
-                src="https://blog.gjefspecials.co.uk/wp-content/uploads/2018/05/the-mind-768x384.jpg"
-                alt="blog post display"
-              />
-              <span>Podcast - Cybersecurity awareness</span>
-            </div>
-            <div className="grid-items-ds">
-              <img
-                src="https://blog.gjefspecials.co.uk/wp-content/uploads/2021/08/scarface-money.gif"
-                alt="blog post display"
-              />
-              <span>Podcast - Cybersecurity awareness</span>
+          <div className="blog-mission-box">
+            <img src={require("../images/blogger.jpg")} alt="" />
+            <p>
+              <h2>Learn and Share</h2>
+              Learning how things work technically has always been a hubby.
+              Consequently, I have built a career around the things I love to do
+              and this blog is also a way for me to share the resolutions and
+              results. Hence, the category tagged as{" "}
+              <strong
+                style={{
+                  fontFamily: "sans-serif",
+                  color: "#000",
+                }}
+              >
+                MyJourney
+              </strong>
+              <br /> <br />
+              <h3>Self-learning Path to Becoming a Software Engineer</h3>
+              <p>
+                MyJourney is an initiative to help beginners learn how to code
+                and become software developers. It is an ongoing project which I
+                developed to help others who are interested in a software or
+                programming career to learn with ease collaboratively.
+              </p>
+              <p>
+                For now, I am integrating MyJourney as a separate category in
+                the webblog. Features would include career mentorship and
+                coaching, free tutorials, roadmap to different areas of
+                programming career, and so on.
+              </p>
+            </p>
+          </div>
+        </section>
+        <section className="blog-sample-list">
+          <div className="blog-lists-box">
+            <h4>featured blogs</h4>
+            <div className="grid-laya">
+              <div className="grid-items-ds">
+                <img
+                  src="https://blog.gjefspecials.co.uk/wp-content/uploads/2018/07/adam-600x430.jpg"
+                  alt="blog post display"
+                />
+                <span>
+                  <a
+                    href="https://blog.gjefspecials.co.uk/2021/05/03/god-diaries-of-godfrey-jeremiah-eps-3/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Did we invent God?
+                  </a>
+                </span>
+              </div>
+              <div className="grid-items-ds">
+                <img
+                  src="https://blog.gjefspecials.co.uk/wp-content/uploads/2021/04/music-mysteries-600x430.jpg"
+                  alt="blog post display"
+                />
+                <span>
+                  <a
+                    href="https://blog.gjefspecials.co.uk/2021/04/21/music-diaries-of-godfrey-jeremiah-eps-2/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    The mysteries of music revealed
+                  </a>
+                </span>
+              </div>
+              <div className="grid-items-ds">
+                <img
+                  src="https://blog.gjefspecials.co.uk/wp-content/uploads/2021/03/beliefs-600x430.jpg"
+                  alt="blog post display"
+                />
+                <span>
+                  {" "}
+                  <a
+                    href="https://blog.gjefspecials.co.uk/2021/03/09/ignorance-gave-birth-to-religion/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Ignorance gave birth to religion
+                  </a>
+                </span>
+              </div>
+              <div className="grid-items-ds">
+                <img
+                  src="https://blog.gjefspecials.co.uk/wp-content/uploads/2020/12/sleep_the_dream_world-600x430.jpg"
+                  alt="blog post display"
+                />
+                <span>
+                  <a
+                    href="https://blog.gjefspecials.co.uk/2020/12/08/sleep-something-deep-you-are-actually-experiencing-but-not-paying-attention-to/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    What you should know about sleep
+                  </a>
+                </span>
+              </div>
+              <div className="grid-items-ds">
+                <img
+                  src="https://blog.gjefspecials.co.uk/wp-content/uploads/2020/12/retrieve-deleted-files-in-Windows-600x430.jpg"
+                  alt="blog post display"
+                />
+                <span>
+                  <a
+                    href="https://blog.gjefspecials.co.uk/2020/12/09/retrieve-deleted-files-in-windows-with-ease/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    How to retrieve lost files
+                  </a>
+                </span>
+              </div>
+              <div className="grid-items-ds">
+                <img
+                  src="https://blog.gjefspecials.co.uk/wp-content/uploads/2020/08/CompTIA_Security_Plus-600x430.jpg"
+                  alt="blog post display"
+                />
+                <span>
+                  {" "}
+                  <a
+                    href="https://blog.gjefspecials.co.uk/2020/08/10/comptia-security-how-to-pass-with-100-success/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    How to pass IT certs
+                  </a>
+                </span>
+              </div>
+              <div className="grid-items-ds">
+                <img
+                  src="https://blog.gjefspecials.co.uk/wp-content/uploads/2021/09/indeex-600x430.jpeg"
+                  alt="blog post display"
+                />
+                <span>
+                  {" "}
+                  <a
+                    href="https://blog.gjefspecials.co.uk/2021/09/26/in-a-selfish-world-everyone-is-a-player-in-the-game/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Everyone is a player in the game
+                  </a>
+                </span>
+              </div>
+              <div className="grid-items-ds">
+                <img
+                  src="https://blog.gjefspecials.co.uk/wp-content/uploads/2020/08/love_changes_everything-600x430.jpg"
+                  alt="blog post display"
+                />
+                <span>
+                  {" "}
+                  <a
+                    href="https://blog.gjefspecials.co.uk/2020/08/10/comptia-security-how-to-pass-with-100-success/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Love as an instrument for change
+                  </a>
+                </span>
+              </div>
+              <div className="grid-items-ds">
+                <img
+                  src="https://blog.gjefspecials.co.uk/wp-content/uploads/2018/05/the-mind-768x384.jpg"
+                  alt="blog post display"
+                />
+                <span>
+                  {" "}
+                  <a
+                    href="https://blog.gjefspecials.co.uk/2018/05/25/engaging-your-consciousness-gjef-specials/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Secrets of consciousness
+                  </a>
+                </span>
+              </div>
+              <div className="grid-items-ds">
+                <img
+                  src="https://blog.gjefspecials.co.uk/wp-content/uploads/2021/08/scarface-money.gif"
+                  alt="blog post display"
+                />
+                <span>
+                  {" "}
+                  <a
+                    href="https://blog.gjefspecials.co.uk/2021/09/01/money-is-primarily-what-drives-chaos/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Money - how it started
+                  </a>
+                </span>
+              </div>
             </div>
           </div>
         </section>
-        <HorizontalScroll>
-          <section className="blog-sample-list">
-            <div className="blog-lists-box">
-              <div className="grid-laya">
-                <div className="grid-items-ds">
-                  <img
-                    src="https://blog.gjefspecials.co.uk/wp-content/uploads/2018/07/adam-600x430.jpg"
-                    alt="blog post display"
-                  />
-                  <span>Easy ways to start a blog</span>
-                </div>
-                <div className="grid-items-ds">
-                  <img
-                    src="https://blog.gjefspecials.co.uk/wp-content/uploads/2021/04/music-mysteries-600x430.jpg"
-                    alt="blog post display"
-                  />
-                  <span>7 secrets to finding meaning</span>
-                </div>
-                <div className="grid-items-ds">
-                  <img
-                    src="https://blog.gjefspecials.co.uk/wp-content/uploads/2021/03/beliefs-600x430.jpg"
-                    alt="blog post display"
-                  />
-                  <span>How the human race evolved</span>
-                </div>
-                <div className="grid-items-ds">
-                  <img
-                    src="https://blog.gjefspecials.co.uk/wp-content/uploads/2020/12/sleep_the_dream_world-600x430.jpg"
-                    alt="blog post display"
-                  />
-                  <span>Podcast - Cybersecurity awareness</span>
-                </div>
-                <div className="grid-items-ds">
-                  <img
-                    src="https://blog.gjefspecials.co.uk/wp-content/uploads/2020/12/retrieve-deleted-files-in-Windows-600x430.jpg"
-                    alt="blog post display"
-                  />
-                  <span>Podcast - Cybersecurity awareness</span>
-                </div>
-                <div className="grid-items-ds">
-                  <img
-                    src="https://blog.gjefspecials.co.uk/wp-content/uploads/2020/08/CompTIA_Security_Plus-600x430.jpg"
-                    alt="blog post display"
-                  />
-                  <span>Podcast - Cybersecurity awareness</span>
-                </div>
-                <div className="grid-items-ds">
-                  <img
-                    src="https://blog.gjefspecials.co.uk/wp-content/uploads/2021/09/indeex-600x430.jpeg"
-                    alt="blog post display"
-                  />
-                  <span>Podcast - Cybersecurity awareness</span>
-                </div>
-                <div className="grid-items-ds">
-                  <img
-                    src="https://blog.gjefspecials.co.uk/wp-content/uploads/2020/08/love_changes_everything-600x430.jpg"
-                    alt="blog post display"
-                  />
-                  <span>Podcast - Cybersecurity awareness</span>
-                </div>
-                <div className="grid-items-ds">
-                  <img
-                    src="https://blog.gjefspecials.co.uk/wp-content/uploads/2018/05/the-mind-768x384.jpg"
-                    alt="blog post display"
-                  />
-                  <span>Podcast - Cybersecurity awareness</span>
-                </div>
-                <div className="grid-items-ds">
-                  <img
-                    src="https://blog.gjefspecials.co.uk/wp-content/uploads/2021/08/scarface-money.gif"
-                    alt="blog post display"
-                  />
-                  <span>Podcast - Cybersecurity awareness</span>
-                </div>
-              </div>
-            </div>
-          </section>
-        </HorizontalScroll>
       </main>
     </section>
   );
