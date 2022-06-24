@@ -24,6 +24,10 @@ import Shakaramedia from "../Works/Shakaramedia";
 import Freelance from "../Works/Freelance";
 import GjefBlog from "../Works/GjefBlog/GjefBlog";
 import ScrollToTop from "../ScrollToTop";
+import ItTutor from "../Careers/ItTutor";
+import SystemEngineer from "../Careers/SystemEngineer";
+import Designer from "../Careers/Designer";
+import MyBlog from "../Blog/MyBlog";
 
 const ReactRouterSetup = () => {
   return (
@@ -39,8 +43,20 @@ const ReactRouterSetup = () => {
             <Route path="/summary">
               <Summary />
             </Route>
+            <Route path="/webblog">
+              <MyBlog />
+            </Route>
             <Route path="/my-portfolio">
               <MyPortfolio />
+            </Route>
+            <Route path="/tutor">
+              <ItTutor />
+            </Route>
+            <Route path="/system-engineer">
+              <SystemEngineer />
+            </Route>
+            <Route path="/graphics-designer">
+              <Designer />
             </Route>
             <Route path="/all-works">
               <AllWorks />
@@ -62,6 +78,10 @@ const ReactRouterSetup = () => {
             </Route>
             <Route path="/careers">
               <Careers />
+              <Blogger />
+              <ItTutor />
+              <SystemEngineer />
+              <Designer />
             </Route>
             <Route path="/resume">
               <Resume />

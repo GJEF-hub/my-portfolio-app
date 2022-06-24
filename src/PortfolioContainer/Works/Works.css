@@ -83,6 +83,11 @@ img:hover {
   margin: 30px auto;
   border-radius: 40px 0 40px 0;
 }
+.exp-label-box .exp-label-items {
+  gap: 12%;
+  margin: 20px auto;
+  width: 82%;
+}
 
 .exp-label-box h4 {
   margin-left: 110px;
@@ -172,6 +177,14 @@ img:hover {
   min-width: 1000px;
   object-fit: cover;
   margin-top: 40px;
+}
+.prj-nav {
+  margin: 0 auto;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
 }
 
 @media screen and (max-width: 1924px) {
@@ -286,7 +299,7 @@ img:hover {
     width: 90%;
   }
 
-  .exp-label-items {
+  .exp-label-box .exp-label-items {
     gap: 15%;
     margin: 20px auto;
     width: 85%;
@@ -309,22 +322,35 @@ img:hover {
   .works-wrapper {
     min-height: 1500px;
   }
+  .exp-label-box .exp-label-items {
+    align-content: center;
+    justify-content: center;
+    gap: 9%;
+    font-size: 14px;
+  }
 }
 @media screen and (max-width: 620px) {
   .works-wrapper {
     min-height: 1800px;
   }
   .exp-label-items {
-    gap: 12%;
+    gap: 13%;
     margin: 20px auto;
     width: 100%;
-    font-size: 12px;
+    font-size: 13px;
   }
   .fea-im {
     flex-direction: column-reverse;
     gap: 40px;
     margin-top: 30px;
     padding-top: 40px;
+  }
+
+  .exp-label-box .exp-label-items {
+    align-content: center;
+    justify-content: center;
+    gap: 9%;
+    font-size: 12px;
   }
 }
 
@@ -377,11 +403,19 @@ img:hover {
 
     padding-top: 60px;
   }
+  .exp-label-box .exp-label-items {
+    align-content: center;
+    justify-content: center;
+    gap: 9%;
+    font-size: 12px;
+  }
 }
+
 @media screen and (max-width: 375px) {
   .work-intro-dsp .exp-label-box h1 {
-    margin-left: -10px;
+    margin-left: 20px;
   }
+
   .exp-label-items {
     gap: 6%;
     width: 95%;
@@ -392,5 +426,11 @@ img:hover {
   .exp-label-box span {
     right: 50px;
     width: 50%;
+  }
+  .exp-label-box .exp-label-items {
+    align-content: center;
+    justify-content: center;
+    gap: 8%;
+    font-size: 11px;
   }
 }

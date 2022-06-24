@@ -1,8 +1,7 @@
 import React from "react";
 import "./Summary.css";
-import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
 
+import { Link } from "react-router-dom";
 
 export default function Details() {
   return (
@@ -34,15 +33,12 @@ export default function Details() {
                 Microsoft products.{" "}
               </p>
               <Link to="/careers">
-                <motion.button
+                <button
                   className="verify-btn"
-                  whileHover={{
-                    scale: 1.05,
-                    boxShadow: "0px 0px 15px rgb(148, 115, 7)",
-                  }}
+                  style={{ color: "#000", fontWeight: "bold" }}
                 >
                   View Career History
-                </motion.button>
+                </button>
               </Link>
             </div>
           </div>

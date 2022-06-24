@@ -1,5 +1,6 @@
 import React from "react";
 import "./MyPortfolio.css";
+import { Link } from "react-router-dom";
 
 export default function MyPortfolio() {
   return (
@@ -34,16 +35,25 @@ export default function MyPortfolio() {
                 {" "}
                 <ul className="exp-label-items">
                   <li>
+                    <strong>Client:</strong> <br /> Personal
+                  </li>
+                  <li>
                     <strong>Developed by:</strong> <br /> Godfrey Jeremiah
                   </li>
                   <li>
                     <strong>Tech:</strong> <br /> React js
                   </li>
-                  <li>
-                    <i className="fa fa-paper-plane"></i>
-                    <strong> VIEW PROJECT</strong>
-                  </li>
                 </ul>
+                <div className="prj-nav">
+                  <Link to="/blog-project">
+                    <button
+                      className="verify-btn"
+                      style={{ backgroundColor: "#fff" }}
+                    >
+                      <i className="fa fa-paper-plane"></i> FULL PROJECT
+                    </button>
+                  </Link>
+                </div>
               </div>
             </div>
           </section>

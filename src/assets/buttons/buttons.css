@@ -11,6 +11,7 @@
   align-items: center;
   margin-bottom: 30px;
   color: rgb(39, 113, 252);
+  white-space: nowrap;
 }
 
 /* .verify-btn a {
@@ -25,7 +26,6 @@
   transform: scale(1.07);
   transition: all 0.8s ease-out;
 }
-
 
 /* ---------------------------------------------- */
 /* MAIN BUTTON */
@@ -64,7 +64,6 @@
   font-size: 12px;
   background-color: rgb(148, 115, 7);
   position: absolute;
-  
 }
 
 .loadmore-btn {
@@ -85,14 +84,13 @@
 .classy-btn {
   background-color: rgb(148, 115, 7);
   color: #fff;
-  
 }
 
 .classy-btn:hover {
   background: none;
   color: rgb(148, 115, 7);
   border: 1px solid rgb(148, 115, 7);
-  box-shadow: 1px 5px 0 0  rgb(148, 115, 7);
+  box-shadow: 1px 5px 0 0 rgb(148, 115, 7);
   transition: all 0.5s ease-out;
 }
 /* button:hover {

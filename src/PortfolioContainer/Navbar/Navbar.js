@@ -38,7 +38,7 @@ class Navbar extends Component {
               </li>
             </Link>
 
-            <Link to="/blogger">
+            <Link to="/webblog">
               <li className="nav-link" onClick={this.handleClick}>
                 <i className="fa fa-pencil-square-o" aria-hidden="true"></i>{" "}
                 Blog

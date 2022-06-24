@@ -6,16 +6,19 @@
   background-color: #292d44;
   color: white;
   height: 100vh;
-  min-height: 1500px;
+  min-height: 1000px;
+  /* min-height: 1500px; */
   position: relative;
   margin: 0 auto;
+  transition: all 2s;
 }
 
 .careers-wrapper {
   align-items: center;
   text-align: center;
   justify-self: center;
-  /* height: 100%; */
+  height: 100%;
+  padding-top: 70px;
 }
 .careers-wrapper header {
   margin-top: 30px;
@@ -100,7 +103,7 @@ p.description {
   margin: 50px auto;
   text-align: center;
   font-family: Roboto;
-  font-size: 300%;
+  font-size: 200%;
   color: azure;
 }
 
@@ -283,7 +286,7 @@ p.description {
 @media screen and (max-width: 412px) {
   .parent-container {
     height: 100vh;
-    min-height: 915px;
+    min-height: 1100px;
   }
   .careers-wrapper {
     height: 90%;
