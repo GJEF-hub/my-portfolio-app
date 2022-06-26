@@ -28,6 +28,7 @@ import ItTutor from "../Careers/ItTutor";
 import SystemEngineer from "../Careers/SystemEngineer";
 import Designer from "../Careers/Designer";
 import MyBlog from "../Blog/MyBlog";
+import PortApp from "../Works/PortfolioApp/PortApp";
 
 const ReactRouterSetup = () => {
   return (
@@ -92,6 +93,9 @@ const ReactRouterSetup = () => {
 
             <Route exact path="/blog-project">
               <GjefBlog />
+            </Route>
+            <Route exact path="/portfolio-project">
+              <PortApp />
             </Route>
 
             <Route path="/works">
