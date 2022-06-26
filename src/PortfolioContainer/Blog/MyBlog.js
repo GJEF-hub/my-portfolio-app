@@ -6,34 +6,16 @@ const MyBlog = () => {
     <section className="my-blog-wrapper">
       <header className="my-blog-header">
         <div className="my-blog-tagline">
-          <h1
-            style={{
-              backgroundColor: "rgba(8, 8, 1, 0.442)",
-              width: "520px",
-              fontFamily: "Roboto",
-              fontSize: "300%",
-              fontWeight: "600",
-              margin: "100px 150px ",
-              textAlign: "left",
-              padding: "5px 15px",
-            }}
-          >
+          <h1>
             Godfrey Jeremiah Blog
-            <h5 style={{ wordSpacing: "10px" }}>
-              Technology | Science | Humanity
-            </h5>
-            <h6
-              style={{
-                backgroundColor: "rgb(237, 211, 66)",
-                width: "40%",
-                color: "#000",
-                padding: "15px 5px",
-                margin: "0 0 -5px -15px",
-                textAlign: "center",
-              }}
+            <h5>Technology | Science | Humanity</h5>
+            <a
+              href="https://blog.gjefspecials.co.uk/"
+              target={"_blank"}
+              rel="noopener noreferrer"
             >
-              Inspiring and Insightful
-            </h6>
+              <h6>Inspiring and Insightful</h6>
+            </a>
           </h1>
         </div>
       </header>
@@ -162,7 +144,7 @@ const MyBlog = () => {
                   <span>
                     {" "}
                     <a
-                      href="https://blog.gjefspecials.co.uk/2020/08/10/comptia-security-how-to-pass-with-100-success/"
+                      href="https://blog.gjefspecials.co.uk/2020/08/14/love-is-changing-the-way-i-think-about-life/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -286,18 +268,17 @@ const MyBlog = () => {
               techy-nerd.
             </h2>
             <p>
-              GJEF Blog is an expression of Godfrey's curiosity to dig deep for
-              hidden facts with a twist of creative approach. In addition to his
+              GJEF Blog expresses Godfrey's curiosity to dig deep for hidden
+              facts with a twist in a creative approach. In addition to his
               passion for technology mixed with the historical settings of how
               the human society has evolved.
             </p>
             <br />
             <p>
-              What facilitated him was the belief that{" "}
-              <strong>technology</strong> is the pioneer of{" "}
-              <strong>civilization</strong> in light of the construct of
-              history. To say the least, how his interest gravitates toward
-              these aspects of a human construct.
+              This idea got inspired by the belief that technology is the
+              pioneer of civilization in light of the construct of human
+              history. Hence his interest gravitates toward these aspects of a
+              human construct.
             </p>
             <blockquote>
               "I consider it crucial that we know the true story behind our
@@ -306,6 +287,39 @@ const MyBlog = () => {
               in every way that I can. This blog is a way for me to connect
               others to this journey." - Godfrey Jeremiah
             </blockquote>
+            <br />
+            <hr />
+            <div className="users-comments">
+              <h4>Users' Comments</h4>
+
+              <blockquote>
+                "Woah! I’m really loving the template/theme of this site. It’s
+                simple, yet effective. A lot of times it’s very difficult to get
+                that “perfect balance” between user friendliness and visual
+                appeal. I must say you’ve done a great job with this. Also, the
+                blog loads extremely quick for me on Internet explorer.
+                Exceptional Blog!" - Agen
+              </blockquote>
+              <hr />
+              <blockquote>
+                "Greetings from Ohio! I’m bored to tears at work so I decided to
+                check out your blog on my iphone during lunch break. I enjoy the
+                information you present here and can’t wait to take a look when
+                I get home. I’m surprised at how quick your blog loaded on my
+                phone .. I’m not even using WIFI, just 3G .. Anyways, awesome
+                blog!" - Wilbur Dillaman
+              </blockquote>
+              <hr />
+              <blockquote>
+                "You’re so awesome! I don’t believe I’ve truly read through
+                anything like that before. So good to find another person with
+                unique thoughts on this topic. Really.. thank you for starting
+                this up. This web site is something that is needed on the web,
+                someone with a bit of originality!" - Everette Gadomski
+              </blockquote>
+              <br />
+              <p></p>
+            </div>
           </div>
         </section>
       </section>

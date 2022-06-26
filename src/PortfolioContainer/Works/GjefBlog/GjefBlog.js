@@ -293,11 +293,11 @@ const GjefBlog = () => {
             </p>
             <br />
             <p>
-              What facilitated me was the belief that{" "}
+              This idea got inspired by the belief that
               <strong>technology</strong> is the pioneer of{" "}
-              <strong>civilization</strong> in light of the construct of
-              history. To say the least, how my interest gravitates toward these
-              aspects of a human construct.
+              <strong>civilization</strong> in light of the construct of human
+              history. Hence my interest gravitates toward these aspects of a
+              human construct - tech and science.
             </p>
             <p>
               I consider it crucial that we know the true story behind our
@@ -460,7 +460,7 @@ const GjefBlog = () => {
                 <span>
                   {" "}
                   <a
-                    href="https://blog.gjefspecials.co.uk/2020/08/10/comptia-security-how-to-pass-with-100-success/"
+                    href="https://blog.gjefspecials.co.uk/2020/08/14/love-is-changing-the-way-i-think-about-life/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
