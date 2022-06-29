@@ -109,7 +109,10 @@ export default function Works() {
                 </li>
                 <li>
                   <i className="fa fa-paper-plane"></i>{" "}
-                  <strong>View Project</strong>
+                  <strong>
+                    {" "}
+                    <Link to="/shakaramedia">View Project</Link>
+                  </strong>
                 </li>
                 <img
                   src={require("../../assets/images/Shakaramedia.PNG")}
@@ -128,7 +131,10 @@ export default function Works() {
                 </li>
                 <li>
                   <i className="fa fa-paper-plane"></i>{" "}
-                  <strong>View Project</strong>
+                  <strong>
+                    {" "}
+                    <Link to="/freelance">View Project</Link>
+                  </strong>
                 </li>
                 <img
                   src={require("../../assets/images/freelance website.PNG")}

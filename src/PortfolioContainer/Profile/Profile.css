@@ -1,9 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@100;700&display=swap");
 
-#profile {
-  width: 100%;
-}
-
 .profile-container {
   display: flex;
   align-items: center;
@@ -37,7 +33,9 @@
   flex-direction: column;
   margin: 14px 0 24px 0;
 }
-
+#profile {
+  width: 100%;
+}
 .profile-details-role h2 {
   font-family: "Poppins";
   position: relative;

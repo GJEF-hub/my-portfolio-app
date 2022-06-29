@@ -107,6 +107,7 @@
   color: rgb(83, 83, 80);
   font-size: 14px;
 }
+
 @media screen and (max-width: 690px) {
   .my-blog-tagline h1 {
     width: 440px;

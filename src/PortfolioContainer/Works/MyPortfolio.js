@@ -45,7 +45,7 @@ export default function MyPortfolio() {
                   </li>
                 </ul>
                 <div className="prj-nav">
-                  <Link to="/blog-project">
+                  <Link to="/portfolio-project">
                     <button
                       className="verify-btn"
                       style={{ backgroundColor: "#fff" }}
@@ -57,11 +57,6 @@ export default function MyPortfolio() {
               </div>
             </div>
           </section>
-          <section>
-            <div></div>
-          </section>
-
-          <div></div>
         </section>
       </div>
     </section>

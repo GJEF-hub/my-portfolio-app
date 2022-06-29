@@ -18,6 +18,8 @@
   background-image: url("./images/Godfrey-Jeremiah.jpg");
   background-color: #f2f3f7;
   background-blend-mode: luminosity;
+  background-repeat: no-repeat;
+  position: relative;
 }
 .myportfolio-wrapper-sh {
   background-image: url("./images/Shakaramedia.PNG");

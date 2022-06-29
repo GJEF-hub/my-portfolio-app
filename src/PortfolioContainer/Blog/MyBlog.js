@@ -18,6 +18,17 @@ const MyBlog = () => {
             </a>
           </h1>
         </div>
+        <div className="prj-nav">
+          <a
+            href="https://blog.gjefspecials.co.uk"
+            target={"_blank"}
+            rel="noopener noreferrer"
+          >
+            <button className="verify-btn" style={{ backgroundColor: "#fff" }}>
+              <i className="fa fa-paper-plane"></i> Visit Site
+            </button>
+          </a>
+        </div>
       </header>
 
       {/* Start of Main body sections */}

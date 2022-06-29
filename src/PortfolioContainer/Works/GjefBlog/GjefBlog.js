@@ -30,7 +30,11 @@ const GjefBlog = () => {
                 </li>
                 <li>
                   <strong>Visit Site</strong> <br />
-                  <a href="https://blog.gjefspecials.co.uk" target={"_blank"}>
+                  <a
+                    href="https://blog.gjefspecials.co.uk"
+                    target={"_blank"}
+                    rel="noopener noreferrer"
+                  >
                     <i className="fa fa-paper-plane"></i> Blog Link
                   </a>
                 </li>

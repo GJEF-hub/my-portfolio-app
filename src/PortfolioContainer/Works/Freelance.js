@@ -42,7 +42,7 @@ function Freelance() {
                   </li>
                 </ul>
                 <div className="prj-nav">
-                  <Link to="/blog-project">
+                  <Link to="/freelance-project">
                     <button
                       className="verify-btn"
                       style={{ backgroundColor: "#fff" }}

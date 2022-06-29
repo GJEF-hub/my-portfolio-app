@@ -52,7 +52,7 @@ function Shakaramedia() {
                   </li>
                 </ul>
                 <div className="prj-nav">
-                  <Link to="/blog-project">
+                  <Link to="/shakara-project">
                     <button
                       className="verify-btn"
                       style={{ backgroundColor: "#fff" }}
@@ -64,11 +64,6 @@ function Shakaramedia() {
               </div>
             </div>
           </section>
-          <section>
-            <div></div>
-          </section>
-
-          <div></div>
         </section>
       </div>
     </section>
