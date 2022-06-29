@@ -296,6 +296,7 @@ main {
   color: #000;
   margin: 40px 0 20px 0;
 }
+
 @media screen and (max-width: 768px) {
   .bg1 {
     background-image: url("../images/blog-portfolio.gif");
@@ -316,7 +317,8 @@ main {
     background-blend-mode: overlay;
   }
   .slider .slider-flex,
-  .slida-flex {
+  .slida-flex,
+  .prj-flex {
     flex-direction: column;
   }
   .slider-flex .slider-item-left {
@@ -460,7 +462,7 @@ main {
     margin-bottom: 40px;
   }
 }
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 640px) {
   .blogs-box,
   .blogs-grid {
     min-height: 1550px;

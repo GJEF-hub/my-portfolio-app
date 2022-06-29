@@ -29,6 +29,7 @@ import SystemEngineer from "../Careers/SystemEngineer";
 import Designer from "../Careers/Designer";
 import MyBlog from "../Blog/MyBlog";
 import PortApp from "../Works/PortfolioApp/PortApp";
+import ShakaraMedia from "../Works/Shakaramedia/ShakaraMedia";
 
 const ReactRouterSetup = () => {
   return (
@@ -96,6 +97,9 @@ const ReactRouterSetup = () => {
             </Route>
             <Route exact path="/portfolio-project">
               <PortApp />
+            </Route>
+            <Route exact path="/shakara-project">
+              <ShakaraMedia />
             </Route>
 
             <Route path="/works">
