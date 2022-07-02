@@ -46,30 +46,41 @@ export default function Works() {
           />
           <div className="exp-label-box">
             <h1>
-              GJEF <br />
-              Specials
+              Godfrey <br />
+              Jeremiah <br />
+              Blog
+              <p>Beyond Imagination</p>
             </h1>
 
             <h4>
               GJEF Specials is an inspiring blog space with engaging content -
-              investigating how humans have evolved with religion, science, and
-              technology.
+              {
+                " investigating how humans have evolved with religion, science, and technology."
+              }{" "}
             </h4>
             <hr />
             <ul className="exp-label-items">
               <li>
+                <strong>Client</strong> <br /> Personal Blog
+              </li>
+              <li>
                 <strong>Services</strong> <br /> Content Creation <br />
                 Web Showcase <br /> Visual Podcast
               </li>
-
               <li>
-                <strong>Date</strong> <br /> February 2018
+                <strong>Industries</strong> <br /> Blogging
               </li>
               <li>
-                <Link to="/blog-project">
-                  <i className="fa fa-paper-plane"></i>
-                  <strong> View Project</strong>
-                </Link>
+                <div className="prj-nav">
+                  <Link to="/godfreyJeremiahBlog">
+                    <button
+                      className="verify-btn"
+                      style={{ backgroundColor: "#fff" }}
+                    >
+                      <i className="fa fa-paper-plane"></i> FULL PROJECT
+                    </button>
+                  </Link>
+                </div>
               </li>
             </ul>
           </div>

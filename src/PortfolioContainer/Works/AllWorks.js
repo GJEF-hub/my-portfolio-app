@@ -34,8 +34,9 @@ function AllWorks() {
           />
           <div className="exp-label-box">
             <h1>
-              GJEF <br />
-              Specials
+              Godfrey <br />
+              Jeremiah <br />
+              Blog
               <p>Beyond Imagination</p>
             </h1>
 
@@ -64,7 +65,7 @@ function AllWorks() {
           </div>
         </section>
         <div className="prj-nav">
-          <Link to="/blog-project">
+          <Link to="/godfreyJeremiahBlog">
             <button className="verify-btn" style={{ backgroundColor: "#fff" }}>
               <i className="fa fa-paper-plane"></i> FULL PROJECT
             </button>

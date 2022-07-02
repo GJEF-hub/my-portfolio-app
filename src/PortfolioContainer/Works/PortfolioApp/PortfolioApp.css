@@ -60,12 +60,13 @@
 
 .app-btn {
   padding: 3px 10px;
-  margin: 50px 30% 50px 40%;
+  margin-top: 10px;
   border-radius: 10px;
-  width: 15%;
+  display: none;
   color: #fff;
   background-color: rgb(26, 25, 25);
   transition: 2s ease-in;
+  white-space: nowrap;
 }
 .app-btn:hover {
   color: rgb(195, 156, 28);
