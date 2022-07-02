@@ -31,12 +31,12 @@ function Shakaramedia() {
                 comedienne extraordinaire.
               </h2>
               <p>
-                {" "}
-                It presents a calm and eye-friendly theme that allows for
-                relaxable visual experience. <br /> I selected 'Roboto' typeface
-                that favors distinct layout variations and contrasts. The
-                project was concluded with adding an experience layer of
-                ultra-fine animations and page transitions.
+                The website features a custom built content management system
+                (WordPress) for quick content updates. This allows MC Shakara to
+                easily update her content and share her blog posts. The
+                simplistic but creative design echos Shakaramedia's brand value
+                through well placed event gallery and functional site
+                navigation.
               </p>
               <div className="bottom-desc">
                 {" "}

@@ -17,17 +17,17 @@ function Freelance() {
             </div>
             <div className="myportfolio-desc">
               <h2>
-                gjef portfolio features responsive design layouts using flexbox
-                and grids with a functional user experience.
+                gjef freelance website is still an on-going project. Currently,
+                the website provides backlinks to the blog site to enhance
+                search engine appearance.
               </h2>
-              <img src={require("./images/my-app-sample.PNG")} alt="" />
+              <img src={require("./images/freelance-tab.png")} alt="" />
               <p>
                 {" "}
-                It presents a calm and eye-friendly theme that allows for
-                relaxable visual experience. I selected 'Roboto' typeface that
-                favors distinct layout variations and contrasts. The project was
-                concluded with adding an experience layer of ultra-fine
-                animations and page transitions.
+                This website is built with Mobirise. Mobirise is a freeware web
+                design application that allows users to design and publish
+                bootstrap websites without coding. Mobirise is essentially a
+                drag and drop website builder, featuring various website themes.
               </p>
               <div className="bottom-desc">
                 <ul className="exp-label-items">
@@ -38,7 +38,7 @@ function Freelance() {
                     <strong>Services:</strong> <br /> IT Solutions
                   </li>
                   <li>
-                    <strong>Tech:</strong> <br /> React js
+                    <strong>Platform:</strong> <br /> Mobirise
                   </li>
                 </ul>
                 <div className="prj-nav">

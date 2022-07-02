@@ -22,7 +22,6 @@ import AllWorks from "../Works/AllWorks";
 import MyPortfolio from "../Works/MyPortfolio";
 import Shakaramedia from "../Works/Shakaramedia";
 import Freelance from "../Works/Freelance";
-import GjefBlog from "../Works/GjefBlog/GjefBlog";
 import ScrollToTop from "../ScrollToTop";
 import ItTutor from "../Careers/ItTutor";
 import SystemEngineer from "../Careers/SystemEngineer";
@@ -30,6 +29,7 @@ import Designer from "../Careers/Designer";
 import MyBlog from "../Blog/MyBlog";
 import PortApp from "../Works/PortfolioApp/PortApp";
 import ShakaraMedia from "../Works/Shakaramedia/ShakaraMedia";
+import { BlogGjef } from "../Works/GjefBlog/BlogGjef";
 
 const ReactRouterSetup = () => {
   return (
@@ -92,9 +92,10 @@ const ReactRouterSetup = () => {
               <Shakaramedia />
             </Route>
 
-            <Route exact path="/blog-project">
-              <GjefBlog />
+            <Route exact path="/godfreyJeremiahBlog">
+              <BlogGjef />
             </Route>
+
             <Route exact path="/portfolio-project">
               <PortApp />
             </Route>
