@@ -6,19 +6,45 @@
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  width: 100vw;
   overflow: hidden;
   margin: 0 auto;
+  padding: 0;
 }
 
 .shakara-container {
-  height: 100%;
-  width: 100%;
   align-items: center;
   align-content: center;
+  justify-content: center;
+  display: block;
 }
 
-.shakara-container main {
+.shakara-flx {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  width: 80%;
+  margin: 10% auto;
+  height: 100%;
+}
+.shakara-flx h1 {
+  font-size: 600%;
+}
+.shakara-flx p,
+span {
+  margin-left: 5%;
+}
+.shakara-flx h3 {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 5%;
+}
+.shakara-flx .prj-nav {
+  margin-top: 60px;
+}
+
+/* ----next section ----- */
+.content-cover {
   width: 100vw;
   height: 100vh;
   position: relative;
@@ -26,7 +52,8 @@
   background-color: rgb(242, 241, 239);
   color: rgb(83, 83, 80);
 }
-.shakara-content {
+
+.shakara-sndflx {
   width: 83%;
   height: 100%;
   display: flex;
@@ -37,17 +64,17 @@
   justify-items: auto;
   margin: 0 auto;
 }
-.shakara-content img {
+.shakara-sndflx img {
   border: 1px solid #000;
   border-radius: 20px;
 }
-.shakara-content h1 {
+.shakara-sndflx h1 {
   font-size: 500%;
   font-weight: 600;
   color: #000;
   margin-bottom: 40px;
 }
-.shakara-content p {
+.shakara-sndflx p {
   font-size: 16px;
   margin: 15px 0 20px 0;
   width: 70%;
@@ -135,12 +162,24 @@ span img {
   height: 60%;
   width: 60%;
 }
+.introd {
+  width: 70%;
+  margin: 0 auto;
+}
+.introd img,
+.introd p {
+  width: 90%;
+}
+.introd img {
+  border-radius: 30px;
+  margin-top: 30px;
+}
 
 .sh-box {
   background-color: rgb(193, 193, 191);
   color: rgb(83, 83, 80);
   width: 100%;
-  height: 100%;
+  height: 50vh;
   position: relative;
   display: flex;
   align-items: center;
@@ -153,7 +192,7 @@ span img {
   align-content: center;
   gap: 5%;
   width: 85%;
-  height: fit-content;
+  height: 100%;
   margin: auto;
 }
 .sh-box h2 {
@@ -171,7 +210,7 @@ span img {
   .shakara-container .myportfolio-item .myportfolio-desc {
     width: 80%;
   }
-  .shakara-content {
+  .shakara-sndflx {
     flex-direction: column;
     margin: 0 20%;
   }
@@ -196,11 +235,112 @@ span img {
   .right-item img {
     display: none;
   }
+  .push-right p {
+    margin-top: 20px;
+  }
+  .sh-box {
+    height: 90vh;
+  }
   .sh-flex {
     flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
   }
   .sh-flex div {
     width: 90%;
     margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .shakara-flx h1 {
+    font-size: 450%;
+  }
+  .content-cover {
+    padding-left: 0;
+  }
+  .push-right {
+    width: 70%;
+  }
+  .push-right p {
+    margin-top: 20px;
+  }
+  .content-md {
+    padding: 0;
+    margin: 0;
+  }
+  .conent-items {
+    width: 100%;
+    margin: 0;
+  }
+  .conent-items span {
+    width: 90%;
+    padding: 0;
+  }
+  .conent-items img {
+    width: 100%;
+    margin-left: 5%;
+    padding: 0;
+  }
+  .conent-items span img {
+    width: 62%;
+    height: 30%;
+    margin-left: 15%;
+    padding: 3px;
+  }
+  .conent-items div img {
+    margin: 40px 15%;
+    border-radius: 25px;
+    height: 60%;
+    width: 60%;
+  }
+  .introd {
+    width: 85%;
+    margin-left: 12%;
+    padding: 0;
+  }
+  .sh-flex p {
+    text-align: left;
+  }
+  .introd p {
+    padding-top: 30px;
+  }
+}
+@media screen and (max-width: 530px) {
+  .shakara-flx h1 {
+    font-size: 350%;
+  }
+  .shakara-flx h3 {
+    font-size: 150%;
+  }
+  .shakara-sndflx .left-item h1 {
+    margin-left: -70px;
+  }
+}
+@media screen and (max-width: 415px) {
+  .shakara-flx h1 {
+    font-size: 300%;
+  }
+  .shakara-flx h3 {
+    font-size: 120%;
+  }
+  .shakara-sndflx .left-item h1 {
+    margin-left: -40px;
+    font-size: 400%;
+  }
+
+  .shakara-sndflx .left-item h5,
+  .shakara-sndflx .left-item p {
+    text-align: left;
+    width: 85%;
+    margin-left: -30px;
+  }
+  .push-right h5,
+  .push-right p {
+    text-align: left;
+    width: 100%;
+  }
+  .introd p {
+    text-align: left;
   }
 }

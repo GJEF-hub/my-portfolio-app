@@ -6,60 +6,55 @@ const ShakaraMedia = () => {
   return (
     <section className="shakara-wrapper">
       <div className="shakara-container">
-        {/* top section */}
-        <section className="myportfolio-content">
-          <section className="myportfolio-item">
-            <div className="myport-theme">
-              <h1>
-                Shakara
-                <br />
-                ::media
-              </h1>
-              <span>Award Winning Event Host</span>
-              <p>Navigating Autism | LOL | MC Shakara</p>
-            </div>
-            <div className="myportfolio-desc">
-              <h2>
-                Shakaramedia is anchored by Gladys Otono Atsenokhai, best known
-                as MC SHAKARA. She is an award-winning events host and
-                comedienne extraordinaire.
-              </h2>
+        {/* first block section */}
+        <section className="shakara-flx">
+          <div>
+            <h1>Shakaramedia</h1>
+            <span>Award Winning Event Host</span>
+            <p>Navigating Autism | LOL | MC Shakara</p>
+          </div>
 
-              <div className="bottom-desc">
-                {" "}
-                <ul className="exp-label-items">
-                  <li>
-                    <strong>Client:</strong> <br /> MC Shakara
-                  </li>
-                  <li>
-                    <strong>Designed by:</strong> <br /> Godfrey Jeremiah
-                  </li>
-                  <li>
-                    <strong>Tech:</strong> <br /> WordPress
-                  </li>
-                </ul>
-                <div className="prj-nav">
-                  <a
-                    href="http://shakaramedia.com"
-                    target={"_blank"}
-                    rel="noopener noreferrer"
+          <div className="myportfolio-desc">
+            <h3>
+              Shakaramedia is anchored by Gladys Otono Atsenokhai, best known as
+              MC SHAKARA. She is an award-winning events host and comedienne
+              extraordinaire.
+            </h3>
+
+            <div className="bottom-desc">
+              {" "}
+              <ul className="exp-label-items">
+                <li>
+                  <strong>Client:</strong> <br /> MC Shakara
+                </li>
+                <li>
+                  <strong>Designed by:</strong> <br /> Godfrey Jeremiah
+                </li>
+                <li>
+                  <strong>CMS:</strong> <br /> WordPress
+                </li>
+              </ul>
+              <div className="prj-nav">
+                <a
+                  href="http://shakaramedia.com"
+                  target={"_blank"}
+                  rel="noopener noreferrer"
+                >
+                  <button
+                    className="verify-btn"
+                    style={{ backgroundColor: "#fff" }}
                   >
-                    <button
-                      className="verify-btn"
-                      style={{ backgroundColor: "#fff" }}
-                    >
-                      <i className="fa fa-paper-plane"></i> Visit Site
-                    </button>
-                  </a>
-                </div>
+                    <i className="fa fa-paper-plane"></i> Visit Site
+                  </button>
+                </a>
               </div>
             </div>
-          </section>
+          </div>
         </section>
 
-        {/* beginning of main section */}
-        <main>
-          <section className="shakara-content">
+        {/* second block section */}
+        <main className="content-cover">
+          <section className="shakara-sndflx">
             <div className="left-item">
               <h1>
                 Peculiar <br />
@@ -105,11 +100,7 @@ const ShakaraMedia = () => {
           </div>
           <div className="push-right">
             <h5 style={{ margin: "40px" }}>
-              <i
-                className="fa-regular fa-lightbulb"
-                style={{ marginLeft: "-20px" }}
-              ></i>{" "}
-              Solution
+              <i className="fa-regular fa-lightbulb"></i> Solution
               <p>
                 The website features a custom built content management system
                 (WordPress) for quick content updates. This allows MC Shakara to
@@ -124,38 +115,41 @@ const ShakaraMedia = () => {
           </div>
         </section>
 
-        <main>
-          <section className="content-md">
-            <div className="conent-items">
-              <span>
-                <img
-                  src="http://www.shakaramedia.com/wp-content/uploads/2020/07/ShakaraM-18-1.jpg"
-                  alt="laugh out loud event"
-                />
-              </span>
-              <span>
-                <img
-                  src="http://www.shakaramedia.com/wp-content/uploads/2020/07/ShakaraM-16-4.jpg"
-                  alt="laugh out loud event"
-                />
-              </span>
-              <span>
-                <img
-                  src="http://www.shakaramedia.com/wp-content/uploads/2020/08/LOL-MCShakara.jpg"
-                  alt="laugh out loud event"
-                />
-              </span>
-              <h4>
+        <section className="content-md">
+          <div className="conent-items">
+            <span>
+              <img
+                src="http://www.shakaramedia.com/wp-content/uploads/2020/07/ShakaraM-18-1.jpg"
+                alt="laugh out loud event"
+              />
+            </span>
+            <span>
+              <img
+                src="http://www.shakaramedia.com/wp-content/uploads/2020/07/ShakaraM-16-4.jpg"
+                alt="laugh out loud event"
+              />
+            </span>
+            <span>
+              <img
+                src="http://www.shakaramedia.com/wp-content/uploads/2020/08/LOL-MCShakara.jpg"
+                alt="laugh out loud event"
+              />
+            </span>
+          </div>
+        </section>
+
+        <main className="content-cover">
+          <section>
+            <div className="introd">
+              <p>
                 <strong>Gladys Otono Atsenokhai</strong>, best known as{" "}
                 <strong>MC SHAKARA</strong> is an award-winning event host and a
                 trained broadcast journalist with experience in Television News
                 production and presentation. Her professionalism comes through
                 in her delivery. MC Shakara is also an experienced content
                 writer and brand strategist.
-              </h4>
-              <div>
-                <img src={require("../images/lol.gif")} alt="" />
-              </div>
+              </p>
+              <img src={require("../images/lol.gif")} alt="" />
             </div>
           </section>
         </main>
