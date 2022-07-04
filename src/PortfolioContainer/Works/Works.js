@@ -67,9 +67,7 @@ export default function Works() {
                 <strong>Services</strong> <br /> Content Creation <br />
                 Web Showcase <br /> Visual Podcast
               </li>
-              <li>
-                <strong>Industries</strong> <br /> Blogging
-              </li>
+
               <li>
                 <div className="prj-nav">
                   <Link to="/godfreyJeremiahBlog">
